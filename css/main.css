@@ -2683,6 +2683,9 @@ ul.breadcrumb li + li:last-child {
   margin: 0;
   overflow: hidden;
 }
+.sidebar-inner {
+  opacity: 0.7;
+}
 .post-title,
 .post-meta {
   text-align: left !important;
