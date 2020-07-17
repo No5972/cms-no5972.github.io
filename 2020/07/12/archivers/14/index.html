@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+
+<!-- MODIFIED BY 5972 -->
+  <link rel="stylesheet" href="/cms/css/main.css">
+  <link rel="stylesheet" href="/cms/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/cms/lib/animate-css/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/api/css/share.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/No5972/Live2D@6/live2d/css/live2d.css" />
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1939188_y5uok6jh43j.css">
+  <link rel="stylesheet" href="https://fonts.font.im/css?family=Noto%20Serif%20TC&display=swap&subset=latin,latin-ext"/>
+  <link rel="stylesheet" href="https://fonts.font.im/css?family=Noto%20Serif%20SC&display=swap&subset=latin,latin-ext"/>
+  <style>
+    #landlord {
+      bottom: -70px;
+      width: 200px;
+      height: 400px;
+    }
+    
+    #live2d {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <!-- <script src="https://cdn.jsdelivr.net/gh/No5972/live2d-widget@20/autoload.js"></script> -->
+  
+  
+  <style>
+    @font-face
+    {
+      font-family: HappyZcool-2016;
+      src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@10/zcoolhappy_1630.6.woff'); /* IE9+ */
+    }
+    
+    @font-face
+    {
+      font-family: DIN-Bold;
+      src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@10/din-bold-2.otf'); /* IE9+ */
+    }
+
+    .message {
+      font-family: HappyZcool-2016;
+    }
+  </style>
+<!-- MODIFIED BY 5972 -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/cms/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/cms/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/cms/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/cms/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/cms/css/main.css">
+
+
+<link rel="stylesheet" href="/cms/lib/font-awesome/css/all.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"no5972.github.io","root":"/cms/","scheme":"Pisces","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}}};
+  </script>
+
+  <meta name="description" content="您的用户所使用的硬件和软件各不相同。最重要的事情是了解您的受众（用户）。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="网站构建 网站用户">
+<meta property="og:url" content="http://no5972.github.io/2020/07/12/archivers/14/index.html">
+<meta property="og:site_name" content="No.5972 Publishment Website">
+<meta property="og:description" content="您的用户所使用的硬件和软件各不相同。最重要的事情是了解您的受众（用户）。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen">
+<meta property="article:published_time" content="2020-07-11T19:00:00.000Z">
+<meta property="article:modified_time" content="2020-07-17T05:40:15.422Z">
+<meta property="article:author" content="No.5972">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen">
+
+<link rel="canonical" href="http://no5972.github.io/2020/07/12/archivers/14/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>网站构建 网站用户 | No.5972 Publishment Website</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container">
+    <div class="headband"></div>
+    <div style="position:fixed;width: 100%;height: 100%;background: url(https://cdndata.fairyabc.com/attachment/album/201809/06/161517g07y9z06yfunuuub.jpg);opacity: 0.25; background-size:cover ; background-attachment:fixed; pointer-events: none;" id="customBackground"></div>
+    <main class="main">
+
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+        <span class="toggle-line toggle-line-first"></span>
+        <span class="toggle-line toggle-line-middle"></span>
+        <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/cms/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">No.5972 Publishment Website</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-return">
+
+    <a href="https://no5972.github.io/" rel="section"><i class="fa fa-reply fa-fw"></i>Return</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/cms/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/cms/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/cms/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-toolkit">
+
+    <a href="/cms/2020/04/16/archivers/4/" rel="section"><i class="fa fa-wrench fa-fw"></i>Toolkit</a>
+
+  </li>
+        <li class="menu-item menu-item-donate">
+
+    <a href="/cms/donate/" rel="section"><i class="fa fa-child fa-fw"></i>Donate</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#您的用户所使用的硬件和软件各不相同。"><span class="nav-number">1.</span> <span class="nav-text">您的用户所使用的硬件和软件各不相同。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最重要的事情是了解您的受众（用户）。"><span class="nav-number">2.</span> <span class="nav-text">最重要的事情是了解您的受众（用户）。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#他们使用什么显示器？"><span class="nav-number"></span> <span class="nav-text">他们使用什么显示器？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#他们使用什么浏览器？"><span class="nav-number"></span> <span class="nav-text">他们使用什么浏览器？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#他们安装了什么插件？"><span class="nav-number"></span> <span class="nav-text">他们安装了什么插件？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#怎样帮助残疾人士？"><span class="nav-number"></span> <span class="nav-text">怎样帮助残疾人士？</span></a></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">No.5972</p>
+  <div class="site-description" itemprop="description">No.5972 is silly B</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/cms/archives/">
+        
+          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+
+    
+                <nav class="site-nav">
+                  <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/cms/categories/Hardware-Development/">Hardware-Development</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/cms/categories/Other/">Other</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/cms/categories/Web-Building/">Web-Building</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/cms/categories/Webapp/">Webapp</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/cms/categories/jekyll/">jekyll</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/cms/categories/jekyll-update/">jekyll update</a><span class="category-list-count">1</span></li></ul>
+                </nav>
+              
+  </nav>
+</div>
+
+
+
+      </section>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+      <div class="main-inner">
+        
+
+        <div class="content post posts-expand">
+          
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://no5972.github.io/2020/07/12/archivers/14/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/cms/images/avatar.gif">
+      <meta itemprop="name" content="No.5972">
+      <meta itemprop="description" content="No.5972 is silly B">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="No.5972 Publishment Website">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          网站构建 网站用户
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-07-12 03:00:00" itemprop="dateCreated datePublished" datetime="2020-07-12T03:00:00+08:00">2020-07-12</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-07-17 13:40:15" itemprop="dateModified" datetime="2020-07-17T13:40:15+08:00">2020-07-17</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/cms/categories/Web-Building/" itemprop="url" rel="index"><span itemprop="name">Web-Building</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
+<h2 id="您的用户所使用的硬件和软件各不相同。"><a href="#您的用户所使用的硬件和软件各不相同。" class="headerlink" title="您的用户所使用的硬件和软件各不相同。"></a>您的用户所使用的硬件和软件各不相同。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="他们使用什么显示器？"><a href="#他们使用什么显示器？" class="headerlink" title="他们使用什么显示器？"></a>他们使用什么显示器？</h1><p>请记住，在 web 上并非所有用户都使用与您相同的显示器。如果您针对 1024x768 分辨率的现实设计网页，那么某些使用低分辨率显示器的访问者在阅读您的网页时就会出现问题。</p>
+<p>尽管某些用户仍然在使用 640x480 或 800x600 分辨率的显示器，但是 1024x768 是低分辨率标准的趋势。</p>
+<p>如果您是拥有极高分辨率的开发人员中的一员，请确保使用了不同的低分辨率显示器来测试您的网页。</p>
+<p>当设计网页布局时有一种明智的方法是，把页面的某个部分设计为可变的尺寸，这样就可以适应更大或更小的分辨率显示器。</p>
+<p>同时需要兼顾移动端的用户，这些用户可能会使用竖屏来浏览网页。</p>
+<p>尤其需要注意的是部分用户可能会设置屏幕字体缩放，尤其是笔记本电脑的用户。请确保使用屏幕字体缩放不会出现网页变形。</p>
+<h1 id="他们使用什么浏览器？"><a href="#他们使用什么浏览器？" class="headerlink" title="他们使用什么浏览器？"></a>他们使用什么浏览器？</h1><p>两种主要的浏览器 (Netscape 和 Microsoft) 都有自己的特征和怪癖，这些都是您在设计网页时必须考虑的。</p>
+<p>如果您很重视您的网站，那么请您不要忘记使用不同类型的浏览器来测试每张页面。</p>
+<p>目前，最常见的浏览器是 Google Chrome （以及使用 Chromium 内核的浏览器，其中包括 Microsoft 的 Edge） 和 Mozilla Firefox。</p>
+<p>此外，某些访问者也许会使用纯文本的浏览器，比如 Lynx，或者他们可能会通过某个类似 AOL 的在线服务来访问您的站点。这些浏览器中的某些可能不会按照您的预想来显示网页。</p>
+<p>明智的做法是，使用严谨的、正式的且正确的 HTML（或 XHTML）。严谨且正确的编码总是有助于浏览器正确地显示您的页面。</p>
+<h1 id="他们安装了什么插件？"><a href="#他们安装了什么插件？" class="headerlink" title="他们安装了什么插件？"></a>他们安装了什么插件？</h1><p>某些网页中的元素，比如声音和视频片断或者其他的多媒体内容，也许需要使用单独的程序（助手应用程序或插件）。</p>
+<p>请不要在您的网页中使用这些元素，除非您能够保证访问者有权使用所需的软件来查看它们。</p>
+<h1 id="怎样帮助残疾人士？"><a href="#怎样帮助残疾人士？" class="headerlink" title="怎样帮助残疾人士？"></a>怎样帮助残疾人士？</h1><p>一些人们拥有严重的视力或听力问题。这些用户也许同样需要访问您站点。</p>
+<p>他们中的一些人会使用盲文点字法或基于语言的浏览器来设法阅读您的站点。请记住，如果您不为他们提供某些基于文本的选择来替代图象和其他图形元素，那么所有的视觉内容都会失去作用。</p>
+<p>为残疾人士设计网站并非易事，但是有一件小事您是可以做到的 - 至少对于弱视的人们来说 - 令您的网页可使用可调节的字体尺寸。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/cms/2020/07/11/archivers/13/" rel="prev" title="网站构建 网站设计">
+      <i class="fa fa-chevron-left"></i> 网站构建 网站设计
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/cms/2020/07/13/archivers/15/" rel="next" title="国内互联网Flash依赖状况调查">
+      国内互联网Flash依赖状况调查 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+        </div>
+        
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80OTM3OS8yNTg3MQ=="></div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="author" itemprop="copyrightHolder">No.5972</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        UV: <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class=""></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        PV: <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span id="daysCount"></span>
+    <script>
+      document.getElementById("daysCount").innerText = parseInt(Math.abs(new Date()  -  new Date("2018-11-14"))  /  1000  /  60  /  60  /24)   + " days since this blog's being founded";
+    </script>
+
+
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-next@8.0.0-rc.4/source/js/utils.js"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-next@8.0.0-rc.4/source/js/next-boot.js"></script>
+
+
+  
+
+
+
+
+
+<!-- public live2d -->
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="550" class="live2d"></canvas>
+    <div class="hide-button">隐藏</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script type="text/javascript">
+    var message_Path = 'https://cdn.jsdelivr.net/gh/No5972/Live2D@11/live2d/'
+    var home_Path = 'https://no5972.github.io/cms/'  //此处修改为你的域名，必须带斜杠
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/No5972/Live2D@11/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/No5972/Live2D@11/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-miku/assets/miku.model.json");
+</script>
+<!-- public live2d -->
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
+</body>
+</html>
