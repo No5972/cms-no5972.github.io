@@ -2777,4 +2777,5 @@ ul.breadcrumb li + li:last-child {
 .post-title,
 .post-meta {
   text-align: left !important;
+  font-family: 'DIN-Bold', 'DFKai-SB', 'Kaiti', '楷体_GB2312';
 }
