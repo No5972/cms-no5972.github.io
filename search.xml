@@ -43,24 +43,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Test</title>
-    <url>/cms/2018/11/14//archivers/test3/</url>
-    <content><![CDATA[<h1 id="Hello-world2"><a href="#Hello-world2" class="headerlink" title="Hello, world2"></a>Hello, world2</h1><p>Hello world2</p>
-]]></content>
-      <categories>
-        <category>jekyll</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Test</title>
-    <url>/cms/2018/11/14//archivers/test2/</url>
-    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
-<h1>Hello, world</h1>]]></content>
-      <categories>
-        <category>jekyll</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Style Test</title>
     <url>/cms/1970/01/01//archivers/test/</url>
     <content><![CDATA[<p>This is just a style test post, filled with LoremIpsue. Feel free to delete the file.</p>
@@ -121,6 +103,15 @@
       </categories>
   </entry>
   <entry>
+    <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test2/</url>
+    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
+<h1>Hello, world</h1>]]></content>
+      <categories>
+        <category>jekyll</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【KEX】根据传说的ImagePacks2代码表修改的NPK辞典</title>
     <url>/cms/2018/11/14//archivers/1/</url>
     <content><![CDATA[<h1>此贴为鄙人受KEX作者恋恋委托发布，原帖摘自COLG。</h1>
@@ -172,6 +163,15 @@
 ]]></content>
       <categories>
         <category>Other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test3/</url>
+    <content><![CDATA[<h1 id="Hello-world2"><a href="#Hello-world2" class="headerlink" title="Hello, world2"></a>Hello, world2</h1><p>Hello world2</p>
+]]></content>
+      <categories>
+        <category>jekyll</category>
       </categories>
   </entry>
   <entry>
@@ -243,6 +243,18 @@
       </categories>
   </entry>
   <entry>
+    <title>GitHub JSDelivr 更新</title>
+    <url>/cms/2020/06/12//archivers/8/</url>
+    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
+<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
+<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
     <title>子佩录音盒二次开发（C#）</title>
     <url>/cms/2020/06/06//archivers/7/</url>
     <content><![CDATA[<p>对子佩录音盒进行二次开发需要使用到其SDK中的两个DLL文件，qnviccub.dll，bridge.dll。在C#中导入DLL的API声明参考SDK中的BriSDKLib.cs。文件内容较长这里不再贴出。</p>
@@ -257,18 +269,6 @@
 ]]></content>
       <categories>
         <category>Hardware-Development</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>GitHub JSDelivr 更新</title>
-    <url>/cms/2020/06/12//archivers/8/</url>
-    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
-<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
-<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Web-Building</category>
       </categories>
   </entry>
   <entry>
@@ -290,29 +290,6 @@
 ]]></content>
       <categories>
         <category>Webapp</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>网站构建 网站设计</title>
-    <url>/cms/2020/07/11//archivers/13/</url>
-    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
-<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
-<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
-<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
-<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
-<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
-<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
-<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
-<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
-<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
-<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
-<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
-<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
-<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
-<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
-]]></content>
-      <categories>
-        <category>Web-Building</category>
       </categories>
   </entry>
   <entry>
@@ -367,6 +344,29 @@
 <h1 id="怎样帮助残疾人士？"><a href="#怎样帮助残疾人士？" class="headerlink" title="怎样帮助残疾人士？"></a>怎样帮助残疾人士？</h1><p>一些人们拥有严重的视力或听力问题。这些用户也许同样需要访问您站点。</p>
 <p>他们中的一些人会使用盲文点字法或基于语言的浏览器来设法阅读您的站点。请记住，如果您不为他们提供某些基于文本的选择来替代图象和其他图形元素，那么所有的视觉内容都会失去作用。</p>
 <p>为残疾人士设计网站并非易事，但是有一件小事您是可以做到的 - 至少对于弱视的人们来说 - 令您的网页可使用可调节的字体尺寸。</p>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站构建 网站设计</title>
+    <url>/cms/2020/07/11//archivers/13/</url>
+    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
+<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
+<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
+<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
+<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
+<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
+<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
+<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
+<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
+<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
+<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
+<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
+<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
+<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
+<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
 ]]></content>
       <categories>
         <category>Web-Building</category>
