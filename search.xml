@@ -61,57 +61,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Welcome to Jekyll and EasyBook</title>
-    <url>/cms/2014/12/30//archivers/hello/</url>
-    <content><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-<a id="more"></a>
-
-<p>GitHub Flavored Markdown is supported.</p>
-<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_hi</span><span class="params">(name)</span></span></span><br><span class="line">  puts <span class="string">"Hi, <span class="subst">#&#123;name&#125;</span>"</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">print_hi(<span class="string">'Tom'</span>)</span><br><span class="line"><span class="comment">#=&gt; prints 'Hi, Tom' to STDOUT.</span></span><br></pre></td></tr></table></figure>
-
-<p>And $$\mathcal{ Mathematics }$$ is supported!</p>
-<p>Use <code>$$</code> to wrap your formulas. For example, <code>$$ e^{i\pi} + 1 = 0 $$</code> displays $$  e^{i\pi} + 1 = 0  $$</p>
-<p>Multi-line forumlas are supported too.</p>
-<p>$$<br>\begin{aligned}<br>&amp; J(w, b) = \frac{1}{m} \sum_{i=1}^{m}L(\hat{y}^{(i)}, y^{(i)})</p>
-<ul>
-<li>\frac{\lambda}{2m} \sum_{l=1}^{L}{||w||}^2_F\\<br>&amp; {||w||}^2_F = \sum_{i = 1}^{n[l]}\sum_{j = 1}^{n[l-1]}(w_{ij})^2<br>\end{aligned}<br>$$</li>
-</ul>
-<h2 id="EasyBook-Advanced-Functions"><a href="#EasyBook-Advanced-Functions" class="headerlink" title="EasyBook Advanced Functions"></a>EasyBook Advanced Functions</h2><p>You are using <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a> the template from <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu.net</a>. Therefore some features are supported now:</p>
-<ul>
-<li><strong>Pagination</strong> is enabled.</li>
-<li><strong>Disqus</strong> or <strong>多说</strong> is ready.</li>
-<li><strong>TOC</strong> for posts is enabled.</li>
-<li><strong>Profile</strong> including your links and avatar on the sidebar.</li>
-<li><em>And more…</em></li>
-</ul>
-<blockquote>
-<p><strong>Tips:</strong> You can disable Disqus or 多说 on posts/pages by adding <code>nocomments: true</code> into <a href="http://jekyllrb.com/docs/frontmatter/" target="_blank" rel="noopener">YAML Front Matter</a>.</p>
-</blockquote>
-<p>EasyBook uses upaiyun CDN to make everyone lncluding Chinese visitors feel speedy. You can find it in <code>_includes/footer.html</code> and change it to your favorite CDN like Google CDN.</p>
-<h2 id="Support-me-by…"><a href="#Support-me-by…" class="headerlink" title="Support me by…"></a>Support me by…</h2><h3 id="Add-a-link"><a href="#Add-a-link" class="headerlink" title="Add a link"></a>Add a link</h3><p>EasyBook does not make the footer heavy; the link to theme could be on <code>about.md</code>:</p>
-<blockquote>
-<p>This website is using <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu</a>‘s theme: <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a></p>
-</blockquote>
-<h3 id="Donate-PayPal-or-支付宝"><a href="#Donate-PayPal-or-支付宝" class="headerlink" title="Donate (PayPal or 支付宝)"></a>Donate (PayPal or 支付宝)</h3><p>That’s the best :smile: </p>
-<p>Please visit <a href="http://laobubu.net/donate.html" target="_blank" rel="noopener">http://laobubu.net/donate.html</a></p>
-<h3 id="Star-and-Fork-on-GitHub-free"><a href="#Star-and-Fork-on-GitHub-free" class="headerlink" title="Star and Fork on GitHub (free)"></a>Star and Fork on GitHub (free)</h3><p>Not going to donate? That’s okay. You can also send out your precious star <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">on GitHub</a>.</p>
-<h2 id="And-Here-We-Go"><a href="#And-Here-We-Go" class="headerlink" title="And Here We Go"></a>And Here We Go</h2><p>Check out the <a href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll" target="_blank" rel="noopener">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help" target="_blank" rel="noopener">Jekyll’s dedicated Help repository</a>.</p>
-]]></content>
-      <categories>
-        <category>jekyll update</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Test</title>
-    <url>/cms/2018/11/14//archivers/test3/</url>
-    <content><![CDATA[<h1 id="Hello-world2"><a href="#Hello-world2" class="headerlink" title="Hello, world2"></a>Hello, world2</h1><p>Hello world2</p>
-]]></content>
-      <categories>
-        <category>jekyll</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Test</title>
     <url>/cms/2018/11/14//archivers/test2/</url>
     <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
@@ -121,37 +70,12 @@
       </categories>
   </entry>
   <entry>
-    <title>【KEX】根据传说的ImagePacks2代码表修改的NPK辞典</title>
-    <url>/cms/2018/11/14//archivers/1/</url>
-    <content><![CDATA[<h1>此贴为鄙人受KEX作者恋恋委托发布，原帖摘自COLG。</h1>
-
-<p>简易使用方法（详见此贴）：<a href="http://bbs.colg.cn/thread-7258459-1-1.html" target="_blank" rel="noopener">http://bbs.colg.cn/thread-7258459-1-1.html</a></p>
-<p>将压缩包内的npklist.txt文件，拷贝到KEX软件的输出目录下，替换掉npklist.txt即可。</p>
-<p>打开KEX，在“特殊工具”按钮菜单下找到“NPK辞典”并点击即可使用。</p>
-<p>（兔子.4以前的版本在“系统菜单”按钮菜单下找到“小伙伴们的工具”-&gt;“NPK辞典”）</p>
-<p>使用NPK辞典前需要设置资源文件夹，一般定向到DNF下ImagePacks2目录的副本下（可通过修改软件设置下的IMPACK2目录进行设置）。</p>
-<p>然后在列表中选择一项，点击“使用EX打开该NPK”即可打开勾选NPK文件。</p>
-<p>也可以像字典查询那样输入关键字来筛选NPK。</p>
-<p>Easy To Use！</p>
-<p>辞典根据精灵-传说发布的ImagePacks2代码表进行修改，并且已得到授权。原贴地址：</p>
-<p>【传说】转载+自制的dnf_ImagePacks2代码表（2018.6.19）</p>
-<p><a href="http://bbs.colg.cn/thread-7250959-1-1.html" target="_blank" rel="noopener">http://bbs.colg.cn/thread-7250959-1-1.html</a></p>
-<p>(出处: 沃特碧们的Colg)</p>
-<p>注：</p>
-<p>本辞典因为也是仓促完成的，加上咱没太多时间，因此也亟待大家完善！待完善内容有三：</p>
-<ol>
-<li><p>原贴中有些文件名相似的内容没有补全（例如二觉宠物），本辞典未对其进行补全，这类文件的特征是没有以.npk作为结尾，希望大家能帮忙补全……</p>
-</li>
-<li><p>原贴中有些NPK的描述比较笼统，比如说“怪物”、“特效1”、“特效2”这些，希望大家能帮忙对辞典做一些更加全面的解释……</p>
-</li>
-<li><p>好像没了唉……</p>
-</li>
-</ol>
-<p>希望大家完善后能够分享自己的辞典，并不需要附上我的名字（但是请附上原作者的名字）</p>
-<p>大概就这样吧。希望大家使用愉快～做出更加心仪的补丁来～</p>
+    <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test3/</url>
+    <content><![CDATA[<h1 id="Hello-world2"><a href="#Hello-world2" class="headerlink" title="Hello, world2"></a>Hello, world2</h1><p>Hello world2</p>
 ]]></content>
       <categories>
-        <category>Webapp</category>
+        <category>jekyll</category>
       </categories>
   </entry>
   <entry>
@@ -202,23 +126,6 @@
       </categories>
   </entry>
   <entry>
-    <title>子佩录音盒二次开发（C#）</title>
-    <url>/cms/2020/06/06//archivers/7/</url>
-    <content><![CDATA[<p>对子佩录音盒进行二次开发需要使用到其SDK中的两个DLL文件，qnviccub.dll，bridge.dll。在C#中导入DLL的API声明参考SDK中的BriSDKLib.cs。文件内容较长这里不再贴出。</p>
-<p>子佩录音盒对于事件的监听是基于Win32的消息的。因此我们在接收程序中Windows消息的时候要判断消息类型（类型是一个UINT类型的无符号整数），而子佩录音盒的SDK里面也封装了一些消息类型的常量，我们只需要填写常量的名称即可。例如收到了来电的消息就是BriSDKLib.BriEvent_CallIn，得到了来电的电话号码就是BriSDKLib.BriEvent_GetCallID，等等。</p>
-<p>C语言里面是在注册类的时候通过给WNDCLASSEX的lpfnWndProc属性绑定消息处理函数来监听消息从而做相应动作的。而我们在C#里面可以直接在WinForm代码里面重写DefWndProc方法来做消息处理，例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">&#123;</span><br><span class="line">    switch (m.Msg)</span><br><span class="line">    &#123;</span><br><span class="line">        case BriSDKLib.BRI_EVENT_MESSAGE: &#x2F;&#x2F; 先判断是不是录音盒的消息</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">            string strValue &#x3D; &quot;&quot;;</span><br><span class="line">            switch (EventData.lEventType)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BriEvent_CallIn: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电响铃的消息</span><br><span class="line">                case BriSDKLib.BriEvent_GetCallID: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电号码的消息</span><br><span class="line">                &#x2F;&#x2F; 其他更多的消息类型</span><br><span class="line">                default: break;</span><br><span class="line">            &#125;</span><br><span class="line">            if (strValue.Length &gt; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                AppendStatus(strValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; break;</span><br><span class="line">        default: &#x2F;&#x2F; 如果不是录音盒的消息则还按设计器里面添加的事件来处理</span><br><span class="line">            base.DefWndProc(ref m);</span><br><span class="line">            break;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>一个简单demo，没有界面，只有一个托盘图标，托盘图标只有一个退出菜单项。如果座机接到来电时，就将来电的电话号码读取出来。这里只是做了一个弹出消息框显示电话号码。将来还可以扩展成将 来电的时间、收到来电的座机所插的接口和电话号码存入数据库。</p>
-<p>把BriSDKLib.cs复制进项目，然后在WinForm添加一个菜单控件（父级菜单和一个退出菜单项）和一个系统托盘图标控件，添加Form的Load事件、FormClosed事件、Shown事件，添加退出菜单项的点击事件。然后编写代码。</p>
-<p>运行前将进户线接到录音盒的LINE口，把座机的电话线接到录音盒的PHONE口，把录音盒的USB口通过随机提供的数据线接到电脑的USB接口。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Runtime.InteropServices;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace GetPhoneNumber</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public static string FromUnicodeByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            UnicodeEncoding u &#x3D; new UnicodeEncoding();</span><br><span class="line">            string ustring &#x3D; u.GetString(characters);</span><br><span class="line">            return ustring;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public static string FromASCIIByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            ASCIIEncoding encoding &#x3D; new ASCIIEncoding();</span><br><span class="line">            string constructedString &#x3D; encoding.GetString(characters);</span><br><span class="line">            return (constructedString);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            if (BriSDKLib.QNV_OpenDevice(BriSDKLib.ODT_LBRIDGE, 0, &quot;&quot;) &lt;&#x3D; 0 || BriSDKLib.QNV_DevInfo(0, BriSDKLib.QNV_DEVINFO_GETCHANNELS) &lt;&#x3D; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F; AppendStatus(&quot;打开设备失败&quot;);</span><br><span class="line">                MessageBox.Show(&quot;打开设备失败&quot;);</span><br><span class="line">                return;</span><br><span class="line">            &#125;</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_FormClosed(object sender, FormClosedEventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">        &#123;</span><br><span class="line">            switch (m.Msg)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BRI_EVENT_MESSAGE:</span><br><span class="line">                &#123;</span><br><span class="line">                    BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                        (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">                    string strValue &#x3D; &quot;&quot;;</span><br><span class="line">                    switch (EventData.lEventType)</span><br><span class="line">                    &#123;</span><br><span class="line">                        case BriSDKLib.BriEvent_GetCallID:</span><br><span class="line">                        &#123;</span><br><span class="line">                            strValue &#x3D; &quot;通道&quot; + (EventData.uChannelID + 1).ToString() + &quot;：接收到来电号码 &quot; +</span><br><span class="line">                                       FromASCIIByteArray(EventData.szData);</span><br><span class="line">                            MessageBox.Show(strValue);</span><br><span class="line">                            this.Activate();</span><br><span class="line"></span><br><span class="line">                        &#125;</span><br><span class="line">                            break;</span><br><span class="line">                        default: break;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                    break;</span><br><span class="line">                default: </span><br><span class="line">                    base.DefWndProc(ref m);</span><br><span class="line">                    break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void 退出XToolStripMenuItem_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">            Application.Exit();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Shown(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            Hide();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Hardware-Development</category>
-      </categories>
-  </entry>
-  <entry>
     <title>哔哩哔哩：弹幕屏蔽：百家姓：直接导入XML</title>
     <url>/cms/2020/05/22//archivers/5/</url>
     <content><![CDATA[<p>注意到B站有些视频特别是动物圈频道的视频，弹幕里面会大量的刷出人名，且不说这对名誉有影响，这是严重污染弹幕环境。</p>
@@ -260,24 +167,89 @@
       </categories>
   </entry>
   <entry>
-    <title>Monyer黑客小游戏 踩坑总结</title>
-    <url>/cms/2020/07/03//archivers/10/</url>
-    <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
-<p>然后就从百度顺藤摸瓜的找到了Monyer大佬开发的黑客小游戏。大部分关卡自己都搞定了。但是的确在其中3个关卡卡住，不得不查攻略。这些关卡是9，11，12关。</p>
-<h1 id="第9关"><a href="#第9关" class="headerlink" title="第9关"></a>第9关</h1><p>一张小姐姐的图片，页面声称“你得往图里面看，看仔细哦！”。按照鄙人以往经验可能会把信息藏在EXIF信息或者是其他附加信息里面，分别用IrfanView和Photoshop7.0查看，结果都是一无所获。</p>
-<blockquote>
-<p>攻略说答案是藏在图片二进制文本里面，也就是要用纯文本编辑器打开查看。</p>
-</blockquote>
-<p>这个地方确实是基础掌握不足，根本没有遇到过这种把信息藏在二进制文本中的情况。至少在实操中没有接触过。虽然曾经在《电脑报》2007年合订本中看到过有相关记载。</p>
-<h1 id="第11关"><a href="#第11关" class="headerlink" title="第11关"></a>第11关</h1><p>这就是典型的被页面的提示文字给骗了。页面声称“你的session不是passer”。鄙人赶紧去到F12的Application选Session Storage，但是根本不知道Key值填什么！几番尝试无果，看了攻略才知道还是想的太过于周全了。并不是会话Session控制的，鄙人平时搞Web开发也会大量的用到Session。</p>
-<blockquote>
-<p>就是地址栏的特征出现了一个<code>show_login_false</code>。</p>
-</blockquote>
-<p>这可能还得要点英语基础（虽然鄙人英语也是过了六级的^_^），要知道地址栏多出来那一串是设置显示登录为“假”。</p>
-<h1 id="第12关"><a href="#第12关" class="headerlink" title="第12关"></a>第12关</h1><p>一串长长的代码。但是密码学什么的鄙人还真没怎么细究过，这种纯粹加密字符串从特征判断还真没什么经验。只有知道了它是用Base64加密的字符串才能去解密，后面两次加密和<code>encodeURI</code>什么的都是浮云。问题的关键就是<strong>如何知道这段代码是Base64加密的字符串</strong>，这些需要有密码学的不说基础起码也得有一点点经验。</p>
+    <title>子佩录音盒二次开发（C#）</title>
+    <url>/cms/2020/06/06//archivers/7/</url>
+    <content><![CDATA[<p>对子佩录音盒进行二次开发需要使用到其SDK中的两个DLL文件，qnviccub.dll，bridge.dll。在C#中导入DLL的API声明参考SDK中的BriSDKLib.cs。文件内容较长这里不再贴出。</p>
+<p>子佩录音盒对于事件的监听是基于Win32的消息的。因此我们在接收程序中Windows消息的时候要判断消息类型（类型是一个UINT类型的无符号整数），而子佩录音盒的SDK里面也封装了一些消息类型的常量，我们只需要填写常量的名称即可。例如收到了来电的消息就是BriSDKLib.BriEvent_CallIn，得到了来电的电话号码就是BriSDKLib.BriEvent_GetCallID，等等。</p>
+<p>C语言里面是在注册类的时候通过给WNDCLASSEX的lpfnWndProc属性绑定消息处理函数来监听消息从而做相应动作的。而我们在C#里面可以直接在WinForm代码里面重写DefWndProc方法来做消息处理，例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">&#123;</span><br><span class="line">    switch (m.Msg)</span><br><span class="line">    &#123;</span><br><span class="line">        case BriSDKLib.BRI_EVENT_MESSAGE: &#x2F;&#x2F; 先判断是不是录音盒的消息</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">            string strValue &#x3D; &quot;&quot;;</span><br><span class="line">            switch (EventData.lEventType)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BriEvent_CallIn: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电响铃的消息</span><br><span class="line">                case BriSDKLib.BriEvent_GetCallID: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电号码的消息</span><br><span class="line">                &#x2F;&#x2F; 其他更多的消息类型</span><br><span class="line">                default: break;</span><br><span class="line">            &#125;</span><br><span class="line">            if (strValue.Length &gt; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                AppendStatus(strValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; break;</span><br><span class="line">        default: &#x2F;&#x2F; 如果不是录音盒的消息则还按设计器里面添加的事件来处理</span><br><span class="line">            base.DefWndProc(ref m);</span><br><span class="line">            break;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>一个简单demo，没有界面，只有一个托盘图标，托盘图标只有一个退出菜单项。如果座机接到来电时，就将来电的电话号码读取出来。这里只是做了一个弹出消息框显示电话号码。将来还可以扩展成将 来电的时间、收到来电的座机所插的接口和电话号码存入数据库。</p>
+<p>把BriSDKLib.cs复制进项目，然后在WinForm添加一个菜单控件（父级菜单和一个退出菜单项）和一个系统托盘图标控件，添加Form的Load事件、FormClosed事件、Shown事件，添加退出菜单项的点击事件。然后编写代码。</p>
+<p>运行前将进户线接到录音盒的LINE口，把座机的电话线接到录音盒的PHONE口，把录音盒的USB口通过随机提供的数据线接到电脑的USB接口。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Runtime.InteropServices;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace GetPhoneNumber</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public static string FromUnicodeByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            UnicodeEncoding u &#x3D; new UnicodeEncoding();</span><br><span class="line">            string ustring &#x3D; u.GetString(characters);</span><br><span class="line">            return ustring;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public static string FromASCIIByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            ASCIIEncoding encoding &#x3D; new ASCIIEncoding();</span><br><span class="line">            string constructedString &#x3D; encoding.GetString(characters);</span><br><span class="line">            return (constructedString);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            if (BriSDKLib.QNV_OpenDevice(BriSDKLib.ODT_LBRIDGE, 0, &quot;&quot;) &lt;&#x3D; 0 || BriSDKLib.QNV_DevInfo(0, BriSDKLib.QNV_DEVINFO_GETCHANNELS) &lt;&#x3D; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F; AppendStatus(&quot;打开设备失败&quot;);</span><br><span class="line">                MessageBox.Show(&quot;打开设备失败&quot;);</span><br><span class="line">                return;</span><br><span class="line">            &#125;</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_FormClosed(object sender, FormClosedEventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">        &#123;</span><br><span class="line">            switch (m.Msg)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BRI_EVENT_MESSAGE:</span><br><span class="line">                &#123;</span><br><span class="line">                    BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                        (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">                    string strValue &#x3D; &quot;&quot;;</span><br><span class="line">                    switch (EventData.lEventType)</span><br><span class="line">                    &#123;</span><br><span class="line">                        case BriSDKLib.BriEvent_GetCallID:</span><br><span class="line">                        &#123;</span><br><span class="line">                            strValue &#x3D; &quot;通道&quot; + (EventData.uChannelID + 1).ToString() + &quot;：接收到来电号码 &quot; +</span><br><span class="line">                                       FromASCIIByteArray(EventData.szData);</span><br><span class="line">                            MessageBox.Show(strValue);</span><br><span class="line">                            this.Activate();</span><br><span class="line"></span><br><span class="line">                        &#125;</span><br><span class="line">                            break;</span><br><span class="line">                        default: break;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                    break;</span><br><span class="line">                default: </span><br><span class="line">                    base.DefWndProc(ref m);</span><br><span class="line">                    break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void 退出XToolStripMenuItem_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">            Application.Exit();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Shown(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            Hide();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Hardware-Development</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【KEX】根据传说的ImagePacks2代码表修改的NPK辞典</title>
+    <url>/cms/2018/11/14//archivers/1/</url>
+    <content><![CDATA[<h1>此贴为鄙人受KEX作者恋恋委托发布，原帖摘自COLG。</h1>
+
+<p>简易使用方法（详见此贴）：<a href="http://bbs.colg.cn/thread-7258459-1-1.html" target="_blank" rel="noopener">http://bbs.colg.cn/thread-7258459-1-1.html</a></p>
+<p>将压缩包内的npklist.txt文件，拷贝到KEX软件的输出目录下，替换掉npklist.txt即可。</p>
+<p>打开KEX，在“特殊工具”按钮菜单下找到“NPK辞典”并点击即可使用。</p>
+<p>（兔子.4以前的版本在“系统菜单”按钮菜单下找到“小伙伴们的工具”-&gt;“NPK辞典”）</p>
+<p>使用NPK辞典前需要设置资源文件夹，一般定向到DNF下ImagePacks2目录的副本下（可通过修改软件设置下的IMPACK2目录进行设置）。</p>
+<p>然后在列表中选择一项，点击“使用EX打开该NPK”即可打开勾选NPK文件。</p>
+<p>也可以像字典查询那样输入关键字来筛选NPK。</p>
+<p>Easy To Use！</p>
+<p>辞典根据精灵-传说发布的ImagePacks2代码表进行修改，并且已得到授权。原贴地址：</p>
+<p>【传说】转载+自制的dnf_ImagePacks2代码表（2018.6.19）</p>
+<p><a href="http://bbs.colg.cn/thread-7250959-1-1.html" target="_blank" rel="noopener">http://bbs.colg.cn/thread-7250959-1-1.html</a></p>
+<p>(出处: 沃特碧们的Colg)</p>
+<p>注：</p>
+<p>本辞典因为也是仓促完成的，加上咱没太多时间，因此也亟待大家完善！待完善内容有三：</p>
+<ol>
+<li><p>原贴中有些文件名相似的内容没有补全（例如二觉宠物），本辞典未对其进行补全，这类文件的特征是没有以.npk作为结尾，希望大家能帮忙补全……</p>
+</li>
+<li><p>原贴中有些NPK的描述比较笼统，比如说“怪物”、“特效1”、“特效2”这些，希望大家能帮忙对辞典做一些更加全面的解释……</p>
+</li>
+<li><p>好像没了唉……</p>
+</li>
+</ol>
+<p>希望大家完善后能够分享自己的辞典，并不需要附上我的名字（但是请附上原作者的名字）</p>
+<p>大概就这样吧。希望大家使用愉快～做出更加心仪的补丁来～</p>
 ]]></content>
       <categories>
         <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>GitHub JSDelivr 更新</title>
+    <url>/cms/2020/06/12//archivers/8/</url>
+    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
+<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
+<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站构建 网站设计</title>
+    <url>/cms/2020/07/11//archivers/13/</url>
+    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
+<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
+<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
+<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
+<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
+<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
+<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
+<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
+<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
+<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
+<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
+<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
+<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
+<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
+<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
       </categories>
   </entry>
   <entry>
@@ -310,29 +282,6 @@
 ]]></content>
       <categories>
         <category>Webapp</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>网站构建 网站设计</title>
-    <url>/cms/2020/07/11//archivers/13/</url>
-    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
-<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
-<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
-<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
-<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
-<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
-<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
-<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
-<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
-<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
-<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
-<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
-<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
-<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
-<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
-]]></content>
-      <categories>
-        <category>Web-Building</category>
       </categories>
   </entry>
   <entry>
@@ -406,15 +355,66 @@
       </categories>
   </entry>
   <entry>
-    <title>GitHub JSDelivr 更新</title>
-    <url>/cms/2020/06/12//archivers/8/</url>
-    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
-<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
-<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
+    <title>Monyer黑客小游戏 踩坑总结</title>
+    <url>/cms/2020/07/03//archivers/10/</url>
+    <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
+<p>然后就从百度顺藤摸瓜的找到了Monyer大佬开发的黑客小游戏。大部分关卡自己都搞定了。但是的确在其中3个关卡卡住，不得不查攻略。这些关卡是9，11，12关。</p>
+<h1 id="第9关"><a href="#第9关" class="headerlink" title="第9关"></a>第9关</h1><p>一张小姐姐的图片，页面声称“你得往图里面看，看仔细哦！”。按照鄙人以往经验可能会把信息藏在EXIF信息或者是其他附加信息里面，分别用IrfanView和Photoshop7.0查看，结果都是一无所获。</p>
+<blockquote>
+<p>攻略说答案是藏在图片二进制文本里面，也就是要用纯文本编辑器打开查看。</p>
+</blockquote>
+<p>这个地方确实是基础掌握不足，根本没有遇到过这种把信息藏在二进制文本中的情况。至少在实操中没有接触过。虽然曾经在《电脑报》2007年合订本中看到过有相关记载。</p>
+<h1 id="第11关"><a href="#第11关" class="headerlink" title="第11关"></a>第11关</h1><p>这就是典型的被页面的提示文字给骗了。页面声称“你的session不是passer”。鄙人赶紧去到F12的Application选Session Storage，但是根本不知道Key值填什么！几番尝试无果，看了攻略才知道还是想的太过于周全了。并不是会话Session控制的，鄙人平时搞Web开发也会大量的用到Session。</p>
+<blockquote>
+<p>就是地址栏的特征出现了一个<code>show_login_false</code>。</p>
+</blockquote>
+<p>这可能还得要点英语基础（虽然鄙人英语也是过了六级的^_^），要知道地址栏多出来那一串是设置显示登录为“假”。</p>
+<h1 id="第12关"><a href="#第12关" class="headerlink" title="第12关"></a>第12关</h1><p>一串长长的代码。但是密码学什么的鄙人还真没怎么细究过，这种纯粹加密字符串从特征判断还真没什么经验。只有知道了它是用Base64加密的字符串才能去解密，后面两次加密和<code>encodeURI</code>什么的都是浮云。问题的关键就是<strong>如何知道这段代码是Base64加密的字符串</strong>，这些需要有密码学的不说基础起码也得有一点点经验。</p>
 ]]></content>
       <categories>
-        <category>Web-Building</category>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Welcome to Jekyll and EasyBook</title>
+    <url>/cms/2014/12/30//archivers/hello/</url>
+    <content><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<a id="more"></a>
+
+<p>GitHub Flavored Markdown is supported.</p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_hi</span><span class="params">(name)</span></span></span><br><span class="line">  puts <span class="string">"Hi, <span class="subst">#&#123;name&#125;</span>"</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">print_hi(<span class="string">'Tom'</span>)</span><br><span class="line"><span class="comment">#=&gt; prints 'Hi, Tom' to STDOUT.</span></span><br></pre></td></tr></table></figure>
+
+<p>And $$\mathcal{ Mathematics }$$ is supported!</p>
+<p>Use <code>$$</code> to wrap your formulas. For example, <code>$$ e^{i\pi} + 1 = 0 $$</code> displays $$  e^{i\pi} + 1 = 0  $$</p>
+<p>Multi-line forumlas are supported too.</p>
+<p>$$<br>\begin{aligned}<br>&amp; J(w, b) = \frac{1}{m} \sum_{i=1}^{m}L(\hat{y}^{(i)}, y^{(i)})</p>
+<ul>
+<li>\frac{\lambda}{2m} \sum_{l=1}^{L}{||w||}^2_F\\<br>&amp; {||w||}^2_F = \sum_{i = 1}^{n[l]}\sum_{j = 1}^{n[l-1]}(w_{ij})^2<br>\end{aligned}<br>$$</li>
+</ul>
+<h2 id="EasyBook-Advanced-Functions"><a href="#EasyBook-Advanced-Functions" class="headerlink" title="EasyBook Advanced Functions"></a>EasyBook Advanced Functions</h2><p>You are using <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a> the template from <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu.net</a>. Therefore some features are supported now:</p>
+<ul>
+<li><strong>Pagination</strong> is enabled.</li>
+<li><strong>Disqus</strong> or <strong>多说</strong> is ready.</li>
+<li><strong>TOC</strong> for posts is enabled.</li>
+<li><strong>Profile</strong> including your links and avatar on the sidebar.</li>
+<li><em>And more…</em></li>
+</ul>
+<blockquote>
+<p><strong>Tips:</strong> You can disable Disqus or 多说 on posts/pages by adding <code>nocomments: true</code> into <a href="http://jekyllrb.com/docs/frontmatter/" target="_blank" rel="noopener">YAML Front Matter</a>.</p>
+</blockquote>
+<p>EasyBook uses upaiyun CDN to make everyone lncluding Chinese visitors feel speedy. You can find it in <code>_includes/footer.html</code> and change it to your favorite CDN like Google CDN.</p>
+<h2 id="Support-me-by…"><a href="#Support-me-by…" class="headerlink" title="Support me by…"></a>Support me by…</h2><h3 id="Add-a-link"><a href="#Add-a-link" class="headerlink" title="Add a link"></a>Add a link</h3><p>EasyBook does not make the footer heavy; the link to theme could be on <code>about.md</code>:</p>
+<blockquote>
+<p>This website is using <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu</a>‘s theme: <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a></p>
+</blockquote>
+<h3 id="Donate-PayPal-or-支付宝"><a href="#Donate-PayPal-or-支付宝" class="headerlink" title="Donate (PayPal or 支付宝)"></a>Donate (PayPal or 支付宝)</h3><p>That’s the best :smile: </p>
+<p>Please visit <a href="http://laobubu.net/donate.html" target="_blank" rel="noopener">http://laobubu.net/donate.html</a></p>
+<h3 id="Star-and-Fork-on-GitHub-free"><a href="#Star-and-Fork-on-GitHub-free" class="headerlink" title="Star and Fork on GitHub (free)"></a>Star and Fork on GitHub (free)</h3><p>Not going to donate? That’s okay. You can also send out your precious star <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">on GitHub</a>.</p>
+<h2 id="And-Here-We-Go"><a href="#And-Here-We-Go" class="headerlink" title="And Here We Go"></a>And Here We Go</h2><p>Check out the <a href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll" target="_blank" rel="noopener">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help" target="_blank" rel="noopener">Jekyll’s dedicated Help repository</a>.</p>
+]]></content>
+      <categories>
+        <category>jekyll update</category>
       </categories>
   </entry>
   <entry>
