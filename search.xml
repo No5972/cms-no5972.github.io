@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test3/</url>
+    <content><![CDATA[<h1 id="Hello-world2"><a href="#Hello-world2" class="headerlink" title="Hello, world2"></a>Hello, world2</h1><p>Hello world2</p>
+]]></content>
+      <categories>
+        <category>jekyll</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Style Test</title>
     <url>/cms/1970/01/01//archivers/test/</url>
     <content><![CDATA[<p>This is just a style test post, filled with LoremIpsue. Feel free to delete the file.</p>
@@ -112,20 +121,20 @@
       </categories>
   </entry>
   <entry>
-    <title>Test</title>
-    <url>/cms/2018/11/14//archivers/test3/</url>
-    <content><![CDATA[<h1 id="Hello-world2"><a href="#Hello-world2" class="headerlink" title="Hello, world2"></a>Hello, world2</h1><p>Hello world2</p>
-]]></content>
-      <categories>
-        <category>jekyll</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>SpringMVC cannot map requests after importing Baidu Aip into Maven POM/在Maven配置里面添加百度语音之后SpringMVC不能映射请求</title>
-    <url>/cms/2018/12/11//archivers/springmvc-baiduaip-problem/</url>
-    <content><![CDATA[<p>Encountered a problem about SpringMVC and Baidu Aip Speech.<br>After adding </p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.baidu.aip<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>java-sdk<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">version</span>&gt;</span>$&#123;baidu.aip.version&#125;<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>this into Maven POM, SpringMVC cannot map requests. The console does not display map information. But once deleted this, SpringMVC can map requests again. I would like to know how to solve the problem…</p>
+    <title>HTML5 datalist 使用jquery快速获取选中项元素</title>
+    <url>/cms/2020/03/31//archivers/2/</url>
+    <content><![CDATA[<p>注意到获取datalist目前仍然比较多的使用遍历datalist里面的option来获取选中项的元素(DOM). 如果项目数量比较多的时候效率会比较慢. 如果页面引用的有jquery的话可以直接使用jquery的选择器来快速获取选中项元素. 但是有一个前提, 就是所有option 的某个属性值一定是唯一的, 不能出现重复. 否则将会把全部对应选项都返回出来.</p>
+<p>范例: 已经给一个input输入 框绑定了一个datalist, 现希望在change事件弹出对话框显示datalist选中项的标题.</p>
+<p>HTML: </p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"type"</span> <span class="attr">list</span>=<span class="string">"dataList"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"dataList"</span>&gt;</span> <span class="comment">&lt;!-- 此范例value属性值必须唯一 --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_1"</span>&gt;</span>选项1<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_2"</span>&gt;</span>选项2<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_3"</span>&gt;</span>选项3<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_4"</span>&gt;</span>选项4<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>JS:</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="string">"#type"</span>).change(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">	alert($(<span class="string">"#dataList option[value="</span> + <span class="keyword">this</span>.value + <span class="string">"]"</span>).text());</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>效果: </p>
+<p><img src="https://img-blog.csdnimg.cn/20191029161526424.gif" alt="在这里插入图片描述"></p>
+<p>测试从6 192个选项中定位的计时:</p>
+<p>遍历: 3 680ms</p>
+<p>jquery选择器: 38ms</p>
 ]]></content>
       <categories>
         <category>Other</category>
@@ -166,39 +175,14 @@
       </categories>
   </entry>
   <entry>
-    <title>HTML5 datalist 使用jquery快速获取选中项元素</title>
-    <url>/cms/2020/03/31//archivers/2/</url>
-    <content><![CDATA[<p>注意到获取datalist目前仍然比较多的使用遍历datalist里面的option来获取选中项的元素(DOM). 如果项目数量比较多的时候效率会比较慢. 如果页面引用的有jquery的话可以直接使用jquery的选择器来快速获取选中项元素. 但是有一个前提, 就是所有option 的某个属性值一定是唯一的, 不能出现重复. 否则将会把全部对应选项都返回出来.</p>
-<p>范例: 已经给一个input输入 框绑定了一个datalist, 现希望在change事件弹出对话框显示datalist选中项的标题.</p>
-<p>HTML: </p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"type"</span> <span class="attr">list</span>=<span class="string">"dataList"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"dataList"</span>&gt;</span> <span class="comment">&lt;!-- 此范例value属性值必须唯一 --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_1"</span>&gt;</span>选项1<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_2"</span>&gt;</span>选项2<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_3"</span>&gt;</span>选项3<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_4"</span>&gt;</span>选项4<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>JS:</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="string">"#type"</span>).change(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">	alert($(<span class="string">"#dataList option[value="</span> + <span class="keyword">this</span>.value + <span class="string">"]"</span>).text());</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<p>效果: </p>
-<p><img src="https://img-blog.csdnimg.cn/20191029161526424.gif" alt="在这里插入图片描述"></p>
-<p>测试从6 192个选项中定位的计时:</p>
-<p>遍历: 3 680ms</p>
-<p>jquery选择器: 38ms</p>
+    <title>SpringMVC cannot map requests after importing Baidu Aip into Maven POM/在Maven配置里面添加百度语音之后SpringMVC不能映射请求</title>
+    <url>/cms/2018/12/11//archivers/springmvc-baiduaip-problem/</url>
+    <content><![CDATA[<p>Encountered a problem about SpringMVC and Baidu Aip Speech.<br>After adding </p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.baidu.aip<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>java-sdk<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">version</span>&gt;</span>$&#123;baidu.aip.version&#125;<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>this into Maven POM, SpringMVC cannot map requests. The console does not display map information. But once deleted this, SpringMVC can map requests again. I would like to know how to solve the problem…</p>
 ]]></content>
       <categories>
         <category>Other</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>本站工具整合导航</title>
-    <url>/cms/2020/04/16//archivers/4/</url>
-    <content><![CDATA[<p>本站开发上线的工具逐渐增多，为改善排版，现将已有的工具链接进行整合，在本文章进行统一集中。大家可以从本文章点击链接进入相应的工具。</p>
-<hr>
-<p><strong>GIF Extractor / GIF提取器 网页版</strong></p>
-<p><a href="https://no5972.github.io/GIFExtractor/index.html" target="_blank">https://no5972.github.io/GIFExtractor/index.html</a></p>
-<p><strong>DNFHellEmulator / DNF 深渊模拟器 网页版</strong></p>
-<p><a href="https://no5972.github.io/the-hell-emulator/the-hell-emulator.html" target="_blank">https://no5972.github.io/the-hell-emulator/the-hell-emulator.html</a></p>
-<p><strong>Online QQShow Grabber by QQ Number / 在线通过QQ号获取QQ秀 - GIF格式</strong></p>
-<p><a href="https://no5972.github.io/qqshow-api/qqshow-api.html" target="_blank">https://no5972.github.io/qqshow-api/qqshow-api.html</a></p>
-]]></content>
-      <categories>
-        <category>Webapp</category>
       </categories>
   </entry>
   <entry>
@@ -216,20 +200,19 @@
       </categories>
   </entry>
   <entry>
-    <title>子佩录音盒二次开发（C#）</title>
-    <url>/cms/2020/06/06//archivers/7/</url>
-    <content><![CDATA[<p>对子佩录音盒进行二次开发需要使用到其SDK中的两个DLL文件，qnviccub.dll，bridge.dll。在C#中导入DLL的API声明参考SDK中的BriSDKLib.cs。文件内容较长这里不再贴出。</p>
-<p>子佩录音盒对于事件的监听是基于Win32的消息的。因此我们在接收程序中Windows消息的时候要判断消息类型（类型是一个UINT类型的无符号整数），而子佩录音盒的SDK里面也封装了一些消息类型的常量，我们只需要填写常量的名称即可。例如收到了来电的消息就是BriSDKLib.BriEvent_CallIn，得到了来电的电话号码就是BriSDKLib.BriEvent_GetCallID，等等。</p>
-<p>C语言里面是在注册类的时候通过给WNDCLASSEX的lpfnWndProc属性绑定消息处理函数来监听消息从而做相应动作的。而我们在C#里面可以直接在WinForm代码里面重写DefWndProc方法来做消息处理，例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">&#123;</span><br><span class="line">    switch (m.Msg)</span><br><span class="line">    &#123;</span><br><span class="line">        case BriSDKLib.BRI_EVENT_MESSAGE: &#x2F;&#x2F; 先判断是不是录音盒的消息</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">            string strValue &#x3D; &quot;&quot;;</span><br><span class="line">            switch (EventData.lEventType)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BriEvent_CallIn: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电响铃的消息</span><br><span class="line">                case BriSDKLib.BriEvent_GetCallID: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电号码的消息</span><br><span class="line">                &#x2F;&#x2F; 其他更多的消息类型</span><br><span class="line">                default: break;</span><br><span class="line">            &#125;</span><br><span class="line">            if (strValue.Length &gt; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                AppendStatus(strValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; break;</span><br><span class="line">        default: &#x2F;&#x2F; 如果不是录音盒的消息则还按设计器里面添加的事件来处理</span><br><span class="line">            base.DefWndProc(ref m);</span><br><span class="line">            break;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>一个简单demo，没有界面，只有一个托盘图标，托盘图标只有一个退出菜单项。如果座机接到来电时，就将来电的电话号码读取出来。这里只是做了一个弹出消息框显示电话号码。将来还可以扩展成将 来电的时间、收到来电的座机所插的接口和电话号码存入数据库。</p>
-<p>把BriSDKLib.cs复制进项目，然后在WinForm添加一个菜单控件（父级菜单和一个退出菜单项）和一个系统托盘图标控件，添加Form的Load事件、FormClosed事件、Shown事件，添加退出菜单项的点击事件。然后编写代码。</p>
-<p>运行前将进户线接到录音盒的LINE口，把座机的电话线接到录音盒的PHONE口，把录音盒的USB口通过随机提供的数据线接到电脑的USB接口。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Runtime.InteropServices;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace GetPhoneNumber</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public static string FromUnicodeByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            UnicodeEncoding u &#x3D; new UnicodeEncoding();</span><br><span class="line">            string ustring &#x3D; u.GetString(characters);</span><br><span class="line">            return ustring;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public static string FromASCIIByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            ASCIIEncoding encoding &#x3D; new ASCIIEncoding();</span><br><span class="line">            string constructedString &#x3D; encoding.GetString(characters);</span><br><span class="line">            return (constructedString);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            if (BriSDKLib.QNV_OpenDevice(BriSDKLib.ODT_LBRIDGE, 0, &quot;&quot;) &lt;&#x3D; 0 || BriSDKLib.QNV_DevInfo(0, BriSDKLib.QNV_DEVINFO_GETCHANNELS) &lt;&#x3D; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F; AppendStatus(&quot;打开设备失败&quot;);</span><br><span class="line">                MessageBox.Show(&quot;打开设备失败&quot;);</span><br><span class="line">                return;</span><br><span class="line">            &#125;</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_FormClosed(object sender, FormClosedEventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">        &#123;</span><br><span class="line">            switch (m.Msg)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BRI_EVENT_MESSAGE:</span><br><span class="line">                &#123;</span><br><span class="line">                    BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                        (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">                    string strValue &#x3D; &quot;&quot;;</span><br><span class="line">                    switch (EventData.lEventType)</span><br><span class="line">                    &#123;</span><br><span class="line">                        case BriSDKLib.BriEvent_GetCallID:</span><br><span class="line">                        &#123;</span><br><span class="line">                            strValue &#x3D; &quot;通道&quot; + (EventData.uChannelID + 1).ToString() + &quot;：接收到来电号码 &quot; +</span><br><span class="line">                                       FromASCIIByteArray(EventData.szData);</span><br><span class="line">                            MessageBox.Show(strValue);</span><br><span class="line">                            this.Activate();</span><br><span class="line"></span><br><span class="line">                        &#125;</span><br><span class="line">                            break;</span><br><span class="line">                        default: break;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                    break;</span><br><span class="line">                default: </span><br><span class="line">                    base.DefWndProc(ref m);</span><br><span class="line">                    break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void 退出XToolStripMenuItem_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">            Application.Exit();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Shown(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            Hide();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <title>本站工具整合导航</title>
+    <url>/cms/2020/04/16//archivers/4/</url>
+    <content><![CDATA[<p>本站开发上线的工具逐渐增多，为改善排版，现将已有的工具链接进行整合，在本文章进行统一集中。大家可以从本文章点击链接进入相应的工具。</p>
+<hr>
+<p><strong>GIF Extractor / GIF提取器 网页版</strong></p>
+<p><a href="https://no5972.github.io/GIFExtractor/index.html" target="_blank">https://no5972.github.io/GIFExtractor/index.html</a></p>
+<p><strong>DNFHellEmulator / DNF 深渊模拟器 网页版</strong></p>
+<p><a href="https://no5972.github.io/the-hell-emulator/the-hell-emulator.html" target="_blank">https://no5972.github.io/the-hell-emulator/the-hell-emulator.html</a></p>
+<p><strong>Online QQShow Grabber by QQ Number / 在线通过QQ号获取QQ秀 - GIF格式</strong></p>
+<p><a href="https://no5972.github.io/qqshow-api/qqshow-api.html" target="_blank">https://no5972.github.io/qqshow-api/qqshow-api.html</a></p>
 ]]></content>
       <categories>
-        <category>Hardware-Development</category>
+        <category>Webapp</category>
       </categories>
   </entry>
   <entry>
@@ -260,24 +243,20 @@
       </categories>
   </entry>
   <entry>
-    <title>Monyer黑客小游戏 踩坑总结</title>
-    <url>/cms/2020/07/03//archivers/10/</url>
-    <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
-<p>然后就从百度顺藤摸瓜的找到了Monyer大佬开发的黑客小游戏。大部分关卡自己都搞定了。但是的确在其中3个关卡卡住，不得不查攻略。这些关卡是9，11，12关。</p>
-<h1 id="第9关"><a href="#第9关" class="headerlink" title="第9关"></a>第9关</h1><p>一张小姐姐的图片，页面声称“你得往图里面看，看仔细哦！”。按照鄙人以往经验可能会把信息藏在EXIF信息或者是其他附加信息里面，分别用IrfanView和Photoshop7.0查看，结果都是一无所获。</p>
-<blockquote>
-<p>攻略说答案是藏在图片二进制文本里面，也就是要用纯文本编辑器打开查看。</p>
-</blockquote>
-<p>这个地方确实是基础掌握不足，根本没有遇到过这种把信息藏在二进制文本中的情况。至少在实操中没有接触过。虽然曾经在《电脑报》2007年合订本中看到过有相关记载。</p>
-<h1 id="第11关"><a href="#第11关" class="headerlink" title="第11关"></a>第11关</h1><p>这就是典型的被页面的提示文字给骗了。页面声称“你的session不是passer”。鄙人赶紧去到F12的Application选Session Storage，但是根本不知道Key值填什么！几番尝试无果，看了攻略才知道还是想的太过于周全了。并不是会话Session控制的，鄙人平时搞Web开发也会大量的用到Session。</p>
-<blockquote>
-<p>就是地址栏的特征出现了一个<code>show_login_false</code>。</p>
-</blockquote>
-<p>这可能还得要点英语基础（虽然鄙人英语也是过了六级的^_^），要知道地址栏多出来那一串是设置显示登录为“假”。</p>
-<h1 id="第12关"><a href="#第12关" class="headerlink" title="第12关"></a>第12关</h1><p>一串长长的代码。但是密码学什么的鄙人还真没怎么细究过，这种纯粹加密字符串从特征判断还真没什么经验。只有知道了它是用Base64加密的字符串才能去解密，后面两次加密和<code>encodeURI</code>什么的都是浮云。问题的关键就是<strong>如何知道这段代码是Base64加密的字符串</strong>，这些需要有密码学的不说基础起码也得有一点点经验。</p>
+    <title>子佩录音盒二次开发（C#）</title>
+    <url>/cms/2020/06/06//archivers/7/</url>
+    <content><![CDATA[<p>对子佩录音盒进行二次开发需要使用到其SDK中的两个DLL文件，qnviccub.dll，bridge.dll。在C#中导入DLL的API声明参考SDK中的BriSDKLib.cs。文件内容较长这里不再贴出。</p>
+<p>子佩录音盒对于事件的监听是基于Win32的消息的。因此我们在接收程序中Windows消息的时候要判断消息类型（类型是一个UINT类型的无符号整数），而子佩录音盒的SDK里面也封装了一些消息类型的常量，我们只需要填写常量的名称即可。例如收到了来电的消息就是BriSDKLib.BriEvent_CallIn，得到了来电的电话号码就是BriSDKLib.BriEvent_GetCallID，等等。</p>
+<p>C语言里面是在注册类的时候通过给WNDCLASSEX的lpfnWndProc属性绑定消息处理函数来监听消息从而做相应动作的。而我们在C#里面可以直接在WinForm代码里面重写DefWndProc方法来做消息处理，例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">&#123;</span><br><span class="line">    switch (m.Msg)</span><br><span class="line">    &#123;</span><br><span class="line">        case BriSDKLib.BRI_EVENT_MESSAGE: &#x2F;&#x2F; 先判断是不是录音盒的消息</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">            string strValue &#x3D; &quot;&quot;;</span><br><span class="line">            switch (EventData.lEventType)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BriEvent_CallIn: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电响铃的消息</span><br><span class="line">                case BriSDKLib.BriEvent_GetCallID: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电号码的消息</span><br><span class="line">                &#x2F;&#x2F; 其他更多的消息类型</span><br><span class="line">                default: break;</span><br><span class="line">            &#125;</span><br><span class="line">            if (strValue.Length &gt; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                AppendStatus(strValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; break;</span><br><span class="line">        default: &#x2F;&#x2F; 如果不是录音盒的消息则还按设计器里面添加的事件来处理</span><br><span class="line">            base.DefWndProc(ref m);</span><br><span class="line">            break;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>一个简单demo，没有界面，只有一个托盘图标，托盘图标只有一个退出菜单项。如果座机接到来电时，就将来电的电话号码读取出来。这里只是做了一个弹出消息框显示电话号码。将来还可以扩展成将 来电的时间、收到来电的座机所插的接口和电话号码存入数据库。</p>
+<p>把BriSDKLib.cs复制进项目，然后在WinForm添加一个菜单控件（父级菜单和一个退出菜单项）和一个系统托盘图标控件，添加Form的Load事件、FormClosed事件、Shown事件，添加退出菜单项的点击事件。然后编写代码。</p>
+<p>运行前将进户线接到录音盒的LINE口，把座机的电话线接到录音盒的PHONE口，把录音盒的USB口通过随机提供的数据线接到电脑的USB接口。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Runtime.InteropServices;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace GetPhoneNumber</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public static string FromUnicodeByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            UnicodeEncoding u &#x3D; new UnicodeEncoding();</span><br><span class="line">            string ustring &#x3D; u.GetString(characters);</span><br><span class="line">            return ustring;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public static string FromASCIIByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            ASCIIEncoding encoding &#x3D; new ASCIIEncoding();</span><br><span class="line">            string constructedString &#x3D; encoding.GetString(characters);</span><br><span class="line">            return (constructedString);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            if (BriSDKLib.QNV_OpenDevice(BriSDKLib.ODT_LBRIDGE, 0, &quot;&quot;) &lt;&#x3D; 0 || BriSDKLib.QNV_DevInfo(0, BriSDKLib.QNV_DEVINFO_GETCHANNELS) &lt;&#x3D; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F; AppendStatus(&quot;打开设备失败&quot;);</span><br><span class="line">                MessageBox.Show(&quot;打开设备失败&quot;);</span><br><span class="line">                return;</span><br><span class="line">            &#125;</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_FormClosed(object sender, FormClosedEventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">        &#123;</span><br><span class="line">            switch (m.Msg)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BRI_EVENT_MESSAGE:</span><br><span class="line">                &#123;</span><br><span class="line">                    BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                        (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">                    string strValue &#x3D; &quot;&quot;;</span><br><span class="line">                    switch (EventData.lEventType)</span><br><span class="line">                    &#123;</span><br><span class="line">                        case BriSDKLib.BriEvent_GetCallID:</span><br><span class="line">                        &#123;</span><br><span class="line">                            strValue &#x3D; &quot;通道&quot; + (EventData.uChannelID + 1).ToString() + &quot;：接收到来电号码 &quot; +</span><br><span class="line">                                       FromASCIIByteArray(EventData.szData);</span><br><span class="line">                            MessageBox.Show(strValue);</span><br><span class="line">                            this.Activate();</span><br><span class="line"></span><br><span class="line">                        &#125;</span><br><span class="line">                            break;</span><br><span class="line">                        default: break;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                    break;</span><br><span class="line">                default: </span><br><span class="line">                    base.DefWndProc(ref m);</span><br><span class="line">                    break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void 退出XToolStripMenuItem_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">            Application.Exit();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Shown(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            Hide();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Webapp</category>
+        <category>Hardware-Development</category>
       </categories>
   </entry>
   <entry>
@@ -325,26 +304,24 @@
       </categories>
   </entry>
   <entry>
-    <title>网站构建 网站设计</title>
-    <url>/cms/2020/07/11//archivers/13/</url>
-    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
-<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
-<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
-<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
-<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
-<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
-<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
-<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
-<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
-<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
-<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
-<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
-<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
-<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
-<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
+    <title>Monyer黑客小游戏 踩坑总结</title>
+    <url>/cms/2020/07/03//archivers/10/</url>
+    <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
+<p>然后就从百度顺藤摸瓜的找到了Monyer大佬开发的黑客小游戏。大部分关卡自己都搞定了。但是的确在其中3个关卡卡住，不得不查攻略。这些关卡是9，11，12关。</p>
+<h1 id="第9关"><a href="#第9关" class="headerlink" title="第9关"></a>第9关</h1><p>一张小姐姐的图片，页面声称“你得往图里面看，看仔细哦！”。按照鄙人以往经验可能会把信息藏在EXIF信息或者是其他附加信息里面，分别用IrfanView和Photoshop7.0查看，结果都是一无所获。</p>
+<blockquote>
+<p>攻略说答案是藏在图片二进制文本里面，也就是要用纯文本编辑器打开查看。</p>
+</blockquote>
+<p>这个地方确实是基础掌握不足，根本没有遇到过这种把信息藏在二进制文本中的情况。至少在实操中没有接触过。虽然曾经在《电脑报》2007年合订本中看到过有相关记载。</p>
+<h1 id="第11关"><a href="#第11关" class="headerlink" title="第11关"></a>第11关</h1><p>这就是典型的被页面的提示文字给骗了。页面声称“你的session不是passer”。鄙人赶紧去到F12的Application选Session Storage，但是根本不知道Key值填什么！几番尝试无果，看了攻略才知道还是想的太过于周全了。并不是会话Session控制的，鄙人平时搞Web开发也会大量的用到Session。</p>
+<blockquote>
+<p>就是地址栏的特征出现了一个<code>show_login_false</code>。</p>
+</blockquote>
+<p>这可能还得要点英语基础（虽然鄙人英语也是过了六级的^_^），要知道地址栏多出来那一串是设置显示登录为“假”。</p>
+<h1 id="第12关"><a href="#第12关" class="headerlink" title="第12关"></a>第12关</h1><p>一串长长的代码。但是密码学什么的鄙人还真没怎么细究过，这种纯粹加密字符串从特征判断还真没什么经验。只有知道了它是用Base64加密的字符串才能去解密，后面两次加密和<code>encodeURI</code>什么的都是浮云。问题的关键就是<strong>如何知道这段代码是Base64加密的字符串</strong>，这些需要有密码学的不说基础起码也得有一点点经验。</p>
 ]]></content>
       <categories>
-        <category>Web-Building</category>
+        <category>Webapp</category>
       </categories>
   </entry>
   <entry>
@@ -367,6 +344,29 @@
 <h1 id="怎样帮助残疾人士？"><a href="#怎样帮助残疾人士？" class="headerlink" title="怎样帮助残疾人士？"></a>怎样帮助残疾人士？</h1><p>一些人们拥有严重的视力或听力问题。这些用户也许同样需要访问您站点。</p>
 <p>他们中的一些人会使用盲文点字法或基于语言的浏览器来设法阅读您的站点。请记住，如果您不为他们提供某些基于文本的选择来替代图象和其他图形元素，那么所有的视觉内容都会失去作用。</p>
 <p>为残疾人士设计网站并非易事，但是有一件小事您是可以做到的 - 至少对于弱视的人们来说 - 令您的网页可使用可调节的字体尺寸。</p>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站构建 网站设计</title>
+    <url>/cms/2020/07/11//archivers/13/</url>
+    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
+<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
+<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
+<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
+<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
+<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
+<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
+<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
+<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
+<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
+<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
+<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
+<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
+<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
+<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
 ]]></content>
       <categories>
         <category>Web-Building</category>
