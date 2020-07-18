@@ -1449,11 +1449,11 @@ pre code {
   opacity: 0.6;
   position: fixed;
   z-index: 1300;
-  left: 30px;
+  right: 30px;
 }
 @media (max-width: 991px) {
   .sidebar-toggle {
-    left: 20px;
+    right: 20px;
   }
 }
 .sidebar-toggle:hover {
@@ -1659,12 +1659,12 @@ pre code {
   opacity: 0.6;
   position: fixed;
   z-index: 1300;
-  left: 30px;
+  right: 30px;
   width: 24px;
 }
 @media (max-width: 991px) {
   .back-to-top {
-    left: 20px;
+    right: 20px;
   }
 }
 .back-to-top:hover {
