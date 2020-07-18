@@ -61,15 +61,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Test</title>
-    <url>/cms/2018/11/14//archivers/test2/</url>
-    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
-<h1>Hello, world</h1>]]></content>
-      <categories>
-        <category>jekyll</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Welcome to Jekyll and EasyBook</title>
     <url>/cms/2014/12/30//archivers/hello/</url>
     <content><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
@@ -121,6 +112,15 @@
       </categories>
   </entry>
   <entry>
+    <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test2/</url>
+    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
+<h1>Hello, world</h1>]]></content>
+      <categories>
+        <category>jekyll</category>
+      </categories>
+  </entry>
+  <entry>
     <title>【KEX】根据传说的ImagePacks2代码表修改的NPK辞典</title>
     <url>/cms/2018/11/14//archivers/1/</url>
     <content><![CDATA[<h1>此贴为鄙人受KEX作者恋恋委托发布，原帖摘自COLG。</h1>
@@ -155,17 +155,6 @@
       </categories>
   </entry>
   <entry>
-    <title>SpringMVC cannot map requests after importing Baidu Aip into Maven POM/在Maven配置里面添加百度语音之后SpringMVC不能映射请求</title>
-    <url>/cms/2018/12/11//archivers/springmvc-baiduaip-problem/</url>
-    <content><![CDATA[<p>Encountered a problem about SpringMVC and Baidu Aip Speech.<br>After adding </p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.baidu.aip<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>java-sdk<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">version</span>&gt;</span>$&#123;baidu.aip.version&#125;<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>this into Maven POM, SpringMVC cannot map requests. The console does not display map information. But once deleted this, SpringMVC can map requests again. I would like to know how to solve the problem…</p>
-]]></content>
-      <categories>
-        <category>Other</category>
-      </categories>
-  </entry>
-  <entry>
     <title>HTML5 datalist 使用jquery快速获取选中项元素</title>
     <url>/cms/2020/03/31//archivers/2/</url>
     <content><![CDATA[<p>注意到获取datalist目前仍然比较多的使用遍历datalist里面的option来获取选中项的元素(DOM). 如果项目数量比较多的时候效率会比较慢. 如果页面引用的有jquery的话可以直接使用jquery的选择器来快速获取选中项元素. 但是有一个前提, 就是所有option 的某个属性值一定是唯一的, 不能出现重复. 否则将会把全部对应选项都返回出来.</p>
@@ -180,6 +169,17 @@
 <p>测试从6 192个选项中定位的计时:</p>
 <p>遍历: 3 680ms</p>
 <p>jquery选择器: 38ms</p>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>SpringMVC cannot map requests after importing Baidu Aip into Maven POM/在Maven配置里面添加百度语音之后SpringMVC不能映射请求</title>
+    <url>/cms/2018/12/11//archivers/springmvc-baiduaip-problem/</url>
+    <content><![CDATA[<p>Encountered a problem about SpringMVC and Baidu Aip Speech.<br>After adding </p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.baidu.aip<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>java-sdk<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">version</span>&gt;</span>$&#123;baidu.aip.version&#125;<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>this into Maven POM, SpringMVC cannot map requests. The console does not display map information. But once deleted this, SpringMVC can map requests again. I would like to know how to solve the problem…</p>
 ]]></content>
       <categories>
         <category>Other</category>
@@ -243,24 +243,15 @@
       </categories>
   </entry>
   <entry>
-    <title>Monyer黑客小游戏 踩坑总结</title>
-    <url>/cms/2020/07/03//archivers/10/</url>
-    <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
-<p>然后就从百度顺藤摸瓜的找到了Monyer大佬开发的黑客小游戏。大部分关卡自己都搞定了。但是的确在其中3个关卡卡住，不得不查攻略。这些关卡是9，11，12关。</p>
-<h1 id="第9关"><a href="#第9关" class="headerlink" title="第9关"></a>第9关</h1><p>一张小姐姐的图片，页面声称“你得往图里面看，看仔细哦！”。按照鄙人以往经验可能会把信息藏在EXIF信息或者是其他附加信息里面，分别用IrfanView和Photoshop7.0查看，结果都是一无所获。</p>
-<blockquote>
-<p>攻略说答案是藏在图片二进制文本里面，也就是要用纯文本编辑器打开查看。</p>
-</blockquote>
-<p>这个地方确实是基础掌握不足，根本没有遇到过这种把信息藏在二进制文本中的情况。至少在实操中没有接触过。虽然曾经在《电脑报》2007年合订本中看到过有相关记载。</p>
-<h1 id="第11关"><a href="#第11关" class="headerlink" title="第11关"></a>第11关</h1><p>这就是典型的被页面的提示文字给骗了。页面声称“你的session不是passer”。鄙人赶紧去到F12的Application选Session Storage，但是根本不知道Key值填什么！几番尝试无果，看了攻略才知道还是想的太过于周全了。并不是会话Session控制的，鄙人平时搞Web开发也会大量的用到Session。</p>
-<blockquote>
-<p>就是地址栏的特征出现了一个<code>show_login_false</code>。</p>
-</blockquote>
-<p>这可能还得要点英语基础（虽然鄙人英语也是过了六级的^_^），要知道地址栏多出来那一串是设置显示登录为“假”。</p>
-<h1 id="第12关"><a href="#第12关" class="headerlink" title="第12关"></a>第12关</h1><p>一串长长的代码。但是密码学什么的鄙人还真没怎么细究过，这种纯粹加密字符串从特征判断还真没什么经验。只有知道了它是用Base64加密的字符串才能去解密，后面两次加密和<code>encodeURI</code>什么的都是浮云。问题的关键就是<strong>如何知道这段代码是Base64加密的字符串</strong>，这些需要有密码学的不说基础起码也得有一点点经验。</p>
+    <title>GitHub JSDelivr 更新</title>
+    <url>/cms/2020/06/12//archivers/8/</url>
+    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
+<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
+<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Webapp</category>
+        <category>Web-Building</category>
       </categories>
   </entry>
   <entry>
@@ -281,15 +272,24 @@
       </categories>
   </entry>
   <entry>
-    <title>GitHub JSDelivr 更新</title>
-    <url>/cms/2020/06/12//archivers/8/</url>
-    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
-<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
-<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
+    <title>Monyer黑客小游戏 踩坑总结</title>
+    <url>/cms/2020/07/03//archivers/10/</url>
+    <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
+<p>然后就从百度顺藤摸瓜的找到了Monyer大佬开发的黑客小游戏。大部分关卡自己都搞定了。但是的确在其中3个关卡卡住，不得不查攻略。这些关卡是9，11，12关。</p>
+<h1 id="第9关"><a href="#第9关" class="headerlink" title="第9关"></a>第9关</h1><p>一张小姐姐的图片，页面声称“你得往图里面看，看仔细哦！”。按照鄙人以往经验可能会把信息藏在EXIF信息或者是其他附加信息里面，分别用IrfanView和Photoshop7.0查看，结果都是一无所获。</p>
+<blockquote>
+<p>攻略说答案是藏在图片二进制文本里面，也就是要用纯文本编辑器打开查看。</p>
+</blockquote>
+<p>这个地方确实是基础掌握不足，根本没有遇到过这种把信息藏在二进制文本中的情况。至少在实操中没有接触过。虽然曾经在《电脑报》2007年合订本中看到过有相关记载。</p>
+<h1 id="第11关"><a href="#第11关" class="headerlink" title="第11关"></a>第11关</h1><p>这就是典型的被页面的提示文字给骗了。页面声称“你的session不是passer”。鄙人赶紧去到F12的Application选Session Storage，但是根本不知道Key值填什么！几番尝试无果，看了攻略才知道还是想的太过于周全了。并不是会话Session控制的，鄙人平时搞Web开发也会大量的用到Session。</p>
+<blockquote>
+<p>就是地址栏的特征出现了一个<code>show_login_false</code>。</p>
+</blockquote>
+<p>这可能还得要点英语基础（虽然鄙人英语也是过了六级的^_^），要知道地址栏多出来那一串是设置显示登录为“假”。</p>
+<h1 id="第12关"><a href="#第12关" class="headerlink" title="第12关"></a>第12关</h1><p>一串长长的代码。但是密码学什么的鄙人还真没怎么细究过，这种纯粹加密字符串从特征判断还真没什么经验。只有知道了它是用Base64加密的字符串才能去解密，后面两次加密和<code>encodeURI</code>什么的都是浮云。问题的关键就是<strong>如何知道这段代码是Base64加密的字符串</strong>，这些需要有密码学的不说基础起码也得有一点点经验。</p>
 ]]></content>
       <categories>
-        <category>Web-Building</category>
+        <category>Webapp</category>
       </categories>
   </entry>
   <entry>
@@ -373,26 +373,6 @@
       </categories>
   </entry>
   <entry>
-    <title>国内互联网Flash依赖状况调查</title>
-    <url>/cms/2020/07/13//archivers/15/</url>
-    <content><![CDATA[<h1 id="以下仅为引用现有的观点，不代表本站立场。"><a href="#以下仅为引用现有的观点，不代表本站立场。" class="headerlink" title="以下仅为引用现有的观点，不代表本站立场。"></a>以下仅为引用现有的观点，不代表本站立场。</h1><p>Flash即将在年底停止支持，但是国内依旧有很多平台在依赖Flash，究竟国内还有多少平台还在依赖Flash？</p>
-<p>知乎@松果煲粥 ：大量的办公，报名，教育等公共平台都是用的Flash来运行的，原本我电脑上是根本没装Flash的，但是前几个月发现弟弟上网课的网页居然需要Flash插件才能看。</p>
-<p>知乎 佚名：用flash的什么医学实验模拟课程 医学魔课.泰盟医学虚拟仿真实验教学平台的太烦人了</p>
-<p>CSDN@wujiuqier ：有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？</p>
-<p>知乎@梦沧海 ：无所谓，对flashplayer重度依赖的是内网环境，我单位多个业务系统没了这个就运作不正常。</p>
-<p>B站@wujiuqier ：这里点名长江云这个平台，各大湖北省的省电视台，地市电视台，县市电视台的视频在PC页面还得非要用Flash才能播放，上线一个HLS播放就这么难吗？</p>
-<p>B站@柏木ゆっき ：你不知道这个软件比你想象的更恶心 我为了上网课下的这个 只有中国版能有 然后我发现这个广告弹窗之后当时也给禁用了 结果 网课页面都进去了 几秒之后马上变成系统服务组件没有开启要我去下修复工具[微笑] 想了各种办法都没能给他降服 只要禁用就听不了网课 真就恶心的一批 </p>
-<p>B站@冥土追魂-呱太神医 ：删不了的，一堆政府网站，还有老网站都必须要flash支持，像是很知名的4399，7k7k，QQ空间都需要flash的支持。</p>
-<p>知乎@爱做梦的大傻子 ：mooc课不用flash没办法看课程的ppt！</p>
-<p>知乎 佚名：大量国企和事业单位的PC网页没有彻底放弃Flash；相当的商业网站仍不放弃Flash……</p>
-<p>知乎 佚名：各位电脑大神，每次都是电脑上优慕课网址里面的视频一直要自动下载flash才能观看，这要如何解决啊？[鄙人：就是这个页面，提示文字和这边长江云的提示文字一模一样]</p>
-<p>知乎@天涯羽伏麟 ：国内这些官媒、教育、校内教务的网站大部分还在用flash，不能不开，麻烦死，要那就多下一个浏览器，要嘛就得重新调开flash，无力吐槽。。也不知道是承包给谁做的，运维我都怀疑是校内老师兼职的。</p>
-]]></content>
-      <categories>
-        <category>Webapp</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Github Hexo 一键更新</title>
     <url>/cms/2020/07/18//archivers/16/</url>
     <content><![CDATA[<p>这个博客换成Hexo后台之后变成了绑定3个仓库：展示仓库，后台仓库，主题仓库。结果每次更新需要输入3对账号密码，很不方便。整合各路搜集到的资料之后总结出来一套一键更新的方案，可以一次性同步后台代码、主题代码和展示代码。</p>
@@ -415,6 +395,26 @@
 ]]></content>
       <categories>
         <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>国内互联网Flash依赖状况调查</title>
+    <url>/cms/2020/07/13//archivers/15/</url>
+    <content><![CDATA[<h1 id="以下仅为引用现有的观点，不代表本站立场。"><a href="#以下仅为引用现有的观点，不代表本站立场。" class="headerlink" title="以下仅为引用现有的观点，不代表本站立场。"></a>以下仅为引用现有的观点，不代表本站立场。</h1><p>Flash即将在年底停止支持，但是国内依旧有很多平台在依赖Flash，究竟国内还有多少平台还在依赖Flash？</p>
+<p>知乎@松果煲粥 ：大量的办公，报名，教育等公共平台都是用的Flash来运行的，原本我电脑上是根本没装Flash的，但是前几个月发现弟弟上网课的网页居然需要Flash插件才能看。</p>
+<p>知乎 佚名：用flash的什么医学实验模拟课程 医学魔课.泰盟医学虚拟仿真实验教学平台的太烦人了</p>
+<p>CSDN@wujiuqier ：有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？</p>
+<p>知乎@梦沧海 ：无所谓，对flashplayer重度依赖的是内网环境，我单位多个业务系统没了这个就运作不正常。</p>
+<p>B站@wujiuqier ：这里点名长江云这个平台，各大湖北省的省电视台，地市电视台，县市电视台的视频在PC页面还得非要用Flash才能播放，上线一个HLS播放就这么难吗？</p>
+<p>B站@柏木ゆっき ：你不知道这个软件比你想象的更恶心 我为了上网课下的这个 只有中国版能有 然后我发现这个广告弹窗之后当时也给禁用了 结果 网课页面都进去了 几秒之后马上变成系统服务组件没有开启要我去下修复工具[微笑] 想了各种办法都没能给他降服 只要禁用就听不了网课 真就恶心的一批 </p>
+<p>B站@冥土追魂-呱太神医 ：删不了的，一堆政府网站，还有老网站都必须要flash支持，像是很知名的4399，7k7k，QQ空间都需要flash的支持。</p>
+<p>知乎@爱做梦的大傻子 ：mooc课不用flash没办法看课程的ppt！</p>
+<p>知乎 佚名：大量国企和事业单位的PC网页没有彻底放弃Flash；相当的商业网站仍不放弃Flash……</p>
+<p>知乎 佚名：各位电脑大神，每次都是电脑上优慕课网址里面的视频一直要自动下载flash才能观看，这要如何解决啊？[鄙人：就是这个页面，提示文字和这边长江云的提示文字一模一样]</p>
+<p>知乎@天涯羽伏麟 ：国内这些官媒、教育、校内教务的网站大部分还在用flash，不能不开，麻烦死，要那就多下一个浏览器，要嘛就得重新调开flash，无力吐槽。。也不知道是承包给谁做的，运维我都怀疑是校内老师兼职的。</p>
+]]></content>
+      <categories>
+        <category>Webapp</category>
       </categories>
   </entry>
   <entry>
