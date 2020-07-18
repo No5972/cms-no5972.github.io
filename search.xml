@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Style Test</title>
+    <url>/cms/1970/01/01//archivers/test/</url>
+    <content><![CDATA[<p>This is just a style test post, filled with LoremIpsue. Feel free to delete the file.</p>
+<p><img src="http://lorempixel.com/400/200/" alt=""></p>
+<h1 id="Lorem-ipsum-dolor"><a href="#Lorem-ipsum-dolor" class="headerlink" title="Lorem ipsum dolor"></a>Lorem ipsum dolor</h1><p>Sit amet, consectetur adipiscing elit. Phasellus nisi odio, scelerisque vitae volutpat non, facilisis non erat. In gravida placerat pulvinar. Maecenas ac pretium sem. In consectetur nulla leo, ut maximus nisi volutpat eget. Vestibulum vitae malesuada risus, egestas placerat felis. In sed sollicitudin elit. Sed bibendum porttitor dui.</p>
+<h2 id="Condimentum-mauris-Accumsan"><a href="#Condimentum-mauris-Accumsan" class="headerlink" title="Condimentum mauris Accumsan"></a>Condimentum mauris Accumsan</h2><p>Eu. Suspendisse scelerisque, orci vel elementum accumsan, sem turpis congue justo, et vulputate lacus orci vel felis. Pellentesque at gravida felis, vitae pretium erat. Pellentesque convallis mi vitae lectus semper, quis pellentesque lectus tristique.</p>
+<h2 id="Duis-a-nibh-in"><a href="#Duis-a-nibh-in" class="headerlink" title="Duis a nibh in"></a>Duis a nibh in</h2><p>Consectetur ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+<blockquote>
+<p>Vivamus placerat, tortor et aliquam porttitor, risus mi dapibus neque, vitae vulputate urna.<br>– Lorem</p>
+</blockquote>
+<p>Apurus vel sapien. Fusce at condimentum nibh. </p>
+<h3 id="Donec-ut-urna"><a href="#Donec-ut-urna" class="headerlink" title="Donec ut urna"></a>Donec ut urna</h3><p>A dolor rhoncus posuere vel porttitor tortor. Integer ex lacus, sagittis ac tellus et, laoreet condimentum massa. </p>
+<p><img src="http://lorempixel.com/400/400/" alt=""></p>
+<p>Aliquam tempor pharetra lacus, vel bibendum purus dapibus nec. Integer hendrerit massa ut libero euismod, id gravida neque facilisis. </p>
+<h2 id="Nunc-nec"><a href="#Nunc-nec" class="headerlink" title="Nunc nec"></a>Nunc nec</h2><p>Karan justo id turpis auctor pharetra. Fusce pretium ornare facilisis. Aliquam eget scelerisque ex, eu volutpat leo. Proin pharetra est felis, sit amet suscipit orci mattis quis.</p>
+<ol>
+<li>Etiam bibendum purus tincidunt</li>
+<li>As dapibus enim et, porta ligula. </li>
+<li>Morbi tempus, mauris sed sodales auctor, nulla erat fringilla purus, vel sodales nulla nunc sit amet purus. </li>
+<li>Praesent pellentesque urna et leo eleifend molestie ac ac ex. </li>
+<li>Ut eu sagittis metus, et malesuada libero. </li>
+</ol>
+<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam placerat mauris a libero tempus facilisis. Maecenas ut augue lacinia, ornare mi in, lobortis arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis justo elit, blandit vel tincidunt ac, imperdiet ut neque. </p>
+<h1 id="Class-aptent"><a href="#Class-aptent" class="headerlink" title="Class aptent"></a>Class aptent</h1><p>taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Sed at semper sem. Morbi in finibus tellus. Pellentesque nec dapibus risus.</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello world!"</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>vitae erat non congue. Proin sagittis vitae justo at cursus. Phasellus egestas bibendum urna vel condimentum.</p>
+<h2 id="Fusce-a-ullamcorper-nisl"><a href="#Fusce-a-ullamcorper-nisl" class="headerlink" title="Fusce a ullamcorper nisl"></a>Fusce a ullamcorper nisl</h2><p>Pellentesque vehicula faucibus nibh, <strong>a pharetra odio pretium ac.</strong> Mauris eget gravida orci, vitae tincidunt urna. Integer pharetra ante in porta maximus. Morbi ac arcu lacinia, posuere mauris vitae, lobortis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae metus nibh. Cras quis malesuada nisi. Ut porttitor, ipsum vel suscipit posuere, elit purus egestas velit, ac lobortis urna orci nec mi.</p>
+<h2 id="Maecenas-bibendum-nisi"><a href="#Maecenas-bibendum-nisi" class="headerlink" title="Maecenas bibendum nisi"></a>Maecenas bibendum nisi</h2><p>Aleo facilisis porttitor ac ac metus. <strong>Vivamus faucibus faucibus bibendum.</strong> Donec efficitur consectetur erat quis porttitor. Ut id euismod nunc. Sed venenatis eleifend suscipit. Donec magna purus, porta eget enim a, ornare porttitor nibh. Cras nisl nibh, viverra vitae magna quis, hendrerit facilisis sem.</p>
+<table>
+<thead>
+<tr>
+<th align="center">table</th>
+<th align="center">test</th>
+<th align="center">lorem</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Praesent ultrices</td>
+<td align="center">convallis lorem</td>
+<td align="center">at sollicitudin enim</td>
+</tr>
+<tr>
+<td align="center">Mauris</td>
+<td align="center">tristique cursus</td>
+<td align="center">arcu ac</td>
+</tr>
+<tr>
+<td align="center">facilisis</td>
+<td align="center">Proin</td>
+<td align="center">vulputate neque lectus</td>
+</tr>
+</tbody></table>
+<p> maximus malesuada est rutrum ac. Sed blandit semper faucibus. Nam venenatis consectetur malesuada. Nulla lacus purus, ultrices ac eros porttitor, finibus sodales augue. Suspendisse tincidunt, felis in placerat euismod, libero nulla interdum nisl, commodo efficitur felis dui in libero. Integer lobortis sapien sit amet orci tristique auctor a sit amet neque. Nunc tincidunt iaculis purus eget maximus. Fusce risus justo, rutrum at magna sed, rhoncus lacinia lectus. Vivamus lobortis odio ex, ac vehicula nunc facilisis non. Aliquam fermentum diam massa. Sed cursus, nisi varius laoreet aliquet, tortor urna porta turpis, in dictum urna enim vel leo. Etiam at lacus lorem. Vivamus ornare vitae nisl vel malesuada.</p>
+]]></content>
+      <categories>
+        <category>jekyll</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Welcome to Jekyll and EasyBook</title>
+    <url>/cms/2014/12/30//archivers/hello/</url>
+    <content><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<a id="more"></a>
+
+<p>GitHub Flavored Markdown is supported.</p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_hi</span><span class="params">(name)</span></span></span><br><span class="line">  puts <span class="string">"Hi, <span class="subst">#&#123;name&#125;</span>"</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">print_hi(<span class="string">'Tom'</span>)</span><br><span class="line"><span class="comment">#=&gt; prints 'Hi, Tom' to STDOUT.</span></span><br></pre></td></tr></table></figure>
+
+<p>And $$\mathcal{ Mathematics }$$ is supported!</p>
+<p>Use <code>$$</code> to wrap your formulas. For example, <code>$$ e^{i\pi} + 1 = 0 $$</code> displays $$  e^{i\pi} + 1 = 0  $$</p>
+<p>Multi-line forumlas are supported too.</p>
+<p>$$<br>\begin{aligned}<br>&amp; J(w, b) = \frac{1}{m} \sum_{i=1}^{m}L(\hat{y}^{(i)}, y^{(i)})</p>
+<ul>
+<li>\frac{\lambda}{2m} \sum_{l=1}^{L}{||w||}^2_F\\<br>&amp; {||w||}^2_F = \sum_{i = 1}^{n[l]}\sum_{j = 1}^{n[l-1]}(w_{ij})^2<br>\end{aligned}<br>$$</li>
+</ul>
+<h2 id="EasyBook-Advanced-Functions"><a href="#EasyBook-Advanced-Functions" class="headerlink" title="EasyBook Advanced Functions"></a>EasyBook Advanced Functions</h2><p>You are using <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a> the template from <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu.net</a>. Therefore some features are supported now:</p>
+<ul>
+<li><strong>Pagination</strong> is enabled.</li>
+<li><strong>Disqus</strong> or <strong>多说</strong> is ready.</li>
+<li><strong>TOC</strong> for posts is enabled.</li>
+<li><strong>Profile</strong> including your links and avatar on the sidebar.</li>
+<li><em>And more…</em></li>
+</ul>
+<blockquote>
+<p><strong>Tips:</strong> You can disable Disqus or 多说 on posts/pages by adding <code>nocomments: true</code> into <a href="http://jekyllrb.com/docs/frontmatter/" target="_blank" rel="noopener">YAML Front Matter</a>.</p>
+</blockquote>
+<p>EasyBook uses upaiyun CDN to make everyone lncluding Chinese visitors feel speedy. You can find it in <code>_includes/footer.html</code> and change it to your favorite CDN like Google CDN.</p>
+<h2 id="Support-me-by…"><a href="#Support-me-by…" class="headerlink" title="Support me by…"></a>Support me by…</h2><h3 id="Add-a-link"><a href="#Add-a-link" class="headerlink" title="Add a link"></a>Add a link</h3><p>EasyBook does not make the footer heavy; the link to theme could be on <code>about.md</code>:</p>
+<blockquote>
+<p>This website is using <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu</a>‘s theme: <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a></p>
+</blockquote>
+<h3 id="Donate-PayPal-or-支付宝"><a href="#Donate-PayPal-or-支付宝" class="headerlink" title="Donate (PayPal or 支付宝)"></a>Donate (PayPal or 支付宝)</h3><p>That’s the best :smile: </p>
+<p>Please visit <a href="http://laobubu.net/donate.html" target="_blank" rel="noopener">http://laobubu.net/donate.html</a></p>
+<h3 id="Star-and-Fork-on-GitHub-free"><a href="#Star-and-Fork-on-GitHub-free" class="headerlink" title="Star and Fork on GitHub (free)"></a>Star and Fork on GitHub (free)</h3><p>Not going to donate? That’s okay. You can also send out your precious star <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">on GitHub</a>.</p>
+<h2 id="And-Here-We-Go"><a href="#And-Here-We-Go" class="headerlink" title="And Here We Go"></a>And Here We Go</h2><p>Check out the <a href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll" target="_blank" rel="noopener">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help" target="_blank" rel="noopener">Jekyll’s dedicated Help repository</a>.</p>
+]]></content>
+      <categories>
+        <category>jekyll update</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【KEX】根据传说的ImagePacks2代码表修改的NPK辞典</title>
+    <url>/cms/2018/11/14//archivers/1/</url>
+    <content><![CDATA[<h1>此贴为鄙人受KEX作者恋恋委托发布，原帖摘自COLG。</h1>
+
+<p>简易使用方法（详见此贴）：<a href="http://bbs.colg.cn/thread-7258459-1-1.html" target="_blank" rel="noopener">http://bbs.colg.cn/thread-7258459-1-1.html</a></p>
+<p>将压缩包内的npklist.txt文件，拷贝到KEX软件的输出目录下，替换掉npklist.txt即可。</p>
+<p>打开KEX，在“特殊工具”按钮菜单下找到“NPK辞典”并点击即可使用。</p>
+<p>（兔子.4以前的版本在“系统菜单”按钮菜单下找到“小伙伴们的工具”-&gt;“NPK辞典”）</p>
+<p>使用NPK辞典前需要设置资源文件夹，一般定向到DNF下ImagePacks2目录的副本下（可通过修改软件设置下的IMPACK2目录进行设置）。</p>
+<p>然后在列表中选择一项，点击“使用EX打开该NPK”即可打开勾选NPK文件。</p>
+<p>也可以像字典查询那样输入关键字来筛选NPK。</p>
+<p>Easy To Use！</p>
+<p>辞典根据精灵-传说发布的ImagePacks2代码表进行修改，并且已得到授权。原贴地址：</p>
+<p>【传说】转载+自制的dnf_ImagePacks2代码表（2018.6.19）</p>
+<p><a href="http://bbs.colg.cn/thread-7250959-1-1.html" target="_blank" rel="noopener">http://bbs.colg.cn/thread-7250959-1-1.html</a></p>
+<p>(出处: 沃特碧们的Colg)</p>
+<p>注：</p>
+<p>本辞典因为也是仓促完成的，加上咱没太多时间，因此也亟待大家完善！待完善内容有三：</p>
+<ol>
+<li><p>原贴中有些文件名相似的内容没有补全（例如二觉宠物），本辞典未对其进行补全，这类文件的特征是没有以.npk作为结尾，希望大家能帮忙补全……</p>
+</li>
+<li><p>原贴中有些NPK的描述比较笼统，比如说“怪物”、“特效1”、“特效2”这些，希望大家能帮忙对辞典做一些更加全面的解释……</p>
+</li>
+<li><p>好像没了唉……</p>
+</li>
+</ol>
+<p>希望大家完善后能够分享自己的辞典，并不需要附上我的名字（但是请附上原作者的名字）</p>
+<p>大概就这样吧。希望大家使用愉快～做出更加心仪的补丁来～</p>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test2/</url>
+    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
+<h1>Hello, world</h1>]]></content>
+      <categories>
+        <category>jekyll</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test3/</url>
+    <content><![CDATA[<h1 id="Hello-world2"><a href="#Hello-world2" class="headerlink" title="Hello, world2"></a>Hello, world2</h1><p>Hello world2</p>
+]]></content>
+      <categories>
+        <category>jekyll</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>SpringMVC cannot map requests after importing Baidu Aip into Maven POM/在Maven配置里面添加百度语音之后SpringMVC不能映射请求</title>
+    <url>/cms/2018/12/11//archivers/springmvc-baiduaip-problem/</url>
+    <content><![CDATA[<p>Encountered a problem about SpringMVC and Baidu Aip Speech.<br>After adding </p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.baidu.aip<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>java-sdk<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">version</span>&gt;</span>$&#123;baidu.aip.version&#125;<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>this into Maven POM, SpringMVC cannot map requests. The console does not display map information. But once deleted this, SpringMVC can map requests again. I would like to know how to solve the problem…</p>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>HTML5 datalist 使用jquery快速获取选中项元素</title>
+    <url>/cms/2020/03/31//archivers/2/</url>
+    <content><![CDATA[<p>注意到获取datalist目前仍然比较多的使用遍历datalist里面的option来获取选中项的元素(DOM). 如果项目数量比较多的时候效率会比较慢. 如果页面引用的有jquery的话可以直接使用jquery的选择器来快速获取选中项元素. 但是有一个前提, 就是所有option 的某个属性值一定是唯一的, 不能出现重复. 否则将会把全部对应选项都返回出来.</p>
+<p>范例: 已经给一个input输入 框绑定了一个datalist, 现希望在change事件弹出对话框显示datalist选中项的标题.</p>
+<p>HTML: </p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"type"</span> <span class="attr">list</span>=<span class="string">"dataList"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"dataList"</span>&gt;</span> <span class="comment">&lt;!-- 此范例value属性值必须唯一 --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_1"</span>&gt;</span>选项1<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_2"</span>&gt;</span>选项2<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_3"</span>&gt;</span>选项3<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"id_4"</span>&gt;</span>选项4<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>JS:</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="string">"#type"</span>).change(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">	alert($(<span class="string">"#dataList option[value="</span> + <span class="keyword">this</span>.value + <span class="string">"]"</span>).text());</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>效果: </p>
+<p><img src="https://img-blog.csdnimg.cn/20191029161526424.gif" alt="在这里插入图片描述"></p>
+<p>测试从6 192个选项中定位的计时:</p>
+<p>遍历: 3 680ms</p>
+<p>jquery选择器: 38ms</p>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>探讨在国内使用Flash Player的解决方案 - 一些找到的线索</title>
+    <url>/cms/2020/05/26//archivers/6/</url>
+    <content><![CDATA[<p>目前在国内仍然有大量的而且是非用不可的业务必须依赖Flash Player。Flash确实是要在2020年底要停止支持了，但是这并不是说Flash要淘汰了你就可以不用了，也不是说你觉得这个网页需要依赖Flash你就不进这个网站了，有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？【手动狗头】（有的学生因为不能运行Flash导致网课旷课进而导致被学校退学）</p>
+<ol>
+<li><p>Edge浏览器集成：新的Edge浏览器已经集成了PPAPI的Flash Player，一些需要使用Flash Player的网站会出现点击加载Flash 的灰框，点击确认加载即可。有时候会报地区不相容，如果遇到这个情况应手动替换成那种不报地区不相容的pepflashplayer.dll（搜索关键字：替换插件解决Microsoft Edge浏览器Flash Player地区不兼容问题）。</p>
+</li>
+<li><p>地区不相容的问题也可以通过hosts解决，将geo2.adobe.com，flash.cn，<a href="http://www.flash.cn，flash.2144.com，www.2144.cn，fpdownload2.macromedia.com，fpdownload.macromedia.com，macromedia.com这些域名都引到127.0.0.1，据说有效。" target="_blank" rel="noopener">www.flash.cn，flash.2144.com，www.2144.cn，fpdownload2.macromedia.com，fpdownload.macromedia.com，macromedia.com这些域名都引到127.0.0.1，据说有效。</a></p>
+</li>
+<li><p>现在版本的PPAPI插件同样含有窃取隐私的服务。但截至撰稿时还可以搜索到一些Flash Player PPAPI版本27的插件，这个经专业鉴定是没有捆绑弹窗广告和窃取隐私服务的（搜索关键字：flashplayerPPAPI_27.0.0.159），注意安装完成后要选择从不更新，否则他会自动更新到特供版。</p>
+</li>
+<li><p>截至撰稿时国内目前仍然可以下载到睿派克技术论坛制作的Flash Player破解版。这个版本针对限制地区、弹窗广告和窃取隐私服务进行了破解（搜索关键字：Adobe Flash Player AX/NP/PP v32.0.0.223特别版）。</p>
+</li>
+<li><p>用特殊手段直接下载到外国的Flash Player，保证下载页面的域名不是.cn的。操作比较复杂，但是不保证有效（可能装上去之后用也是报地区不相容，参考解决方案第二条）。</p>
+</li>
+<li><p>目前的开源Flash解决方案普遍还不成熟，主要的两套方案LightSpark实测装上去之后FireFox并不能识别（Windows安装版），Gnash直接没有Windows的解决方案而且Linux里面也是一大堆依赖要装，安装过程甚至可以说是劝退级别。（搜索关键字：GNASH 移植）</p>
+</li>
+<li><p>据说在Firefox浏览器中，点击Flash对象所在区域，由系统自动搜索可用的Flash插件，搜索到后，将弹出Flash插件安装窗口，在窗口中就会列出支持Firefox浏览器的Flash插件，包括 Adobe Flash Player、Swfdec player for Adobe/Macromedia flash、Gnash SWF Player等可供选择。（搜索关键字：在Ubuntu系统中玩转Flash视频播放）</p>
+</li>
+<li><p>或者最简单的办法，但是可能比较占用比较多的系统资源。那就是用虚拟机安装一个XP系统然后直接在虚拟机里面装一个特供版Flash。随他去怎么弹广告盗隐私吧。^_^ 反正只有专门需要用Flash的场合才会用到，平时我们也不会用这个虚拟机。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>本站工具整合导航</title>
+    <url>/cms/2020/04/16//archivers/4/</url>
+    <content><![CDATA[<p>本站开发上线的工具逐渐增多，为改善排版，现将已有的工具链接进行整合，在本文章进行统一集中。大家可以从本文章点击链接进入相应的工具。</p>
+<hr>
+<p><strong>GIF Extractor / GIF提取器 网页版</strong></p>
+<p><a href="https://no5972.github.io/GIFExtractor/index.html" target="_blank">https://no5972.github.io/GIFExtractor/index.html</a></p>
+<p><strong>DNFHellEmulator / DNF 深渊模拟器 网页版</strong></p>
+<p><a href="https://no5972.github.io/the-hell-emulator/the-hell-emulator.html" target="_blank">https://no5972.github.io/the-hell-emulator/the-hell-emulator.html</a></p>
+<p><strong>Online QQShow Grabber by QQ Number / 在线通过QQ号获取QQ秀 - GIF格式</strong></p>
+<p><a href="https://no5972.github.io/qqshow-api/qqshow-api.html" target="_blank">https://no5972.github.io/qqshow-api/qqshow-api.html</a></p>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>哔哩哔哩：弹幕屏蔽：百家姓：直接导入XML</title>
+    <url>/cms/2020/05/22//archivers/5/</url>
+    <content><![CDATA[<p>注意到B站有些视频特别是动物圈频道的视频，弹幕里面会大量的刷出人名，且不说这对名誉有影响，这是严重污染弹幕环境。</p>
+<p>这里将《百家姓》的姓氏整理成哔哩哔哩弹幕屏蔽适用的正则表达式的批量导入XML，只需要从网页端导入XML即可有效屏蔽掉刷人名的弹幕。</p>
+<p>使用方法：复制这段代码保存为XML格式，注意保存编码选择UTF-8。在网页端随便点开一个视频，点击弹幕列表右边的三个小点按钮，选择屏蔽设定，右击下方列表的空白处选择导入XML文件。将这个XML文件导入即可实现屏蔽人名弹幕。如果需要取消屏蔽，点击这个屏蔽条目的状态的启用，使其切换到关闭即可。</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">filters</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">item</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span>r=赵|钱|孙|李|周|吴|郑|王|冯|陈|楮|卫|蒋|沈|韩|杨|朱|秦|尤|许|何|吕|施|张|孔|曹|严|华|金|魏|陶|姜|戚|谢|邹|喻|柏|水|窦|章|云|苏|潘|葛|奚|范|彭|郎|鲁|韦|昌|马|苗|凤|花|方|俞|任|袁|柳|酆|鲍|史|唐|费|廉|岑|薛|雷|贺|倪|汤|滕|殷|罗|毕|郝|邬|安|常|乐|于|时|傅|皮|卞|齐|康|伍|余|元|卜|顾|孟|平|黄|和|穆|萧|尹|姚|邵|湛|汪|祁|毛|禹|狄|米|贝|明|臧|计|伏|成|戴|谈|宋|茅|庞|熊|纪|舒|屈|项|祝|董|梁|杜|阮|蓝|闽|席|季|麻|强|贾|路|娄|危|江|童|颜|郭|梅|盛|林|刁|锺|徐|丘|骆|高|夏|蔡|田|樊|胡|凌|霍|虞|万|支|柯|昝|管|卢|莫|经|房|裘|缪|干|解|应|宗|丁|宣|贲|邓|郁|单|杭|洪|包|诸|左|石|崔|吉|钮|龚|程|嵇|邢|滑|裴|陆|荣|翁|荀|羊|於|惠|甄|麹|家|封|芮|羿|储|靳|汲|邴|糜|松|井|段|富|巫|乌|焦|巴|弓|牧|隗|山|谷|车|侯|宓|蓬|全|郗|班|仰|秋|仲|伊|宫|宁|仇|栾|暴|甘|斜|厉|戎|祖|武|符|刘|景|詹|束|龙|叶|幸|司|韶|郜|黎|蓟|薄|印|宿|白|怀|蒲|邰|从|鄂|索|咸|籍|赖|卓|蔺|屠|蒙|池|乔|阴|郁|胥|能|苍|双|闻|莘|党|翟|谭|贡|劳|逄|姬|申|扶|堵|冉|宰|郦|雍|郤|璩|桑|桂|濮|牛|寿|通|边|扈|燕|冀|郏|浦|尚|农|温|别|庄|晏|柴|瞿|阎|充|慕|连|茹|习|宦|艾|鱼|容|向|古|易|慎|戈|廖|庾|终|暨|居|衡|步|都|耿|满|弘|匡|国|文|寇|广|禄|阙|东|欧|殳|沃|利|蔚|越|夔|隆|师|巩|厍|聂|晁|勾|敖|融|冷|訾|辛|阚|那|简|饶|空|曾|毋|沙|乜|养|鞠|须|丰|巢|关|蒯|相|查|后|荆|红|游|竺|权|逑|盖|益|桓|公|万俟|司马|上官|欧阳|夏侯|诸葛|闻人|东方|赫连|皇甫|尉迟|公羊|澹台|公冶|宗政|濮阳|淳于|单于|太叔|申屠|公孙|仲孙|轩辕|令狐|锺离|宇文|长孙|慕容|鲜于|闾丘|司徒|司空|丌官|司寇|仉|督|子车|颛孙|端木|巫马|公西|漆雕|乐正|壤驷|公良|拓拔|夹谷|宰父|谷梁|晋|楚|阎|法|汝|鄢|涂|钦|段干|百里|东郭|南门|呼延|归|海|羊舌|微生|岳|帅|缑|亢|况|后|有|琴|梁丘|左丘|东门|西门|商|牟|佘|佴|伯|赏|南宫|墨|哈|谯|笪|年|爱|阳|佟|第五|言|福<span class="tag">&lt;/<span class="name">item</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">filters</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>或者也可以直接从这个链接下载然后按上述方法导入：<br><a href="https://no5972.github.io/cms/static/tv.bilibili.player.baijiaxin.xml">https://no5972.github.io/cms/static/tv.bilibili.player.baijiaxin.xml</a></p>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>子佩录音盒二次开发（C#）</title>
+    <url>/cms/2020/06/06//archivers/7/</url>
+    <content><![CDATA[<p>对子佩录音盒进行二次开发需要使用到其SDK中的两个DLL文件，qnviccub.dll，bridge.dll。在C#中导入DLL的API声明参考SDK中的BriSDKLib.cs。文件内容较长这里不再贴出。</p>
+<p>子佩录音盒对于事件的监听是基于Win32的消息的。因此我们在接收程序中Windows消息的时候要判断消息类型（类型是一个UINT类型的无符号整数），而子佩录音盒的SDK里面也封装了一些消息类型的常量，我们只需要填写常量的名称即可。例如收到了来电的消息就是BriSDKLib.BriEvent_CallIn，得到了来电的电话号码就是BriSDKLib.BriEvent_GetCallID，等等。</p>
+<p>C语言里面是在注册类的时候通过给WNDCLASSEX的lpfnWndProc属性绑定消息处理函数来监听消息从而做相应动作的。而我们在C#里面可以直接在WinForm代码里面重写DefWndProc方法来做消息处理，例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">&#123;</span><br><span class="line">    switch (m.Msg)</span><br><span class="line">    &#123;</span><br><span class="line">        case BriSDKLib.BRI_EVENT_MESSAGE: &#x2F;&#x2F; 先判断是不是录音盒的消息</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">            string strValue &#x3D; &quot;&quot;;</span><br><span class="line">            switch (EventData.lEventType)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BriEvent_CallIn: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电响铃的消息</span><br><span class="line">                case BriSDKLib.BriEvent_GetCallID: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电号码的消息</span><br><span class="line">                &#x2F;&#x2F; 其他更多的消息类型</span><br><span class="line">                default: break;</span><br><span class="line">            &#125;</span><br><span class="line">            if (strValue.Length &gt; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                AppendStatus(strValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; break;</span><br><span class="line">        default: &#x2F;&#x2F; 如果不是录音盒的消息则还按设计器里面添加的事件来处理</span><br><span class="line">            base.DefWndProc(ref m);</span><br><span class="line">            break;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>一个简单demo，没有界面，只有一个托盘图标，托盘图标只有一个退出菜单项。如果座机接到来电时，就将来电的电话号码读取出来。这里只是做了一个弹出消息框显示电话号码。将来还可以扩展成将 来电的时间、收到来电的座机所插的接口和电话号码存入数据库。</p>
+<p>把BriSDKLib.cs复制进项目，然后在WinForm添加一个菜单控件（父级菜单和一个退出菜单项）和一个系统托盘图标控件，添加Form的Load事件、FormClosed事件、Shown事件，添加退出菜单项的点击事件。然后编写代码。</p>
+<p>运行前将进户线接到录音盒的LINE口，把座机的电话线接到录音盒的PHONE口，把录音盒的USB口通过随机提供的数据线接到电脑的USB接口。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Runtime.InteropServices;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace GetPhoneNumber</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public static string FromUnicodeByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            UnicodeEncoding u &#x3D; new UnicodeEncoding();</span><br><span class="line">            string ustring &#x3D; u.GetString(characters);</span><br><span class="line">            return ustring;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public static string FromASCIIByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            ASCIIEncoding encoding &#x3D; new ASCIIEncoding();</span><br><span class="line">            string constructedString &#x3D; encoding.GetString(characters);</span><br><span class="line">            return (constructedString);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            if (BriSDKLib.QNV_OpenDevice(BriSDKLib.ODT_LBRIDGE, 0, &quot;&quot;) &lt;&#x3D; 0 || BriSDKLib.QNV_DevInfo(0, BriSDKLib.QNV_DEVINFO_GETCHANNELS) &lt;&#x3D; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F; AppendStatus(&quot;打开设备失败&quot;);</span><br><span class="line">                MessageBox.Show(&quot;打开设备失败&quot;);</span><br><span class="line">                return;</span><br><span class="line">            &#125;</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_FormClosed(object sender, FormClosedEventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">        &#123;</span><br><span class="line">            switch (m.Msg)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BRI_EVENT_MESSAGE:</span><br><span class="line">                &#123;</span><br><span class="line">                    BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                        (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">                    string strValue &#x3D; &quot;&quot;;</span><br><span class="line">                    switch (EventData.lEventType)</span><br><span class="line">                    &#123;</span><br><span class="line">                        case BriSDKLib.BriEvent_GetCallID:</span><br><span class="line">                        &#123;</span><br><span class="line">                            strValue &#x3D; &quot;通道&quot; + (EventData.uChannelID + 1).ToString() + &quot;：接收到来电号码 &quot; +</span><br><span class="line">                                       FromASCIIByteArray(EventData.szData);</span><br><span class="line">                            MessageBox.Show(strValue);</span><br><span class="line">                            this.Activate();</span><br><span class="line"></span><br><span class="line">                        &#125;</span><br><span class="line">                            break;</span><br><span class="line">                        default: break;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                    break;</span><br><span class="line">                default: </span><br><span class="line">                    base.DefWndProc(ref m);</span><br><span class="line">                    break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void 退出XToolStripMenuItem_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">            Application.Exit();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Shown(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            Hide();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Hardware-Development</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>GitHub JSDelivr 更新</title>
+    <url>/cms/2020/06/12//archivers/8/</url>
+    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
+<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
+<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Monyer黑客小游戏 踩坑总结</title>
+    <url>/cms/2020/07/03//archivers/10/</url>
+    <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
+<p>然后就从百度顺藤摸瓜的找到了Monyer大佬开发的黑客小游戏。大部分关卡自己都搞定了。但是的确在其中3个关卡卡住，不得不查攻略。这些关卡是9，11，12关。</p>
+<h1 id="第9关"><a href="#第9关" class="headerlink" title="第9关"></a>第9关</h1><p>一张小姐姐的图片，页面声称“你得往图里面看，看仔细哦！”。按照鄙人以往经验可能会把信息藏在EXIF信息或者是其他附加信息里面，分别用IrfanView和Photoshop7.0查看，结果都是一无所获。</p>
+<blockquote>
+<p>攻略说答案是藏在图片二进制文本里面，也就是要用纯文本编辑器打开查看。</p>
+</blockquote>
+<p>这个地方确实是基础掌握不足，根本没有遇到过这种把信息藏在二进制文本中的情况。至少在实操中没有接触过。虽然曾经在《电脑报》2007年合订本中看到过有相关记载。</p>
+<h1 id="第11关"><a href="#第11关" class="headerlink" title="第11关"></a>第11关</h1><p>这就是典型的被页面的提示文字给骗了。页面声称“你的session不是passer”。鄙人赶紧去到F12的Application选Session Storage，但是根本不知道Key值填什么！几番尝试无果，看了攻略才知道还是想的太过于周全了。并不是会话Session控制的，鄙人平时搞Web开发也会大量的用到Session。</p>
+<blockquote>
+<p>就是地址栏的特征出现了一个<code>show_login_false</code>。</p>
+</blockquote>
+<p>这可能还得要点英语基础（虽然鄙人英语也是过了六级的^_^），要知道地址栏多出来那一串是设置显示登录为“假”。</p>
+<h1 id="第12关"><a href="#第12关" class="headerlink" title="第12关"></a>第12关</h1><p>一串长长的代码。但是密码学什么的鄙人还真没怎么细究过，这种纯粹加密字符串从特征判断还真没什么经验。只有知道了它是用Base64加密的字符串才能去解密，后面两次加密和<code>encodeURI</code>什么的都是浮云。问题的关键就是<strong>如何知道这段代码是Base64加密的字符串</strong>，这些需要有密码学的不说基础起码也得有一点点经验。</p>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>常用软件之我见（不定期更新）</title>
+    <url>/cms/2020/07/08//archivers/12/</url>
+    <content><![CDATA[<p>在B站和不少个人博客上也看到了相当多的软件推荐。这里也将鄙人自己常用的一些电脑软件做一个分享。如有任何疏漏谬误欢迎指正。</p>
+<ul>
+<li>Edge：微软的新的Chromium内核的浏览器。支持国内直接微软账号登录，自己也有一套国内可以直接访问的扩展商店，扩展齐全。</li>
+<li>Chrome：不用装专门的PDF阅读器来看PDF了！这个浏览器直接就能看PDF。但是为什么不直接推荐Edge呢，新的Chromium内核的Edge居然还是不能按目录跳转！</li>
+<li>Everything：快速搜索</li>
+<li>IrfanView：一款比较小众的看图软件。速度也快，也支持扩展。100MB以上的大图还没尝试过，有试过的欢迎反馈。</li>
+<li>TamperMonkey：浏览器扩展，Edge和Firefox都能用。油猴脚本，可以对自定义适配的网站添加自定义脚本。强大的网址适配规则定义功能。但GreasyFork这个脚本分享网站并不是油猴开发的，这一点需注意。</li>
+<li>7-Zip：免费开源的解压缩软件。甚至可以拆绝大部分的EXE文件。鄙人在弄Monyer黑客小游戏最后一关就是直接拿7-Zip拆最后解壳的EXE拿到的密码。</li>
+<li>Universal Extractor：解压绝大部分的EXE格式的安装包或归档，避免吃到恶意捆绑软件。鄙人在弄Monyer黑客小游戏最后一关就是用这个软件尝试拆包的时候发现了这个EXE有UPX加壳然后解壳的。这也就是说它还自带UPX检测和解壳功能。</li>
+<li>MPC-HC：全称Media Player Classic - Home Cinema。开源的媒体播放器。鄙人每天听歌就是用的这个。虽然项目已停更，但是基本上所有的媒体格式都能正常使用。甚至可以直接通过网络上.m3u8的流媒体URL来看电视。</li>
+<li>Bandicam：老版本Win10没有XBOX录屏的备用录屏方案！</li>
+<li>eXeScope：EXE资源提取和修改。汉化和提取EXE内含的资源常用。</li>
+<li>Resource Hacker：同上，但是轻量级的eXeScope现在很多EXE打开各种报错，这个稍微重一些但是支持的EXE也更广泛。</li>
+<li>Ventoy：2020年才出来的一套U盘集成多个ISO启动的解决方案，将U盘通过该工具制成启动盘之后把各个ISO文件丢到U盘指定目录即可。支持同一个盘同时支持传统启动和UEFI启动。之前虽然老毛桃大白菜也有同样的功能，但是众所周知的那些8384的东西很闹心。这个是开源的解决方案，Github上面可以查阅源代码。</li>
+<li>恋恋EX：也给我们群自家的软件打个小广告，虽然不是鄙人开发的。这个是修改DNF游戏NPK资源的一套开源解决方案。（EX是唯一公开闭源的，现在ES都已经开源了。。。）鄙人Github上面存了这个工具的源代码，仓库是在Koishi_Extractor_English_Translation。原作者Lucky-Koishi那个Github她说不会用。。。</li>
+<li>EagleGet：MSDN我告诉你给的很多系统镜像的是ed2k和磁力链，ed2k现在还可以用迷你迅雷下载，但是磁力链现在很多软件都是不支持的。EagleGet是鄙人找了很久才找到的支持这个磁力链下载的。</li>
+<li>LibreOffice：用不起正版Office又不想用WPS的可以试试这套开源的Office解决方案。</li>
+<li>Wallpaper Engine：“啥都不说了，冲就完事了”。导入自定义的MP4视频，桌面就是极乐净土的舞台！就是还得装个Steam很烦。</li>
+<li>Upupoo：不想花钱买楼上那个的话或者<strong>磁盘空间装不下Steam的话</strong>也可以用这个备用方案。就是这个占用系统资源稍微高一些（即使是屏蔽了那些插件的运行）。</li>
+<li>Vpings Video Wallpaper：同上，系统资源占用介于Wallpaper Engine和Upupoo。</li>
+<li>Native HLS Playback：看电视也可以在浏览器看，如果不想用播放器的话。在浏览器装了这个扩展就可以在浏览器播放.m3u8的直播源了。</li>
+<li>HxD Hex Editor：轻量级的16进制编辑器。对编码支持很好。</li>
+<li>Scanner：平时使用计算机时经常出现C盘空间飘红的情况。这个软件用来分析各个文件和各个目录在分区的占用空间占比，它很形象地使用了多层扇形图来表示文件或者目录的大小占比，就像机械硬盘的碟片一样。之前的各种管家里面也有大文件清理的功能，但是这个软件不仅能分析大文件，还能分析体积较大的文件夹。 </li>
+</ul>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站构建 网站设计</title>
+    <url>/cms/2020/07/11//archivers/13/</url>
+    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
+<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
+<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
+<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
+<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
+<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
+<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
+<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
+<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
+<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
+<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
+<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
+<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
+<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
+<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>国内互联网Flash依赖状况调查</title>
+    <url>/cms/2020/07/13//archivers/15/</url>
+    <content><![CDATA[<h1 id="以下仅为引用现有的观点，不代表本站立场。"><a href="#以下仅为引用现有的观点，不代表本站立场。" class="headerlink" title="以下仅为引用现有的观点，不代表本站立场。"></a>以下仅为引用现有的观点，不代表本站立场。</h1><p>Flash即将在年底停止支持，但是国内依旧有很多平台在依赖Flash，究竟国内还有多少平台还在依赖Flash？</p>
+<p>知乎@松果煲粥 ：大量的办公，报名，教育等公共平台都是用的Flash来运行的，原本我电脑上是根本没装Flash的，但是前几个月发现弟弟上网课的网页居然需要Flash插件才能看。</p>
+<p>知乎 佚名：用flash的什么医学实验模拟课程 医学魔课.泰盟医学虚拟仿真实验教学平台的太烦人了</p>
+<p>CSDN@wujiuqier ：有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？</p>
+<p>知乎@梦沧海 ：无所谓，对flashplayer重度依赖的是内网环境，我单位多个业务系统没了这个就运作不正常。</p>
+<p>B站@wujiuqier ：这里点名长江云这个平台，各大湖北省的省电视台，地市电视台，县市电视台的视频在PC页面还得非要用Flash才能播放，上线一个HLS播放就这么难吗？</p>
+<p>B站@柏木ゆっき ：你不知道这个软件比你想象的更恶心 我为了上网课下的这个 只有中国版能有 然后我发现这个广告弹窗之后当时也给禁用了 结果 网课页面都进去了 几秒之后马上变成系统服务组件没有开启要我去下修复工具[微笑] 想了各种办法都没能给他降服 只要禁用就听不了网课 真就恶心的一批 </p>
+<p>B站@冥土追魂-呱太神医 ：删不了的，一堆政府网站，还有老网站都必须要flash支持，像是很知名的4399，7k7k，QQ空间都需要flash的支持。</p>
+<p>知乎@爱做梦的大傻子 ：mooc课不用flash没办法看课程的ppt！</p>
+<p>知乎 佚名：大量国企和事业单位的PC网页没有彻底放弃Flash；相当的商业网站仍不放弃Flash……</p>
+<p>知乎 佚名：各位电脑大神，每次都是电脑上优慕课网址里面的视频一直要自动下载flash才能观看，这要如何解决啊？[鄙人：就是这个页面，提示文字和这边长江云的提示文字一模一样]</p>
+<p>知乎@天涯羽伏麟 ：国内这些官媒、教育、校内教务的网站大部分还在用flash，不能不开，麻烦死，要那就多下一个浏览器，要嘛就得重新调开flash，无力吐槽。。也不知道是承包给谁做的，运维我都怀疑是校内老师兼职的。</p>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站构建 网站用户</title>
+    <url>/cms/2020/07/12//archivers/14/</url>
+    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
+<h2 id="您的用户所使用的硬件和软件各不相同。"><a href="#您的用户所使用的硬件和软件各不相同。" class="headerlink" title="您的用户所使用的硬件和软件各不相同。"></a>您的用户所使用的硬件和软件各不相同。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="他们使用什么显示器？"><a href="#他们使用什么显示器？" class="headerlink" title="他们使用什么显示器？"></a>他们使用什么显示器？</h1><p>请记住，在 web 上并非所有用户都使用与您相同的显示器。如果您针对 1024x768 分辨率的现实设计网页，那么某些使用低分辨率显示器的访问者在阅读您的网页时就会出现问题。</p>
+<p>尽管某些用户仍然在使用 640x480 或 800x600 分辨率的显示器，但是 1024x768 是低分辨率标准的趋势。</p>
+<p>如果您是拥有极高分辨率的开发人员中的一员，请确保使用了不同的低分辨率显示器来测试您的网页。</p>
+<p>当设计网页布局时有一种明智的方法是，把页面的某个部分设计为可变的尺寸，这样就可以适应更大或更小的分辨率显示器。</p>
+<p>同时需要兼顾移动端的用户，这些用户可能会使用竖屏来浏览网页。</p>
+<p>尤其需要注意的是部分用户可能会设置屏幕字体缩放，尤其是笔记本电脑的用户。请确保使用屏幕字体缩放不会出现网页变形。</p>
+<h1 id="他们使用什么浏览器？"><a href="#他们使用什么浏览器？" class="headerlink" title="他们使用什么浏览器？"></a>他们使用什么浏览器？</h1><p>两种主要的浏览器 (Netscape 和 Microsoft) 都有自己的特征和怪癖，这些都是您在设计网页时必须考虑的。</p>
+<p>如果您很重视您的网站，那么请您不要忘记使用不同类型的浏览器来测试每张页面。</p>
+<p>目前，最常见的浏览器是 Google Chrome （以及使用 Chromium 内核的浏览器，其中包括 Microsoft 的 Edge） 和 Mozilla Firefox。</p>
+<p>此外，某些访问者也许会使用纯文本的浏览器，比如 Lynx，或者他们可能会通过某个类似 AOL 的在线服务来访问您的站点。这些浏览器中的某些可能不会按照您的预想来显示网页。</p>
+<p>明智的做法是，使用严谨的、正式的且正确的 HTML（或 XHTML）。严谨且正确的编码总是有助于浏览器正确地显示您的页面。</p>
+<h1 id="他们安装了什么插件？"><a href="#他们安装了什么插件？" class="headerlink" title="他们安装了什么插件？"></a>他们安装了什么插件？</h1><p>某些网页中的元素，比如声音和视频片断或者其他的多媒体内容，也许需要使用单独的程序（助手应用程序或插件）。</p>
+<p>请不要在您的网页中使用这些元素，除非您能够保证访问者有权使用所需的软件来查看它们。</p>
+<h1 id="怎样帮助残疾人士？"><a href="#怎样帮助残疾人士？" class="headerlink" title="怎样帮助残疾人士？"></a>怎样帮助残疾人士？</h1><p>一些人们拥有严重的视力或听力问题。这些用户也许同样需要访问您站点。</p>
+<p>他们中的一些人会使用盲文点字法或基于语言的浏览器来设法阅读您的站点。请记住，如果您不为他们提供某些基于文本的选择来替代图象和其他图形元素，那么所有的视觉内容都会失去作用。</p>
+<p>为残疾人士设计网站并非易事，但是有一件小事您是可以做到的 - 至少对于弱视的人们来说 - 令您的网页可使用可调节的字体尺寸。</p>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Github Hexo 一键更新</title>
+    <url>/cms/2020/07/18//archivers/16/</url>
+    <content><![CDATA[<p>这个博客换成Hexo后台之后变成了绑定3个仓库：展示仓库，后台仓库，主题仓库。结果每次更新需要输入3对账号密码，很不方便。整合各路搜集到的资料之后总结出来一套一键更新的方案，可以一次性同步后台代码、主题代码和展示代码。</p>
+<ol>
+<li><p>原来那个Next主题代码显然是已经不能再直接用了，即使是把后台代码单独拿出来建仓库，主题代码还是不能用自己修改的那个。把这个位于<code>themes\next</code>目录的主题代码单独拿出来，原来主题代码的目录建一个github仓库！然后把拿出来的主题代码拷回去！提交！</p>
+</li>
+<li><p>按照网上现有的操作步骤设置账号全局的免密更新。现在据说github也有针对单个仓库的免密密钥，但是个人不建议在Hexo博客环境使用单个仓库密钥，毕竟更新一次要更新好几个仓库，不方便管理。<br><br>这里再稍微重复一下。<br><br>在Git Bash里面<code>cd ~; ssh-key gen -t rsa -C &quot;你的邮箱地址&quot;</code>，然后全部回车默认设置。<br><br>继续执行<code>cd ~; cd .ssh; cat id_rsa.pub</code>，把从<code>ssh-rsa</code>开头一直到段落结尾复制。<br><br>在网页打开Github，账号Settings里面SSH and GPG Keys，New SSH Key，名字随便输入，下边的文本域粘贴刚才复制的pub内容。</p>
+</li>
+<li><p>这边设置好以后试一下git push origin发现还是要输入密码。之后查阅资料发现方式不对，最开始git clone的时候用的是 <code>https://github.com/用户名/仓库名</code> 的方式。这叫HTTPS方式，但是上文使用的是SSH方式，不是HTTPS方式。因此需要修改远程仓库地址格式，改成SSH的格式。<br><br>进入仓库的<code>.git</code>目录，编辑里面的<code>config</code>文件。把里面的<code>url</code>从 <code>https://github.com/用户名/仓库名</code> 改成 <code>git@github.com:用户名/仓库名</code> 。<br><br>3个仓库都要这么改！但是展示仓库的地址不在<code>config</code>文件，而是在后台仓库根目录的<code>_config.yml</code>文件。最下边有个<code>deploy</code>，把里面的<code>repo</code>改成 <code>git@github.com:用户名/仓库名</code> 。</p>
+</li>
+<li><p>免密更新配置好以后，编写一键更新的CMD批处理放到项目根目录。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git pull origin master</span><br><span class="line">git commit -m <span class="string">"update"</span></span><br><span class="line">git push origin -u master</span><br><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line">git add .</span><br><span class="line">git pull origin master</span><br><span class="line">git commit -m <span class="string">"update"</span></span><br><span class="line">git push origin -u master</span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ol>
+<ol start="5">
+<li>批处理搞定之后以后可以在编辑了主题代码、后台代码之后在后台仓库根目录直接执行<code>./保存的CMD文件名.cmd</code>即可实现一条命令将展示仓库，后台仓库，主题仓库一并更新。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>中控CR10MW发卡器开发 (C#)</title>
+    <url>/cms/2020/03/31//archivers/3/</url>
+    <content><![CDATA[<p>中控CR10MW提供的两个DLL库, mi.dll, USB.dll, 这两个需要用来作为调用发卡器的控制接口.<br>mi.dll是开发需要调用的接口, USB.dll是前者依赖的DLL.<br>mi.dll提供的API各种函数 (这里用C# 表示)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_OpenComm&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern long OpenComm(ref byte comm, long nBoudrate);</span><br><span class="line"></span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_CloseComm&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int CloseComm(long handle);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_PCDRead&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_PCDRead(int handle, int deviceAddr, byte mode, byte blk_Addr, byte Num_blk, ref byte snr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_PCDWrite&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_PCDWrite(int handle, int deviceAddr, byte mode, byte blk_Addr, byte Num_blk, ref byte snr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;设置通讯地址</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_SetDeviceAddress&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_SetDeviceAddress(int handle, int deviceAddr, byte new_Addr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;计算机的比特率</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_SetBandrate&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_SetBandrate(int handle, int deviceAddr, byte newBaud, ref byte Buffer);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;设置灯的工作状态，包括，灯亮的周期以及循环的次数</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_ControlLED&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_ControlLED(int handle, int deviceAddr, byte freq, byte duration, ref byte Buffer);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;设置灯的工作状态，包括，灯亮的周期以及循环的次数</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_ControlBuzzer&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_ControlBuzzer(int handle, int deviceAddr, byte freq, byte duration, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;读取由厂家预设的1个字节的读卡器地址和8个字节序列号</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_GetSerNum&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_GetSerNum(int handle, int deviceAddr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;读取由厂家预设的1个字节的读卡器地址和8个字节序列号</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_SetSerNum&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_SetSerNum(int handle, int deviceAddr, ref byte newvalue, ref byte Buffer);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;自动读取卡Ultralight的卡号</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;UL_Request&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int UL_Request(int handle, int deviceAddr, byte mode, ref byte snr);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;选择卡，使卡进入被中断的状态…</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;MF_Halt&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int MF_Halt(int handle, int deviceAddr);</span><br><span class="line">&#x2F;&#x2F;读取卡中指定扇区的数据</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;UL_HLRead&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int UL_HLRead(int handle, int deviceAddr, byte mode, byte blk_Addr, ref byte snr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;写取卡中指定扇区的数据</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;UL_HLWrite&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int UL_HLWrite(int handle, int deviceAddr, byte mode, byte blk_Addr, ref byte snr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;写取卡中指定扇区的数据</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;ISO15693_Inventory&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int ISO15693_Inventory(int handle, int deviceAddr, ref byte snr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;读取数据</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_ISO15693Read&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_ISO15693Read(int handle, int deviceAddr, byte flags, int blk_Addr, int Num_blk, ref byte uid, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;写数据</span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_ISO15693Write&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_ISO15693Write(int handle, int deviceAddr, byte flags, int blk_Addr, int Num_blk, ref byte uid, ref byte Buffer);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_PCDInitVal&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_PCDInitVal(int handle, int deviceAddr, byte mode, byte Num_blk, ref byte snr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_PCDDec&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_PCDDec(int handle, int deviceAddr, byte mode, byte Num_blk, ref byte snr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;API_PCDInc&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int API_PCDInc(int handle, int deviceAddr, byte mode, byte Num_blk, ref byte snr, ref byte Buffer);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[System.Runtime.InteropServices.DllImport(&quot;mi.dll&quot;, EntryPoint &#x3D; &quot;GET_SNR&quot;, ExactSpelling &#x3D; true, CharSet &#x3D; System.Runtime.InteropServices.CharSet.Ansi, SetLastError &#x3D; true)]</span><br><span class="line">public static extern int GET_SNR(int handle, int deviceAddr, byte mode, byte half, ref byte snr, ref byte Buffer);</span><br></pre></td></tr></table></figure>
+
+<p>读取卡号的代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int ret &#x3D; 0;</span><br><span class="line">int blk_Addr &#x3D; 0;</span><br><span class="line">int devAddr &#x3D; 0;</span><br><span class="line">byte mode &#x3D; 0;</span><br><span class="line">byte Num_blk &#x3D; 0;</span><br><span class="line"></span><br><span class="line">byte[] asnr &#x3D; new byte[21];</span><br><span class="line">byte[] aRecvBuffer &#x3D; new byte[2049];</span><br><span class="line"></span><br><span class="line">mode &#x3D; 0x0;</span><br><span class="line">&#x2F;&#x2F;设备地址，如果只有一个</span><br><span class="line">devAddr &#x3D; Convert.ToInt32(myVal(&quot;00&quot;));</span><br><span class="line">&#x2F;&#x2F;读取开始地址</span><br><span class="line">blk_Addr &#x3D; 0;</span><br><span class="line">int hComm &#x3D; 0;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;读取块数</span><br><span class="line">Num_blk &#x3D; 1;</span><br><span class="line">&#x2F;&#x2F;一个指针，传递的是六个字节的密钥</span><br><span class="line">ret &#x3D; Convert.ToInt32(hexToBin(&quot;FF FF FF FF FF FF&quot;, ref asnr));</span><br><span class="line">ret &#x3D; InterviewCardReader.API_PCDRead(0, devAddr, mode, (byte)blk_Addr, Num_blk, ref asnr[0], ref aRecvBuffer[0]);</span><br><span class="line">uint cardNum &#x3D; BitConverter.ToUInt32(asnr, 0);</span><br><span class="line">MessageBox.Show(&quot;卡号: &quot; + cardNum);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public int myVal(string str)</span><br><span class="line">&#123;</span><br><span class="line">    int retVal &#x3D; 0;</span><br><span class="line"></span><br><span class="line">    if (str.Length &#x3D;&#x3D; 1)</span><br><span class="line">    &#123;</span><br><span class="line">        if (string.CompareOrdinal(str, &quot;0&quot;) &gt;&#x3D; 0 &amp;&amp; string.CompareOrdinal(str, &quot;9&quot;) &lt;&#x3D; 0)</span><br><span class="line">        &#123;</span><br><span class="line">            retVal &#x3D; Convert.ToInt32(NumericHelper.Val(str));</span><br><span class="line">        &#125;</span><br><span class="line">        else if (string.CompareOrdinal(str, &quot;a&quot;) &gt;&#x3D; 0 &amp;&amp; string.CompareOrdinal(str, &quot;z&quot;) &lt;&#x3D; 0)</span><br><span class="line">        &#123;</span><br><span class="line">            retVal &#x3D; Microsoft.VisualBasic.Strings.Asc(str) - Microsoft.VisualBasic.Strings.Asc(&quot;a&quot;) + 10;</span><br><span class="line">        &#125;</span><br><span class="line">        else if (string.CompareOrdinal(str, &quot;A&quot;) &gt;&#x3D; 0 &amp;&amp; string.CompareOrdinal(str, &quot;Z&quot;) &lt;&#x3D; 0)</span><br><span class="line">        &#123;</span><br><span class="line">            retVal &#x3D; Microsoft.VisualBasic.Strings.Asc(str) - Microsoft.VisualBasic.Strings.Asc(&quot;A&quot;) + 10;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    return retVal;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Hardware-Development</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Just make a contract with me, and become a Magical Girl!</title>
+    <url>/cms/2020/07/06//archivers/11/</url>
+    <content><![CDATA[<p><a href="#"><img src="https://img.shields.io/badge/Source-Web-lightgreen" alt="Web"></a></p>
+<p>That’s horrible…<br><br>You can’t help it.<br><br>One person can’t handle this alone.<br><br>But she knew that and came here anyway.<br><br>No, this isn’t right, it’s too much for her…<br><br>If she gives up, it’s over.<br><br>But, you have the power to change this destiny.<br><br>All this tragedy, all this destruction, you can change it, if you want.<br><br>The power to do so lies within you.<br><br>I can change it?<br><br>Even someone like me can do something to help?<br><br>Can I really change how this ends?<br><br>Of course, you can.<br><br>Just make a contract with me, and become a Magical Girl!<br><br><br><br>That was a crazy dream…<br><br>Good morning, Dad.<br><br>Oh, good morning, Madoka.<br><br>Mom up yet?<br><br>Tatsuya’s waking her up.<br><br>He might need some help, though.<br><br>Okay.<br><br>Mama, mama!<br><br>Wake up, wake up!<br><br>C’mon, mama!<br><br>Mama, mama!<br><br>Rise and shine!!<br><br>Urghhhhhhhh!!<br><br>……What the…?<br><br>Mama woke up, yay!<br><br>What’s happening in your world?<br><br>Well, Hitomi got another love letter.<br><br>It’s the second one this month.<br><br>Huh, if he can’t say to her face, he’s not worth it.<br><br>How’s Kazuko doing?<br><br>I think her new boyfriend’s working out.<br><br>She can’t seem to talk about anything else during homeroom.<br><br>This week’s their three months anniversary, so I guess that’s the record.<br><br>Oh I hope they can make it.<br><br>They’re at a critical stage in their relationship.<br><br>They are?<br><br>If it’s not the real thing, this is usually when it starts to fall apart.<br><br>But if they made it this far, they should be okay for another year.<br><br>Oh…<br><br>I look fabulous.<br><br>I wonder which ribbon I should wear.<br><br>Really?<br><br>It’s not too flashy?<br><br>There’s no such thing as too flashy, hon.<br><br>A woman can’t afford to get teased ‘cause she looks sloppy.<br><br>Hah, perfect!<br><br>Your secret admirers are gonna get all wobbly and knees.<br><br>I don’t have secret admirers.<br><br>But you should dress and behave like you do.<br><br>That’s the secret every pretty girl should know.<br><br>Hehe..<br><br>Ah…<br><br>Uh-oh!<br><br>Yay, safe!<br><br>Now be good, and eat it all up, okay?<br><br>Okay!<br><br>Hey honey, some more coffee?<br><br>Uh…<br><br>I better not.<br><br>All right!<br><br>I’m off to work, everyone.<br><br>Have a good day, honey.<br><br>Bye, mama.<br><br>Hey, you’re gonna be late if you don’t hurry.<br><br>Huh?!<br><br>Oh yeah.<br><br>See you later!<br><br>Have a great day!<br><br>Have a great day!<br><br><br><br>Good morning, guys!<br><br>Good morning.<br><br>What took you so long, Madoka?<br><br>Look at you with your cute ribbons.<br><br>You think so?<br><br>They’re not too flashy?<br><br>I think they look lovely.<br><br>My mom said that if a boy can’t say he loves you to your face, he’s not worth your time.<br><br>Your mom is way cool, Madoka!<br><br>I mean she’s smart, gorgeous and successful.<br><br>If only I could make up my mind as easily as that.<br><br>If only everyone could have your problems.<br><br>You know, she is right.<br><br>I wish someone would send me a love letter some time.<br><br>It’d be nice to get one.<br><br>Ah, now I get it.<br><br>You want to be as beautiful and popular as Hitomi, don’t ya?<br><br>I bet that’s why you’re wearing those ribbons to change your image.<br><br>That’s not true!<br><br>My mom picked these out and…<br><br>You tricked your mom to tell you the secret to being popular, didn’t you?<br><br>I’m not gonna let that happen!<br><br>Ha!<br><br>No!<br><br>No, stop it!<br><br>No!<br><br>You’re just too cute!<br><br>I’m not gonna let you be popular with the boys.<br><br>You’re mine, Madoka!<br><br>Mine, mine, mine.<br><br>Ahem.<br><br>Ahem.<br><br><br><br>I have a very important issue to discuss today.<br><br>So eyes front, ears open!<br><br>The correct way to fry an egg is sunny side up or down.<br><br>Come on, Nakazawa. I don’t have all day.<br><br>I… I gue… uh…<br><br>You can fry either way, can’t you?<br><br>Yes, precisely.<br><br>You can fry either way!<br><br>Therefore, go through without saying that you should never judge a women’s beauty by the way she fries her eggs.<br><br>Remember, girls, do not associate with men who refuse to eat eggs that’s been fried sunny side down.<br><br>I guess it didn’t work out.<br><br>But what gave you that idea?<br><br>And you boys, better make sure you don’t grow up to be men who complain about how the damn eggs are cooked, understand?!<br><br>Well, now that that’s out of the way, let’s give a big warm welcome to our new classmate!<br><br>Uh, maybe that should’ve come first?<br><br>Come in, Miss Akemi.<br><br>Don’t be shy!<br><br>Wow!<br><br>Wow, she’s super gorgeous.<br><br>Huh?<br><br>No way!<br><br>It couldn’t be!<br><br>Why don’t you tell the class a little bit about yourself.<br><br>I’m Homura Akemi.<br><br>It’s nice to meet you.<br><br>Uh…<br><br>Um…<br><br>Uh, Miss Akemi?<br><br><br><br>What school did you go to before coming to this one?<br><br>I went to a private Catholic school in Tokyo.<br><br>Were you in a club?<br><br>How about sports?<br><br>Were you on any teams?<br><br>No, not really.<br><br>Your hair is really beautiful!<br><br>What kind of shampoo do you like to use?<br><br>There’s something awfully mysterious about that girl, don’t you think?<br><br>Hey, Madoka, do you know that girl?<br><br>I could’ve sworn to you she was glaring at you when she was in front of the class.<br><br>Well, I’m not really sure…<br><br>I’m sorry.<br><br>I think today’s been a little stressful for me.<br><br>I’m not feeling very well.<br><br>May I please go to the Nurse’s Office?<br><br>Ah, sure.<br><br>If you want, I can take you over there.<br><br>Good idea!<br><br>Can I come too?<br><br>Please don’t trouble yourselves.<br><br>I’ll ask the Nurse’s Aide to take me.<br><br>Huh?<br><br>Miss Madoka Kaname.<br><br>You are the Nurse’s Aide for this class, are you not?<br><br>Huh?<br><br>Um, well…<br><br>I uh…<br><br>Would you please come with me?<br><br>To the Nurse’s Office.<br><br>Um, I…was…<br><br>H-How did you know I was the Nurse’s Aide for the class?<br><br>Ms Saotome told me that you were.<br><br>Oh, right, of course she did.<br><br>By the way, the Nurse’s Office is over there.<br><br>This way, right?<br><br>Huh?<br><br>Uh, yeah, that’s right.<br><br>But, um…<br><br>So anyway, how do you know your way there?<br><br>I mean you’re new here and all.<br><br>Um…Miss, um…Akemi?<br><br>Call me Homura.<br><br>Oh, Homura.<br><br>What is it?<br><br>Uh, nothing. It’s just that…you have an unusual name.<br><br>But not in a bad way or anything, I was just thinking how it sounded cool…<br><br>for a first name, I mean.<br><br>Madoka Kaname, do you treasure the life you currently live?<br><br>And do you consider your family and your friends precious?<br><br>Oh, well, I uh…<br><br>Of course I do.<br><br>I mean I-I do.<br><br>My family and my friends, I love them very much and yes they’re very precious to me.<br><br>Do you mean it?<br><br>Absolutely.<br><br>I couldn’t lie about that!<br><br>Good.<br><br>Because if that’s the truth, then you wouldn’t try changing the life you have or the person you are.<br><br>Otherwise, you’d lose everything you love.<br><br>Huh?<br><br>Don’t change.<br><br>Stay as you are, Madoka Kaname.<br><br>Stay as you are, forever.<br><br><br><br>Wow…<br><br>Wow…<br><br>She breaks the record of every school in this city?!<br><br>I can’t believe you can jump that high!<br><br><br><br>She said what?!<br><br>It doesn’t make any sense, does it?<br><br>When I was thinking she was this awesome girl but it turns out she is a total psycho!<br><br>Ah! I hope she doesn’t think acting like a weird transfer student is cool.<br><br>That’s so MOE? It makes me sick!<br><br>This has to be misunderstanding.<br><br>Are you positive you’ve never met her before?<br><br>Hmm…<br><br>I guess the sensible answer will be “yes.”<br><br>Okay, what do you mean by sensible?<br><br>Either you met her or you didn’t?<br><br>Well, it’s like…<br><br>You’re gonna think I’m weird but I first met her in a dream or something.<br><br>Hahahaha… That’s awesome!<br><br>An anime character in you’s popping out, too!<br><br>Come on, that’s mean!<br><br>This is really bugging me!<br><br>I got it all figured out.<br><br>You guys knew each other in the past life and the fate is reached across time and space to bring you back together again.<br><br>In your dream, what happened when you met her?<br><br>That’s the thing. I can’t really remember what happened in it.<br><br>All I know is that was really strange and spooky.<br><br>If you want my opinion, I think it’s entirely possibly you met Miss Akemi somewhere before.<br><br>Huh?!<br><br>You might not remember meeting her, but your subconscious certainly took note of it.<br><br>When you were having that dream, your subconscious simply brought up the image of her.<br><br>Seriously?<br><br>That’s the heck of coincidence, don’t you think?<br><br>Uh, perhaps.<br><br>Uh-oh, look how late it’s gotten.<br><br>Excuse me, but I really should be going now.<br><br>Is it Piano today or classical dance?<br><br>Tea Ceremony lessons today.<br><br>Even though our Exams are coming up, my mother still wants me to continue taking them.<br><br>Yeah, there’s another reason to be glad I wasn’t born a rich girl.<br><br>We should get going too.<br><br>Madoka, you wanna hit the music store on the way home?<br><br>Okay.<br><br>Something for Kyosuke again?<br><br>Yeah, maybe.<br><br>Have fun shopping!<br><br>Bye bye!<br><br>Later!<br><br><br><br>Help me!<br><br>Huh?<br><br>Madoka, help me!<br><br>Huh?<br><br>What?!<br><br>Please…help me!<br><br>Huh?<br><br>Hello?<br><br>Who are you?<br><br>Help me..!<br><br>Where are you?<br><br>Um, do I know you?<br><br>Help me!<br><br>Is that you?<br><br>Help me…<br><br>Homura?<br><br>Get away from that creature.<br><br>B-But he’s really hurt.<br><br>Leave him alone.<br><br>Why are you trying to hurt him?<br><br>This doesn’t concern you.<br><br>But he was calling me!<br><br>I could hear him calling my name!<br><br>He was asking me to help him!<br><br>Really?<br><br>Over here, Madoka!<br><br>Sayaka!<br><br>Why is this happening now?<br><br>Now she’s attacking you on cosplay?<br><br>What’s her problem?<br><br>And what’s that thing you’re carrying?<br><br>Looks like a stuffed animal. Is it alive?<br><br>I don’t know.<br><br>I don’t know why this is happening, but we have to save him!<br><br>Where’d the exit go?<br><br>Where are we?<br><br>I don’t like this place.<br><br>Everything keeps changing!<br><br>Oh, crap!<br><br>What the heck’s going on?!<br><br>There’s something over there!<br><br>Is this some kinda joke, right?<br><br>I’m stuck in a bad dream, but I am dreaming, right?<br><br>Right, Madoka?!<br><br>What’s happening?<br><br>I don’t know.<br><br>That was close, wasn’t it?<br><br>But don’t worry, you’re safe now.<br><br>Thank goodness.<br><br>You rescued Kyubey for me.<br><br>I’m very grateful.<br><br>He’s a dear friend of mine and I was so worried.<br><br>He called out to me.<br><br>I could hear his voice inside my head.<br><br>Ahh, I see.<br><br>I can tell by your uniforms that you both go to Mitakihara Middle School.<br><br>Are you 8th graders?<br><br>Who are you?<br><br>Oh, that’s right.<br><br>Maybe I should introduce myself.<br><br>Actually, it’s going to have to wait a bit.<br><br>Please excuse me.<br><br>I have to wrap this up first.<br><br>Wow, amazing!<br><br>We’re back!<br><br>The witch managed to escape.<br><br>If you wanna finish it off, you’d better go after it.<br><br>I won’t mind if you take it this time.<br><br>But I still have work to do here.<br><br>You don’t understand, do you?<br><br>I’m telling you I’m willing to overlook this.<br><br>Honestly, don’t you think it would be best if we didn’t do this right now?<br><br>Thank you, Mami!<br><br>You’re a lifesaver!<br><br>I’m not the one you should be thanking.<br><br>They saved you.<br><br>I was just passing by.<br><br><br><br>Thank you very much!<br><br>My name is Kyubey.<br><br>Were you the one who was calling for help?<br><br>That’s right, Madoka Kaname,<br><br>And Sayaka Miki.<br><br>Wow, hang on a sec.<br><br>How do you know our names?<br><br>I came here because I have a favor to ask of you both.<br><br>Huh?<br><br>What do you mean?<br><br>I want you to make contracts with me, and become magical girls!<br></p>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>恋恋Ex黑猫.4 试衣间教程</title>
+    <url>/cms/2020/06/20//archivers/9/</url>
+    <content><![CDATA[<p>摘自<a href="https://bbs.colg.cn/thread-7875151-1-1.html" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/%E6%81%8B%E6%81%8B%E3%81%AEEx%E9%BB%91%E7%8C%AB.4.4-brightgreen" alt="恋恋のEx黑猫.4.4"></a> 作者：<a href="https://github.com/Lucky-Koishi" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/GitHub-Lucky--Koishi-brightgreen" alt="GitHub-Lucky-Koishi"></a></p>
+<h1 id="试衣间的基础使用方式"><a href="#试衣间的基础使用方式" class="headerlink" title="试衣间的基础使用方式"></a>试衣间的基础使用方式</h1><p>首先按照职业对试衣间进行本地化，然后就能使用了。（详情：）<br>这篇教程就建立在试衣间本地化的基础上，对试衣间的基础功能进行描述。</p>
+<h2 id="1-职业选择和装扮部位选择"><a href="#1-职业选择和装扮部位选择" class="headerlink" title="1. 职业选择和装扮部位选择"></a>1. 职业选择和装扮部位选择</h2><p>职业选择按钮位于试衣间界面最左上方的像素头像上。点击它即可切换职业。</p>
+<p>每次进行职业选择时，试衣间都会根据选择后的职业进行初始化。<br>初始化的时候会更新部件列表和展示图，并且部位选择将默认为衣服。<br>角色初始化时，除了皮肤、发型、上衣、下装、鞋子、武器外，其他部件均为脱下状态。</p>
+<p>装扮部位选择按钮则位于像素头上右侧的10个按钮上。<br>依次为头饰、发型、面部、胸部、上衣、下装、腰带、鞋子、皮肤、武器。</p>
+<p>点击对应的按钮，下面的列表和右侧的展示图就会进行相应的更新。<br>如果要选择武器，则需要点击武器按钮，然后在下拉菜单中选择对应的武器种类即可。</p>
+<h2 id="2-部件切换和浏览"><a href="#2-部件切换和浏览" class="headerlink" title="2. 部件切换和浏览"></a>2. 部件切换和浏览</h2><p>点击列表中的条目就可以切换对应部件的装扮。</p>
+<p>如果想脱下，选择列表中的第一项即“无”即可，皮肤、上衣、下装、武器等默认未脱下的装扮也可以进行脱下。</p>
+<p>点击列表项后，有关该装扮的信息会显示在列表下面的文本框中。</p>
+<p>列表项中的装扮名称默认为“未命名+部件名+装扮的ID”，如果在映射表中，可以搜索到它的名字，则会显示名字。<br>如果名字后带有“[…]”的字样，则说明映射表中不止一条装扮与它对应（例如远古二·三的武器）。</p>
+<p>对于浏览，可以进行单帧切换，也可以选择动作使角色按照选定的动画进行播放。</p>
+<p>注意：角色进行动画动作的时候不要切装扮切的太快哦，否则偶尔会导致崩溃。</p>
+<h2 id="3-通过展示图浏览"><a href="#3-通过展示图浏览" class="headerlink" title="3. 通过展示图浏览"></a>3. 通过展示图浏览</h2><p>展示图是将某个角色的单件装扮以模特的方式进行罗列出来，一般为站姿。<br>但武器的展示是例外的（因为有些角色的站姿会挡住武器甚至不会掏出武器，如圣职者和神枪手）。</p>
+<p>如果试衣间没有进行本地化，则展示图默认为不显示的，而是以一个刷新标志的按钮代替；<br>当资源NPK有新的装扮出现的时候（即出现了之前没有的ID），新的装扮的位置也会如此。<br>这个时候，可以右键点击“展示图”，然后在弹出菜单里选择“更新展示图”即可。</p>
+<p>也可以使用工具栏上的“更新”按钮（左数第六个，为蓝绿色）对本职业该部件进行批量更新。</p>
+<p>尽管如此，无论展示图是否进行了更新，点击展示图（或未更新展示图时的按钮）均会对穿上对应的装扮。</p>
+<p>此外，展示图的右键弹出菜单还有一项为“登记装扮信息”，可以在映射表中为该装扮登记名称，并为其选择图标。</p>
+<h2 id="4-通过图标浏览"><a href="#4-通过图标浏览" class="headerlink" title="4. 通过图标浏览"></a>4. 通过图标浏览</h2><p>图标则是通过点击装扮的图标对装扮进行选择。<br>点击工具栏上的“图标模式”按钮（左数第四个，为黄绿色）可以切换到图标模式。</p>
+<p>（图标的示意图因为论坛不让上传那么大附件无法上传，大家可以在试衣间界面中体验）</p>
+<p>如果未对图标进行本地化，否则不会显示，此时可以点击工具栏的“刷新”按钮，就会在资源文件夹下对应的NPK提取图标。<br>由于装扮本身不包含图标信息，所以装扮和图标的对应关系需通过一个映射表来进行表达。<br>该映射表须由用户自行编辑、增加和维护；这不是一个简单的工作，<br>但是目前黑猫.4.1提供了截至2020年年初所有装扮（含武器）的映射表，所以用户们目前所做的就是有新时装新武器自行追加就可以了（后期会出教程）。<br>图标上有时候会出现叹号的字样，这里的叹号表示无法显示该图标对应的装扮，点击其会视为脱下，其中：<br>红色的叹号：映射表内没有任何装扮使用该图标。如果映射表本身是空的，则全部的图标都会显示红色的叹号。<br>蓝色的叹号：映射表内存在某个装扮使用该图标，但是该装扮在资源目录中找不到。该符号在使用跨服映射表或资源文件的时候较为常见。</p>
+<p>如果没有叹号，点击对应的图标就会将对应的装扮试穿了。<br>如果在图标模式下，想切回展示图模式，点击工具栏上的“展示图模式”按钮（左数第三个，未选中时为黄色）就切回展示图模式了。</p>
+<h2 id="5-更改展示图的大小"><a href="#5-更改展示图的大小" class="headerlink" title="5. 更改展示图的大小"></a>5. 更改展示图的大小</h2><p>有些部件太大了，小展示图显示不下？<br>或者有些部件太小了，想在一页中多显示几个？<br>请点击工具栏上的“切换展示图尺寸”按钮（左数第一个，为红色）进行切换即可。<br>小的展示图每页的显示多些；大显示图虽然每页显示的内容少些，但是可以看到全貌，适用于圣职者武器等大件的展示。</p>
+<h2 id="6-切换TN"><a href="#6-切换TN" class="headerlink" title="6. 切换TN"></a>6. 切换TN</h2><p>试衣间默认显示的装扮为未HX的。<br>如果想试穿已HX（即带“(tn)”字样的）的装扮，点击工具栏上的“和谐开关”（左数第二个，为橙色）按钮即可。</p>
+<h2 id="7-套装功能"><a href="#7-套装功能" class="headerlink" title="7. 套装功能"></a>7. 套装功能</h2><p>工具栏上的“套装工具”按钮包含的关于套装登记的功能，可以将装扮登记为套装，并生成套装共享码供其他人使用。<br>详细的教程会在过后放出。</p>
+<h2 id="8-补丁制作相关"><a href="#8-补丁制作相关" class="headerlink" title="8. 补丁制作相关"></a>8. 补丁制作相关</h2><p>工具栏上的“补丁制作工具”包含了一些用于装扮补丁制作的便利功能。<br>其中最常用的应该是第一个，即将装扮按照图层顺序依次导入到当前的EX内（使用该功能前请注意自己正在做的补丁是否保存，会覆盖的）。<br>装扮图层顺序仅为参考建议装扮次序，偶尔会有穿模现象，需要制作者们自行进行调节。</p>
+<p>其他功能就略为傻瓜式的了，下面也介绍一下：</p>
+<ul>
+<li>生成易于制作换装类的NPK文件<br>在EX中生成一个V4的本体图层和一个V2的隐藏图层，而其他IMG均为这俩图层的引用（衣服引用本体图层，其他引用隐藏图层）。<br>制作的时候，只要将本体图层替换为其他IMG（一般是已拼合的另一套装扮的IMG），就可以实现该时装改其他时装的补丁。<br>注意：皮肤不包含在内。</li>
+</ul>
+<p>（生成易于制作换装类的NPK文件的示意图因为论坛不让上传那么大附件无法上传，大家可以在软件中自行尝试）</p>
+<ul>
+<li>生成隐藏当前装扮的NPK文件<br>即反补丁，打上该补丁后，该时装就会被全数隐藏。该NPK内的“本体图层.img”本身没有任何用途，但是可作为参考IMG使用。</li>
+</ul>
+<p>（生成隐藏当前装扮的NPK文件的示意图因为论坛不让上传那么大附件无法上传，大家可以在软件中自行尝试）</p>
+<ul>
+<li>生成全时装改当前装扮的NPK文件<br>即一键生成全时装补丁，该补丁将当前职业的所有装扮（根据资源目录下NPK计算）均隐藏，并将所有皮肤文件均改为该时装，以实现目的。<br>这个补丁的所有IMG均采用引用方式，因此体积较小（KB级）。<br>同理，将这个文件中的“本体图层.IMG”改为其他IMG，就可以实现全职业改其他时装的补丁。</li>
+</ul>
+<p>（生成全时装改当前装扮的NPK文件的示意图因为论坛不让上传那么大附件无法上传，大家可以在软件中自行尝试）</p>
+<h2 id="9-本地化相关"><a href="#9-本地化相关" class="headerlink" title="9.本地化相关"></a>9.本地化相关</h2><p>本地化就是自动生成试衣间所用的展示图和图标，根据资源文件提取，按钮位于工具栏中最后一个按键。<br>一般来说第一次使用试衣间运行一次后就不用再运行了，新出现的装扮可以使用右键点击展示图更新的方式进行局部的本地化。<br>具体的内容在0号教程里都有说了。</p>
+<p>展示图设定和映射表相关内容会在以后的教程中详细讲解。</p>
+<h1 id="试衣间的本地化与映射表"><a href="#试衣间的本地化与映射表" class="headerlink" title="试衣间的本地化与映射表"></a>试衣间的本地化与映射表</h1><h2 id="0-前言"><a href="#0-前言" class="headerlink" title="0.前言"></a>0.前言</h2><p>我们知道，网络上的试衣间大都有个服务器用来储存试衣间里的相关数据，<br>因此，如果要把试衣间搬到本地来，就需要在本地硬盘上开辟一块空间用来存储这些数据。<br>这个过程便称为试衣间的本地化。</p>
+<h2 id="1-试衣间所使用的本地文件"><a href="#1-试衣间所使用的本地文件" class="headerlink" title="1.试衣间所使用的本地文件"></a>1.试衣间所使用的本地文件</h2><p>试衣间的本地文件主要包含两个部分，展示图和映射表。</p>
+<p>展示图是预先生成好的样式图，可由试衣间直接进行读取浏览而省去解析的时间。<br>它可以由软件根据提取资源NPK中的贴图来进行生成。<br>在第一次使用试衣间时，展示图是不存在的，因此试衣间里提供本地化功能来进行展示图的生成，</p>
+<p>生成的文件存储在软件的输出目录下的Avatar文件夹里，由“巨大”、“大”、“中”、“小”、“图标”五个子文件夹构成，<br>存储的文件名为“部件+ID号”（图标为“部件+帧号”），格式为PNG。<br>试衣间里的展示图显示的就是这些图片的内容。<br>PS.也就是说，展示图生成后如果你手动修改这些文件，那试衣间里展示的也是你修改后的图。</p>
+<p>映射表是以职业命名的一系列文本文件，里面以逗号分隔的方式存储装扮ID、装扮名称和图标的对应关系。<br>由于这些信息无法从资源NPK中直接获得，因此软件在第一次启动试衣间时，会生成对应的格式，而具体内容需要玩家自己填入。<br>填入的方式可以是直接打开文件进行编辑，也可以使用软件带的某些接口进行更为直观地编辑。<br>这些映射表文件同样存储在软件的输出目录下的Avatar文件夹里，<br>存储的文件名为“职业名+装扮表”，格式为TXT。<br>试衣间根据映射表确定的信息有很多，例如装扮的名称和对应的图标，套装名称和包含部件等。<br>目前最全的映射表整合到黑猫.4.1的发布包里，更新到2020年4月（包含装扮和武器信息，不包含套装）；<br>之后的映射表就要靠用户自己来进行追加和维护了。<br>PS.这份映射表如果产生乱码，就打开这个TXT，另存为并选择ascii编码（也可能是UTF8忘记了总之都试试），就OK了。</p>
+<h2 id="2-展示图的生成方式"><a href="#2-展示图的生成方式" class="headerlink" title="2.展示图的生成方式"></a>2.展示图的生成方式</h2><p>软件总共提供了3种展示图的生成方式，单张生成、单部件生成、单职业生成、自由生成。</p>
+<p>单张生成：右键点击试衣间的未更新的（或已更新的）展示图，在下拉菜单中选择“更新展示图”即可。<br>单张生成常用于资源目录的NPK中存在追加装扮的情形，届时试衣间内的展示图也会自动腾出位置，以便玩家为其生成展示图。</p>
+<p>单部件生成：点击工具栏上的“更新”按钮，在弹出的询问对话框中选择“确定”即可。<br>单部件生成用于生成目前选择职业的目前浏览的部件的所有展示图；在图标模式，也适用于生成该职业该部件的所有图标。</p>
+<p>单职业生成：点击工具栏上的“本地化设置”按钮，在弹出菜单中选择“对本职业进行本地化”，并点击“确定”。<br>单职业生成用于生成某一职业的所有部件的展示图和所有图标，如果您使用试衣间只热衷于制作一个职业的补丁的时候，可以选择该方式进行生成。</p>
+<p>自由生成：点击工具栏上的“本地化设置”按钮，在弹出菜单中选择“对全职业进行本地化”，根据需要进行选择。<br>自由生成顾名思义就是自由度较高，可以选择生成哪些内容（时装展示图、武器展示图、时装图标、武器图标），哪些职业，按需生成。</p>
+<h2 id="3-映射表的文件格式"><a href="#3-映射表的文件格式" class="headerlink" title="3.映射表的文件格式"></a>3.映射表的文件格式</h2><p>映射表文件在第一次使用试衣间的时候就会自动生成在输出目录下的，Avatar文件夹下，并职业进行区分。<br>每个职业都有个映射表文本文件存储相关信息，这些信息依次包括套装信息、装扮信息、武器信息。<br>在试衣间中，可以通过点击工具栏上的“本地化设置”按钮，然后点击“打开映射表文件”进行快捷地打开。<br>它的格式如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[suit]</span><br><span class="line">套装信息</span><br><span class="line">[avatar,cap]</span><br><span class="line">头饰信息</span><br><span class="line">[avatar,hair]</span><br><span class="line">发型信息</span><br><span class="line">……</span><br><span class="line">[weapon,武器类型缩写1(例如rod)]</span><br><span class="line">武器类型1信息</span><br><span class="line">[weapon,武器类型缩写2(例如staff)]</span><br><span class="line">武器类型2信息</span><br><span class="line">……</span><br></pre></td></tr></table></figure>
+
+<p>下面介绍一下这些信息的存储格式。</p>
+<p>套装信息：存储这个职业的套装名，每一行为一条，格式为：<br>套装名,头饰ID,发型ID,面部ID,胸部ID,上衣ID,下装ID,腰带ID,鞋ID,皮肤ID<br>复制代码</p>
+<p>其中，逗号均为半角逗号，套装名为套装的名称（不得带半角逗号，如果套装名需要逗号则使用全角），<br>各部件的ID就是各部件的ID号，如果不使用该部件的话，填-1。<br>以下是个例子：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">初音未来的装扮,-1,18200,16300,17000,20400,18400,-1,18400,0</span><br></pre></td></tr></table></figure>
+
+<p>头饰、发型等信息：存储这些装扮的信息，每一行为一条，格式为：<br>装扮ID,图标文件名,装扮名称<br>复制代码<br>其中，逗号均为半角逗号，装扮名称为该装扮的名称（不得带半角逗号，如果需要逗号则使用全角），<br>装扮ID就是这个装扮的ID号，图标文件名为Avatar\图标\对应职业目录下的图标文件名（不带扩展名）。<br>注意每个部件的条目一定要写在对应的标签下。<br>以下是个例子：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1700,头饰36,红色猫咪头饰</span><br></pre></td></tr></table></figure>
+
+<p>武器信息：存储武器的信息，每一行为一条，格式为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">武器装扮ID,图标文件名,武器(装扮)名称</span><br></pre></td></tr></table></figure>
+<p>其中，逗号均为半角逗号，武器(装扮)名称名称为该武器的名称（不得带半角逗号，如果需要逗号则使用全角），<br>武器装扮ID就是这个武器装扮的ID号，图标文件名为Avatar\图标\对应职业目录下的图标文件名（不带扩展名）。<br>注意每个武器的条目一定要写在对应的武器的标签下。<br>以下是个例子：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">0,法杖45,威利的戒言法杖</span><br></pre></td></tr></table></figure>
+
+<p>PS.这里面，武器标签里的缩写是根据职业进行确定的，为该职业的NPK文件名所带的缩写，例如lswd、sswd等。<br>这里有一点有意思的地方。在资源NPK文件中，鬼剑、格斗系等武器并不是按照种类严格区分的；<br>例如光是短剑就有sswd、gemswd、boneswd等几种了，<br>而映射表内的标签使用的武器类型缩写采用的正是NPK文件名中的缩写，所以鬼剑的武器标签就会有10个之多。<br>相比之下，图标的种类是跟武器种类完全一致的，因此下面这种现象是正常的，虽然同为短剑却被分成了两类导致看上去很奇怪。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[weapon,boneswd]</span><br><span class="line">0,短剑3,骨剑</span><br><span class="line">1,短剑9,波刃骨剑</span><br><span class="line">2,短剑15,萨乌塔的椎骨剑</span><br><span class="line">3,短剑6,骸麒魔剑</span><br><span class="line">……</span><br><span class="line">[weapon,gemswd]</span><br><span class="line">0,短剑21,震波剑</span><br><span class="line">1,短剑16,卢克西的紫炎波刃剑</span><br><span class="line">2,短剑18,苍月剑</span><br><span class="line">3,短剑19,艾米丽的银妆刀</span><br><span class="line">……</span><br></pre></td></tr></table></figure>
+
+<p>在映射表文件中，就是这样以一条条的方式罗列装扮、名称、图标和套装之间的关系。<br>有几点需要注意的：</p>
+<ol>
+<li>对应部件的条目一定要放在对应的标签下（因为需要根据标签和ID共同来提取贴图）。</li>
+<li>同一部件的条目顺序可以颠倒，但使用软件进行修改时，会对其进行会自动排序。</li>
+<li>同一个ID是允许有多个不同的名称的，遇到这种情况请分多条输入，例如：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">400,魔杖26,幻影魔杖</span><br><span class="line">400,魔杖27,魔界的法师魔杖</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ol>
+<h2 id="4-向映射表追加装扮条目"><a href="#4-向映射表追加装扮条目" class="headerlink" title="4.向映射表追加装扮条目"></a>4.向映射表追加装扮条目</h2><p>向映射表追加条目有两种方式，一种是打开映射表文件手动添加条目，另一种是通过软件的内置功能。<br>当然，直接修改映射表文件更为自由和灵活，但是如果这么做，则必须要先进行确定装扮ID和图标等繁琐的工作，<br>因此试衣间提供了简单功能，可以方便地直接向映射表追加条目，具体的方式是：<br>右键点击一个装扮的展示图，在弹出菜单中点击“登记装扮信息……”。</p>
+<p>在弹出对话框中，为该装扮命名，并选择对应的图标就可以了。</p>
+<p>此时打开映射表文件就会发现条目已经被自动添加了。</p>
+<h2 id="5-向映射表追加套装条目"><a href="#5-向映射表追加套装条目" class="headerlink" title="5.向映射表追加套装条目"></a>5.向映射表追加套装条目</h2><p>向映射表追加套装条目也是两种方式，一种是打开映射表直接手动添加，另一种是通过软件的套装工具。<br>具体操作方式是：右键点击工具栏上的“套装工具”按钮，并在弹出菜单上选择“套装登记”。</p>
+<p>在这里就会将当前浏览的装扮登记为一个套装，您唯一需要做的就是命名就好了。</p>
+<p>此时打开映射表文件就会发现套装条目已经被自动添加了。</p>
+<h2 id="6-修改或删除映射表条目"><a href="#6-修改或删除映射表条目" class="headerlink" title="6.修改或删除映射表条目"></a>6.修改或删除映射表条目</h2><p>修改和删除映射表条目只能通过编辑文本文件的方式进行修改或者删除。<br>用记事本的Ctrl+F查找目标内容，然后手动修改和删除即可。</p>
+<h2 id="7-映射表对图标模式的影响与图标上叹号的消除"><a href="#7-映射表对图标模式的影响与图标上叹号的消除" class="headerlink" title="7.映射表对图标模式的影响与图标上叹号的消除"></a>7.映射表对图标模式的影响与图标上叹号的消除</h2><p>第一次打开试衣间时，若已经进行本地化但是未对映射表进行编辑，此时切换到图标模式时，所有的图标上均带有红色叹号的标志。<br>这个标志说明映射表中，不存在任何装扮与该图标对应。<br>因此消除该标志的方式就是找到该图标对应的装扮，并使用本帖目录第四页的方式其分配该图标。<br>添加完毕后，就会发现该图标上的叹号已经消除。此时点击该图标则会正常试穿该装扮了。</p>
+<p>有的时候，图标上会出现蓝色的叹号的标志，该标志表明虽然映射表中存在该图标对应的装扮，<br>但是资源NPK里没有。这个标志一般是由于映射表的制作方和资源NPK使用的服务器不一致导致的。<br>例如映射表中包含了韩服的装扮，但是资源NPK使用的是国服，那么国服资源NPK就不包含这个装扮的IMG文件，自然也就无法显示。<br>蓝色的叹号标志只能通过对资源NPK更新进行消除，如果资源NPK不包含该IMG，就无法消除蓝色的叹号。<br>在使用软件自行向映射表中添加条目时，由于这种装扮根本无法被选中，所以手动操作时永远不会出现蓝色叹号。</p>
+<p>在图标模式点击带有叹号（无论红色还是蓝色）的图标时，对应部件的装扮会被视为脱下。</p>
+<h2 id="8-当客户端更新时，如何更新映射表"><a href="#8-当客户端更新时，如何更新映射表" class="headerlink" title="8.当客户端更新时，如何更新映射表"></a>8.当客户端更新时，如何更新映射表</h2><p>对于每一件新增的装扮，一般分三步来做：<br>1.当客户端更新的时候，如果客户端内出现新的装扮，那么打开试衣间的时候就会发现有若干个展示图显示为未更新的状态。<br>这个时候右键点击未更新的展示图，选择“更新展示图”即可。</p>
+<p>2.如果图标也变多了，那么切换到图标模式，然后点击工具栏上的“更新”按钮对图标也进行更新。</p>
+<p>3.切回到展示图模式，右键点击刚才更新的装扮，选择“登记装扮信息……”，输入该装扮对应的名称并为其选取图标，这样新增的装扮就已登记到映射表中了。</p>
+<p>这里要注意：如果登记装扮的时候并不知道名字，随便起一个自己容易记的名字即可；等将来知道该信息的时候，可以在映射表中Ctrl+F手动更改；<br>如果没有在图标文件夹中找到对应的图标也没关系，图标那栏输入“不知道”或者别的就行，将来知道的时候也可以在映射表中手动更改。</p>
+<p>对于每一套装扮，一般分两步来做：<br>1.首先找到这套内的装扮然后全部穿上（如果这套装扮没有包含所有部件，建议未包含的部件保持“脱下”状态）。<br>2.点击工具栏上的“套装工具”按钮，选择“登记当前套装”，在对话框里输入该套装的名字就可以了，这样新增的套装也会登记到映射表中了。</p>
+<h2 id="9-关于试衣间本地化前后的可用功能对比（表）"><a href="#9-关于试衣间本地化前后的可用功能对比（表）" class="headerlink" title="9.关于试衣间本地化前后的可用功能对比（表）"></a>9.关于试衣间本地化前后的可用功能对比（表）</h2><p>因为试衣间即使没有进行本地化，即使没有导入映射表，它依然可以使用，只要知道装扮的ID就可以分批进行浏览。<br>本地化的目的就是为了使试衣间更像网上的试衣间，让大家有个更好的舒适的环境；但终究它并不是必须的。<br>下表列出的了本地化展示图和映射表的功能对比。</p>
+<p> | | 原始状态 | 展示图生成 | 加载映射表 |<br> |浏览试穿装扮 | √ | √ | √ |<br> |使用ID搜索装扮 | √ | √ | √ |<br> |查看装扮图层信息 | √ | √ | √ |<br> |使用展示图来试穿 | × | √ | √ |<br> |切换TN模式 | × | √ | √ |<br> |套装导入导出工具 | × | √ | √ |<br> |列表显示装扮名称 | × | × | √ |<br> |使用名称搜索装扮 | × | × | √ |<br> |使用图标模式 | × | × | √ |<br> |当前装扮导入到EX | √ | √ | √ |<br> |制作一键类补丁 | √ | √ | √ |</p>
+<h2 id="10-后记"><a href="#10-后记" class="headerlink" title="10.后记"></a>10.后记</h2><p>这就是一种将纸娃娃搬到本地的一种方案。<br>装扮映射表这个东西本身并不属于NPK解析和贴图处理的范畴，所以我能做的也就只有提供大家自行处理这些事情的接口了。<br>其实这种方案早在黑猫的初始版本(黑猫.0)就有了，但是教程出的较少，操作也比较冗杂，相比之下大家也都懒得弄。<br>这次因为增加了武器和套装工具，对其进行了大量的优化，所以准备系统地出若干个教程，告诉大家应该怎么使用。<br>这个教程告诉大家在使用黑猫.4.1发布的映射表的基础上，如何使用、追加和维护自己的映射表。<br>因为映射表相当于试衣间的字典（其实以前的名字就叫装扮辞典），虽然不会影响到试衣间的核心功能，<br>但却对便利性有非常大的提升，就像以前的盒子那样。</p>
+<p>最后也要声明一点：<br>关于映射表，除了黑猫.4.1（使用了小浅的数据提取的）附带的映射表外，应该被视为作品，作者应对此享有版权。<br>因此，虽然映射表可以共享，可以大家一起利用，但是也希望大家能够做到两条；<br>第一就是，希望以后国服出新的装扮、套装或者武器时，大家能够齐心协力，一起完成映射表的追加工作（比如可以按职业分工）并分享给广大网友；<br>第二就是，如果一个映射表是某位爱好者的心血，而他将映射表分享给大家，也请大家对该作者表示感谢和敬意。</p>
+<p>最最后的声明：<br>恋恋のEx作者（也就是本人啦）不对任何映射表享有版权，黑猫.4.1附带的初始映射表也不例外。</p>
+<h1 id="试衣间本地化文件说明"><a href="#试衣间本地化文件说明" class="headerlink" title="试衣间本地化文件说明"></a>试衣间本地化文件说明</h1><p>关于试衣间本地化所用到的文件（文件夹）的说明：</p>
+<h2 id="1-资源文件夹"><a href="#1-资源文件夹" class="headerlink" title="1. 资源文件夹"></a>1. 资源文件夹</h2><p>即包含所有试衣间所需要的NPK文件的文件夹，一般设置为ImagePacks2文件夹的某个副本；<br>也可以在服务器上下载ImagePack2文件夹内的NPK文件后，将下载地址作为资源文件夹。<br>试衣间使用的所有NPK文件都需要从资源文件夹读取；包括装扮列表、装扮的浏览等信息；<br>展示图的生成也需要在资源文件夹里提取贴图，图标的生成也会在资源文件夹里提取图标贴图；<br>总之，它是试衣间的核心。</p>
+<h2 id="2-Avatar文件夹"><a href="#2-Avatar文件夹" class="headerlink" title="2. Avatar文件夹"></a>2. Avatar文件夹</h2><p>试衣间本地化锁需要的文件的集合，默认为软件的输出目录下的Avatar文件夹。<br>只要使用试衣间软件就会在输出目录下生成该文件夹和一系列相关的文件。<br>存储试衣间本地化的各种内容。<br>目前包括展示图文件夹、图标文件夹、舞台文件夹、展示图生成设置和各职业的映射表。</p>
+<h2 id="3-展示图文件夹（巨大-大-中-小）"><a href="#3-展示图文件夹（巨大-大-中-小）" class="headerlink" title="3. 展示图文件夹（巨大/大/中/小）"></a>3. 展示图文件夹（巨大/大/中/小）</h2><p>试衣间使用本地化功能生成的展示图的贴图都存放在这里面，按职业和尺寸区分；<br>每个展示图都带有该装扮/武器的ID和浏览的样式。<br>试衣间里的展示图需要先生成展示图文件夹里的展示图片才能显示，否则会显示一个带有“刷新”标志的按钮。<br>展示图可以由软件提取资源NPK内的贴图进行生成，生成有很多操作方法，不再赘述。<br>如果展示图在生成之后被修改的话，那么试衣间里的展示图显示的就会是修改之后的显示图（但浏览图还是没变）。</p>
+<h2 id="4-图标文件夹"><a href="#4-图标文件夹" class="headerlink" title="4. 图标文件夹"></a>4. 图标文件夹</h2><p>试衣间的图标模式使用的图标贴图都存放在这里面，按职业区分。<br>图标由软件提取资源NPK内的贴图进行生成，可以由本地化功能生成，这里不再赘述。<br>值得注意的是，图标模式中尽管图标能显示，但是有的图标左上角带有叹号的标志，<br>表示软件由于某种原因无法找到图标对应的装扮贴图，点击它会被视为脱下。</p>
+<h2 id="5-舞台文件夹"><a href="#5-舞台文件夹" class="headerlink" title="5. 舞台文件夹"></a>5. 舞台文件夹</h2><p>存放试衣间的浏览图（就是左下角的浏览图）的相关设置文件和贴图。<br>可以将其中的贴图作为浏览图的背景、背景部件、前景部件等。</p>
+<h2 id="6-映射表文件"><a href="#6-映射表文件" class="headerlink" title="6. 映射表文件"></a>6. 映射表文件</h2><p>存储在Avatar文件夹下的，按职业区分的若干TXT文件。<br>该文件很重要，并且不能够由软件自己完善（只会生成空的映射表文件）。<br>里面存储了每个职业的装扮ID、名称与图标号的对应关系，以及每个职业的套装信息。<br>如果映射表不全，那么会有以下现象发生：<br>所有装扮/武器均为“未命名”的；<br>图标模式下，所有图标均带有“红色”叹号；<br>套装列表里没有内容，所有装扮均视为“散件”。<br>但是不会影响展示图的展示，试穿，查询ID，生成NPK等核心功能。<br>映射表文件里所需要的信息由于无法从资源NPK里提取（因为本身就不包含的缘故），<br>所以需要用户来自己添加、编辑和维护，软件为此提供了一些便利性功能；<br>当然，也可以直接导入其他来源（例如他人正在使用的或者网上下载现成的）的映射表。</p>
+<h2 id="7-模型生成设置文件"><a href="#7-模型生成设置文件" class="headerlink" title="7.模型生成设置文件"></a>7.模型生成设置文件</h2><p>存储在Avatar文件夹下的一个TXT文件，里面存放展示图的生成设置信息。<br>展示图生成时采用的坐标偏移和帧号都存储在这里面，例如：<br>生成鞋子的展示图时，整个贴图要上移一定距离；<br>生成头饰的展示图时，整个贴图要下移一定距离；<br>生成手枪、步枪等展示图时，需要采用第25帧（因为第0帧时，神枪手没有掏出武器，自然也就无法展示）等。<br>这些信息都是作者预先调好的，应该是较好的一种状态，因此一般情况不需要修改此文件的内容。<br>如果想让展示图内的模特们做不同的动作，则可以修改该文件的内容。</p>
+<h2 id="8-NPK资源文件夹"><a href="#8-NPK资源文件夹" class="headerlink" title="8.NPK资源文件夹"></a>8.NPK资源文件夹</h2><p>试衣间的资源下载功能下载的资源NPK都存在这里。<br>如果手头没有DNF或者想体验一下不同服务器的装扮，可以使用该功能进行下载；<br>下载完毕后可以将资源文件夹设置在该目录下。</p>
+<h1 id="试衣间FAQ"><a href="#试衣间FAQ" class="headerlink" title="试衣间FAQ"></a>试衣间FAQ</h1><p>一些FAQ：</p>
+<p>Q: 打开试衣间后什么都不显示，列表也没有，这是为什么呢？<br>A: 试衣间的资源目录没有设置好，读取不到对应的NPK文件。请先设置资源目录（点击工具栏上的“本地化”按钮，然后点击“设置资源文件夹”）。</p>
+<p>Q: 为什么打开试衣间后，右侧的展示图都不显示，而显示的都是刷新按钮呢？<br>A: 首先确保你的试衣间的资源文件夹是正确的。<br>试衣间所需要的展示图是需要生成的，生成有很多方式：<br>最简单的，右键单击对应的刷新按钮，在下拉菜单中选择更新展示图，就能马上显示，这个方法适用于单张更新。<br>稍微慢一点的，点击工具栏上的“刷新”按钮，可以更新当前浏览的部件的所有展示图。<br>再稍微慢一点但是能一劳永逸的，点击工具栏上的“本地化设置”按钮，点击“更新本(全)职业的展示图和图标”，然后根据需要操作即可。</p>
+<p>Q: 为什么我的装扮列表里的装扮都显示的是未命名呢？<br>A: 因为映射表里没有查询到对应ID的装扮的名称，因此显示的是未命名+ID的格式，不过这个并不影响使用。<br>如果需要在装扮列表里显示名字，就要往映射表里添加内容，自己添加太麻烦的话，就要在网上下载或者在他人那里获得现成的映射表就好了。</p>
+<p>Q: 为什么我的装扮列表里有的名字后带有“[…]”的字样呢？<br>A: 因为有很多装扮都使用这个IMG，比如说，非常多的年套都使用同一种皮肤资源；所有的远古二的武器都使用同一个武器资源等。</p>
+<p>Q: 为什么鬼剑的武器分为这么多类，还有西洋剑、长太刀等类别？跟短剑、太刀类别有何区别？<br>A: 因为历史遗留原因，鬼剑的同一种武器不同的形态也被分配到不同的NPK里了，试衣间武器的类别是随着NPK名称确定的。</p>
+<p>Q: 为什么点击了“和谐开关”按钮，展示图里的装扮并没有发生变化呢？<br>A: 和谐开关主要是用于IMG名带“(TN)”与不带“(TN)”之间的互相切换，如果展示图里的IMG都没有对应的“(TN)”的IMG，自然就没区别了。</p>
+<p>Q: 为什么展示图要生成4种？有必要吗？<br>A: 展示图能切换大小是为了给用户带来便利，大的展示图显示的较广但是每一页显示的少，用以显示大叔武器等体型较大的装扮；<br>小的展示图显示的区域较小但是每一页显示的更多，用来显示腰带、面部装饰等小部件。</p>
+<p>Q: 为什么我一直用的好好的，但是今天启动试衣间，发现展示图里面多了几个未更新的图，这是为什么呢？<br>A: 你的服务器又更新了新的装扮，右键点击这些空位置，为它们更新展示图吧。</p>
+<p>Q: 预览图可以播放动画吗？<br>A: 可以，预览图下面有个“选择动作”的组合框，选择一个动作就可以播放该动作的动画了。</p>
+<p>Q: 预览图的背景颜色能否改变？<br>A: 可以，打开“Avatar”文件夹（软件“特殊工具”按钮里选择“打开输出文件夹”就能看到）后有个“舞台”文件夹，<br>打开后里面有个“location.txt”；在这个文件夹下新建一个超过210×210的纯色PNG图像命名为“bg.png”；<br>然后打开“location.txt”在“[background]”下输入“bg”就可以了。<br>用同样的方式可以设置预览图的其他背景图片，还可以设置背景部件和前景部件等。</p>
+<p>Q: 我在别人那里下载的映射表导入到试衣间后，为什么我的试衣间里的装扮列表显示的是乱码？<br>A: 这个暂时没有同一套可行性方案解决，涉及到区域设置和汉字文字编码问题。以下三种方法可以尝试（都有成功的例子，不保证都会成功）：<br>重新打开映射表文件，点击另存为，在文字编码选择“ANSL”后保存覆盖源文件。<br>更改系统区域和语言设置（控制面板&gt;时钟、语言和区域&gt;区域&gt;管理&gt;更改系统区域设置）为“中文（简体、中国）”。<br>新建一个Word文档，把映射表文件的内容都复制进去，然后选择另存为，并在保存类型选择“纯文本(*.txt)”。</p>
+<p>Q: 为什么图标模式里没有显示图标啊？<br>A: 图标模式里的图标同样需要本地化进行更新，点击工具栏上的“刷新”按钮就可以了。</p>
+<p>Q: 为什么我点击图标模式里的图标，对应的装扮不显示啊？<br>A: 这种情况出现在图标的左上角出现“叹号”标志的情形下，表示试衣间无法在资源里找到这个图标对应的装扮。<br>“红色叹号”表示映射表中无法查到某个装扮与这个图标对应，如果映射表是空的，那所有图标都会带这个标记；<br>“蓝色叹号”出现的更罕见一些，表示映射表中存在于这个图标对应的装扮，但是资源文件夹下没有这个IMG，一般出现在资源NPK和映射表跨服交叉使用的场合。</p>
+<p>Q: 图标模式里的图标都是带红色叹号的，没法用啊，怎么办啊？<br>A: 较累的方案，自己在装扮中依次找该图标对应的装扮，为那个装扮分配该图标和名字，扩充映射表（一般服务器更新的时候就采取这种办法）。<br>较轻松的方案，下载网上已有的映射表合并到自己的映射表中，随着黑猫.3.1一起发布的压缩包内就有(但是只更新到2020年4月，基于国服版本生成)，或者干脆使用别人的映射表。</p>
+<p>Q: 映射表怎么编辑啊？<br>A: 如果你选择亲自编辑映射表，那么你的行为是值得赞赏的，那么下面说下方法：<br>手动的：点击工具栏上“本地化设置”按钮，选择打开映射表，按照“装扮ID,图标序号,装扮名”的格式一条条手动输入（应该不会有人这么做吧）；<br>使用软件的功能：在展示图模式右键点击装扮，选择“登记装扮信息”，然后为其输入名字，然后选择一个图标，这种方式更舒服些，在服务器进行更新后，一般用这种方式为新的装扮追加映射表条目。</p>
+<p>Q: 为什么图标模式里显示的图标不是连续的？<br>A: 在所有的服务器中，同一个图标在IMG内的帧位置是一样的，但是并不是所有图标对应的装扮在所有服务器都有推出，因此图标NPK中对应的帧的位置就是<br>个空图片，因此图标模式里显示的图标并不连续。</p>
+<p>Q: 有什么套装代码可以查么？<br>A: 网上有肥猫发布的套装代码，可以使用试衣间的“套装工具”里的“导入套装共享码”导入即可。导入完毕后记得注册套装，以便以后使用。</p>
+<p>Q: 将浏览的时装导入EX后，感觉IMG顺序不对啊，拼合后会穿模啊，怎么办呀？<br>A: 软件给出的拼合次序仅供参考，当然大体是正确的，细微之处需要用户自行调节。<br>另外黑猫.4.2之后的版本，软件的拼合图层操作次序和自动排序已经跟旧EX一致，与当前的试衣间导出顺序也一致了。</p>
+<p>Q: 如何使用试衣间制作君YY式换装补丁（即A换B）？<br>A: 假设你要制作A装扮改B装扮的补丁，先在试衣间试穿全套B装扮，然后点击工具栏上的“补丁制作工具”按钮，选择“生成易于制作换装类的NPK文件”，<br>然后在EX中把“本体图层.IMG”提取出来；然后回到试衣间试穿全套A装扮，然后点击工具栏上的“补丁制作工具”按钮，选择“生成易于制作换装类的NPK文件”，<br>把“本体图层.IMG”替换为先前提取的IMG文件，替换后将NPK另存为一个文件名例如“a(XXX).NPK”，丢到ImagePack2文件夹后就可以了。</p>
+<p>Q: 如何使用试衣间制作职业全时装换装补丁(即全时装换B)？<br>A: 假设你要制作全装扮改B装扮的补丁，先在试衣间试穿全套B装扮，然后点击工具栏上的“补丁制作工具”按钮，选择“生成去安装板改当前装扮的NPK文件”，<br>然后在EX中将NPK另存为一个文件名例如“a(XXX).NPK”，丢到ImagePack2文件夹后就可以了。<br>这个NPK文件也是个模板，将这个NPK文件里的“本体图层.IMG”文件替换成其他的IMG文件，就成为了全装扮改那个IMG文件的补丁了。</p>
+<p>Q: 黑猫.4.1带的映射表文件里有好多重复项啊？有没有办法把重复的删除掉？<br>A: 整理重复而已。点击工具栏上的“本地化设置”按钮，在菜单中选择“映射表整理(去重复项)…”就可以了。</p>
+<p>Q: 网上有新的映射表，怎么导入到我的映射表中？<br>A: 点击工具栏上的“本地化设置”按钮，在菜单中选择“合并其他映射表文件…”，记得职业要匹配。</p>
+<p>Q: 这个工具栏的按钮的含义能再解释一下吗？<br>A: 自左到右依次是“切换展示图尺寸”、“和谐开关”、“展示图模式”、“图标模式”、“脱下”、“更新”、“前一页”、“后一页”、“套装工具”、“补丁制作工具”、“本地化设置”</p>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+</search>
