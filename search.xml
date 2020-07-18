@@ -104,6 +104,15 @@
   </entry>
   <entry>
     <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test2/</url>
+    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
+<h1>Hello, world</h1>]]></content>
+      <categories>
+        <category>jekyll</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Test</title>
     <url>/cms/2018/11/14//archivers/test3/</url>
     <content><![CDATA[<h1 id="Hello-world2"><a href="#Hello-world2" class="headerlink" title="Hello, world2"></a>Hello, world2</h1><p>Hello world2</p>
 ]]></content>
@@ -112,12 +121,14 @@
       </categories>
   </entry>
   <entry>
-    <title>Test</title>
-    <url>/cms/2018/11/14//archivers/test2/</url>
-    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
-<h1>Hello, world</h1>]]></content>
+    <title>SpringMVC cannot map requests after importing Baidu Aip into Maven POM/在Maven配置里面添加百度语音之后SpringMVC不能映射请求</title>
+    <url>/cms/2018/12/11//archivers/springmvc-baiduaip-problem/</url>
+    <content><![CDATA[<p>Encountered a problem about SpringMVC and Baidu Aip Speech.<br>After adding </p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.baidu.aip<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>java-sdk<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">version</span>&gt;</span>$&#123;baidu.aip.version&#125;<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>this into Maven POM, SpringMVC cannot map requests. The console does not display map information. But once deleted this, SpringMVC can map requests again. I would like to know how to solve the problem…</p>
+]]></content>
       <categories>
-        <category>jekyll</category>
+        <category>Other</category>
       </categories>
   </entry>
   <entry>
@@ -175,17 +186,6 @@
       </categories>
   </entry>
   <entry>
-    <title>SpringMVC cannot map requests after importing Baidu Aip into Maven POM/在Maven配置里面添加百度语音之后SpringMVC不能映射请求</title>
-    <url>/cms/2018/12/11//archivers/springmvc-baiduaip-problem/</url>
-    <content><![CDATA[<p>Encountered a problem about SpringMVC and Baidu Aip Speech.<br>After adding </p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.baidu.aip<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>java-sdk<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">version</span>&gt;</span>$&#123;baidu.aip.version&#125;<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>this into Maven POM, SpringMVC cannot map requests. The console does not display map information. But once deleted this, SpringMVC can map requests again. I would like to know how to solve the problem…</p>
-]]></content>
-      <categories>
-        <category>Other</category>
-      </categories>
-  </entry>
-  <entry>
     <title>本站工具整合导航</title>
     <url>/cms/2020/04/16//archivers/4/</url>
     <content><![CDATA[<p>本站开发上线的工具逐渐增多，为改善排版，现将已有的工具链接进行整合，在本文章进行统一集中。大家可以从本文章点击链接进入相应的工具。</p>
@@ -216,6 +216,23 @@
       </categories>
   </entry>
   <entry>
+    <title>子佩录音盒二次开发（C#）</title>
+    <url>/cms/2020/06/06//archivers/7/</url>
+    <content><![CDATA[<p>对子佩录音盒进行二次开发需要使用到其SDK中的两个DLL文件，qnviccub.dll，bridge.dll。在C#中导入DLL的API声明参考SDK中的BriSDKLib.cs。文件内容较长这里不再贴出。</p>
+<p>子佩录音盒对于事件的监听是基于Win32的消息的。因此我们在接收程序中Windows消息的时候要判断消息类型（类型是一个UINT类型的无符号整数），而子佩录音盒的SDK里面也封装了一些消息类型的常量，我们只需要填写常量的名称即可。例如收到了来电的消息就是BriSDKLib.BriEvent_CallIn，得到了来电的电话号码就是BriSDKLib.BriEvent_GetCallID，等等。</p>
+<p>C语言里面是在注册类的时候通过给WNDCLASSEX的lpfnWndProc属性绑定消息处理函数来监听消息从而做相应动作的。而我们在C#里面可以直接在WinForm代码里面重写DefWndProc方法来做消息处理，例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">&#123;</span><br><span class="line">    switch (m.Msg)</span><br><span class="line">    &#123;</span><br><span class="line">        case BriSDKLib.BRI_EVENT_MESSAGE: &#x2F;&#x2F; 先判断是不是录音盒的消息</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">            string strValue &#x3D; &quot;&quot;;</span><br><span class="line">            switch (EventData.lEventType)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BriEvent_CallIn: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电响铃的消息</span><br><span class="line">                case BriSDKLib.BriEvent_GetCallID: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电号码的消息</span><br><span class="line">                &#x2F;&#x2F; 其他更多的消息类型</span><br><span class="line">                default: break;</span><br><span class="line">            &#125;</span><br><span class="line">            if (strValue.Length &gt; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                AppendStatus(strValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; break;</span><br><span class="line">        default: &#x2F;&#x2F; 如果不是录音盒的消息则还按设计器里面添加的事件来处理</span><br><span class="line">            base.DefWndProc(ref m);</span><br><span class="line">            break;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>一个简单demo，没有界面，只有一个托盘图标，托盘图标只有一个退出菜单项。如果座机接到来电时，就将来电的电话号码读取出来。这里只是做了一个弹出消息框显示电话号码。将来还可以扩展成将 来电的时间、收到来电的座机所插的接口和电话号码存入数据库。</p>
+<p>把BriSDKLib.cs复制进项目，然后在WinForm添加一个菜单控件（父级菜单和一个退出菜单项）和一个系统托盘图标控件，添加Form的Load事件、FormClosed事件、Shown事件，添加退出菜单项的点击事件。然后编写代码。</p>
+<p>运行前将进户线接到录音盒的LINE口，把座机的电话线接到录音盒的PHONE口，把录音盒的USB口通过随机提供的数据线接到电脑的USB接口。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Runtime.InteropServices;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace GetPhoneNumber</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public static string FromUnicodeByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            UnicodeEncoding u &#x3D; new UnicodeEncoding();</span><br><span class="line">            string ustring &#x3D; u.GetString(characters);</span><br><span class="line">            return ustring;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public static string FromASCIIByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            ASCIIEncoding encoding &#x3D; new ASCIIEncoding();</span><br><span class="line">            string constructedString &#x3D; encoding.GetString(characters);</span><br><span class="line">            return (constructedString);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            if (BriSDKLib.QNV_OpenDevice(BriSDKLib.ODT_LBRIDGE, 0, &quot;&quot;) &lt;&#x3D; 0 || BriSDKLib.QNV_DevInfo(0, BriSDKLib.QNV_DEVINFO_GETCHANNELS) &lt;&#x3D; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F; AppendStatus(&quot;打开设备失败&quot;);</span><br><span class="line">                MessageBox.Show(&quot;打开设备失败&quot;);</span><br><span class="line">                return;</span><br><span class="line">            &#125;</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_FormClosed(object sender, FormClosedEventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">        &#123;</span><br><span class="line">            switch (m.Msg)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BRI_EVENT_MESSAGE:</span><br><span class="line">                &#123;</span><br><span class="line">                    BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                        (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">                    string strValue &#x3D; &quot;&quot;;</span><br><span class="line">                    switch (EventData.lEventType)</span><br><span class="line">                    &#123;</span><br><span class="line">                        case BriSDKLib.BriEvent_GetCallID:</span><br><span class="line">                        &#123;</span><br><span class="line">                            strValue &#x3D; &quot;通道&quot; + (EventData.uChannelID + 1).ToString() + &quot;：接收到来电号码 &quot; +</span><br><span class="line">                                       FromASCIIByteArray(EventData.szData);</span><br><span class="line">                            MessageBox.Show(strValue);</span><br><span class="line">                            this.Activate();</span><br><span class="line"></span><br><span class="line">                        &#125;</span><br><span class="line">                            break;</span><br><span class="line">                        default: break;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                    break;</span><br><span class="line">                default: </span><br><span class="line">                    base.DefWndProc(ref m);</span><br><span class="line">                    break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void 退出XToolStripMenuItem_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">            Application.Exit();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Shown(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            Hide();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Hardware-Development</category>
+      </categories>
+  </entry>
+  <entry>
     <title>探讨在国内使用Flash Player的解决方案 - 一些找到的线索</title>
     <url>/cms/2020/05/26//archivers/6/</url>
     <content><![CDATA[<p>目前在国内仍然有大量的而且是非用不可的业务必须依赖Flash Player。Flash确实是要在2020年底要停止支持了，但是这并不是说Flash要淘汰了你就可以不用了，也不是说你觉得这个网页需要依赖Flash你就不进这个网站了，有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？【手动狗头】（有的学生因为不能运行Flash导致网课旷课进而导致被学校退学）</p>
@@ -243,35 +260,6 @@
       </categories>
   </entry>
   <entry>
-    <title>GitHub JSDelivr 更新</title>
-    <url>/cms/2020/06/12//archivers/8/</url>
-    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
-<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
-<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Web-Building</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>子佩录音盒二次开发（C#）</title>
-    <url>/cms/2020/06/06//archivers/7/</url>
-    <content><![CDATA[<p>对子佩录音盒进行二次开发需要使用到其SDK中的两个DLL文件，qnviccub.dll，bridge.dll。在C#中导入DLL的API声明参考SDK中的BriSDKLib.cs。文件内容较长这里不再贴出。</p>
-<p>子佩录音盒对于事件的监听是基于Win32的消息的。因此我们在接收程序中Windows消息的时候要判断消息类型（类型是一个UINT类型的无符号整数），而子佩录音盒的SDK里面也封装了一些消息类型的常量，我们只需要填写常量的名称即可。例如收到了来电的消息就是BriSDKLib.BriEvent_CallIn，得到了来电的电话号码就是BriSDKLib.BriEvent_GetCallID，等等。</p>
-<p>C语言里面是在注册类的时候通过给WNDCLASSEX的lpfnWndProc属性绑定消息处理函数来监听消息从而做相应动作的。而我们在C#里面可以直接在WinForm代码里面重写DefWndProc方法来做消息处理，例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">&#123;</span><br><span class="line">    switch (m.Msg)</span><br><span class="line">    &#123;</span><br><span class="line">        case BriSDKLib.BRI_EVENT_MESSAGE: &#x2F;&#x2F; 先判断是不是录音盒的消息</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">            string strValue &#x3D; &quot;&quot;;</span><br><span class="line">            switch (EventData.lEventType)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BriEvent_CallIn: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电响铃的消息</span><br><span class="line">                case BriSDKLib.BriEvent_GetCallID: &#123; ... break; &#125; &#x2F;&#x2F; 收到座机来电号码的消息</span><br><span class="line">                &#x2F;&#x2F; 其他更多的消息类型</span><br><span class="line">                default: break;</span><br><span class="line">            &#125;</span><br><span class="line">            if (strValue.Length &gt; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                AppendStatus(strValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; break;</span><br><span class="line">        default: &#x2F;&#x2F; 如果不是录音盒的消息则还按设计器里面添加的事件来处理</span><br><span class="line">            base.DefWndProc(ref m);</span><br><span class="line">            break;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>一个简单demo，没有界面，只有一个托盘图标，托盘图标只有一个退出菜单项。如果座机接到来电时，就将来电的电话号码读取出来。这里只是做了一个弹出消息框显示电话号码。将来还可以扩展成将 来电的时间、收到来电的座机所插的接口和电话号码存入数据库。</p>
-<p>把BriSDKLib.cs复制进项目，然后在WinForm添加一个菜单控件（父级菜单和一个退出菜单项）和一个系统托盘图标控件，添加Form的Load事件、FormClosed事件、Shown事件，添加退出菜单项的点击事件。然后编写代码。</p>
-<p>运行前将进户线接到录音盒的LINE口，把座机的电话线接到录音盒的PHONE口，把录音盒的USB口通过随机提供的数据线接到电脑的USB接口。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Runtime.InteropServices;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace GetPhoneNumber</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public static string FromUnicodeByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            UnicodeEncoding u &#x3D; new UnicodeEncoding();</span><br><span class="line">            string ustring &#x3D; u.GetString(characters);</span><br><span class="line">            return ustring;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public static string FromASCIIByteArray(byte[] characters)</span><br><span class="line">        &#123;</span><br><span class="line">            ASCIIEncoding encoding &#x3D; new ASCIIEncoding();</span><br><span class="line">            string constructedString &#x3D; encoding.GetString(characters);</span><br><span class="line">            return (constructedString);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            if (BriSDKLib.QNV_OpenDevice(BriSDKLib.ODT_LBRIDGE, 0, &quot;&quot;) &lt;&#x3D; 0 || BriSDKLib.QNV_DevInfo(0, BriSDKLib.QNV_DEVINFO_GETCHANNELS) &lt;&#x3D; 0)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F; AppendStatus(&quot;打开设备失败&quot;);</span><br><span class="line">                MessageBox.Show(&quot;打开设备失败&quot;);</span><br><span class="line">                return;</span><br><span class="line">            &#125;</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_FormClosed(object sender, FormClosedEventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        protected override void DefWndProc(ref System.Windows.Forms.Message m)</span><br><span class="line">        &#123;</span><br><span class="line">            switch (m.Msg)</span><br><span class="line">            &#123;</span><br><span class="line">                case BriSDKLib.BRI_EVENT_MESSAGE:</span><br><span class="line">                &#123;</span><br><span class="line">                    BriSDKLib.TBriEvent_Data EventData &#x3D;</span><br><span class="line">                        (BriSDKLib.TBriEvent_Data) Marshal.PtrToStructure(m.LParam, typeof(BriSDKLib.TBriEvent_Data));</span><br><span class="line">                    string strValue &#x3D; &quot;&quot;;</span><br><span class="line">                    switch (EventData.lEventType)</span><br><span class="line">                    &#123;</span><br><span class="line">                        case BriSDKLib.BriEvent_GetCallID:</span><br><span class="line">                        &#123;</span><br><span class="line">                            strValue &#x3D; &quot;通道&quot; + (EventData.uChannelID + 1).ToString() + &quot;：接收到来电号码 &quot; +</span><br><span class="line">                                       FromASCIIByteArray(EventData.szData);</span><br><span class="line">                            MessageBox.Show(strValue);</span><br><span class="line">                            this.Activate();</span><br><span class="line"></span><br><span class="line">                        &#125;</span><br><span class="line">                            break;</span><br><span class="line">                        default: break;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                    break;</span><br><span class="line">                default: </span><br><span class="line">                    base.DefWndProc(ref m);</span><br><span class="line">                    break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void 退出XToolStripMenuItem_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            BriSDKLib.QNV_CloseDevice(BriSDKLib.ODT_ALL, 0);</span><br><span class="line">            for (Int16 i &#x3D; 0; i &lt; BriSDKLib.QNV_DevInfo(-1, BriSDKLib.QNV_DEVINFO_GETCHANNELS); i++)</span><br><span class="line">            &#123;</span><br><span class="line">                &#x2F;&#x2F;在windowproc处理接收到的消息</span><br><span class="line">                BriSDKLib.QNV_Event(i, BriSDKLib.QNV_EVENT_REGWND, (Int32) this.Handle, &quot;&quot;, new StringBuilder(0), 0);</span><br><span class="line">                &#x2F;&#x2F; selchannel.Items.Add(i+1);               </span><br><span class="line">            &#125;</span><br><span class="line">            Application.Exit();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Shown(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            Hide();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Hardware-Development</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Monyer黑客小游戏 踩坑总结</title>
     <url>/cms/2020/07/03//archivers/10/</url>
     <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
@@ -290,6 +278,18 @@
 ]]></content>
       <categories>
         <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>GitHub JSDelivr 更新</title>
+    <url>/cms/2020/06/12//archivers/8/</url>
+    <content><![CDATA[<p>在github编辑好文件以后在最后一个编辑的文件提交之前选择“Create a new branch for this commit and start a pull request.”创建一个分支，输入一个分支名称。然后访问URL即可更新为“<a href="https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/[你的github用户名]/[你的github仓库]@[你创建的分支]/[你的文件路径]”。</a></p>
+<p>注意仓库至少有一个Release才能被JSDelivr爬取到。</p>
+<p>为节省服务器资源，建议在更新之后删除旧版不需要的分支。在git bash进入到本地仓库的目录执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push origin --delete [旧版分支名称]</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
       </categories>
   </entry>
   <entry>
@@ -373,6 +373,26 @@
       </categories>
   </entry>
   <entry>
+    <title>国内互联网Flash依赖状况调查</title>
+    <url>/cms/2020/07/13//archivers/15/</url>
+    <content><![CDATA[<h1 id="以下仅为引用现有的观点，不代表本站立场。"><a href="#以下仅为引用现有的观点，不代表本站立场。" class="headerlink" title="以下仅为引用现有的观点，不代表本站立场。"></a>以下仅为引用现有的观点，不代表本站立场。</h1><p>Flash即将在年底停止支持，但是国内依旧有很多平台在依赖Flash，究竟国内还有多少平台还在依赖Flash？</p>
+<p>知乎@松果煲粥 ：大量的办公，报名，教育等公共平台都是用的Flash来运行的，原本我电脑上是根本没装Flash的，但是前几个月发现弟弟上网课的网页居然需要Flash插件才能看。</p>
+<p>知乎 佚名：用flash的什么医学实验模拟课程 医学魔课.泰盟医学虚拟仿真实验教学平台的太烦人了</p>
+<p>CSDN@wujiuqier ：有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？</p>
+<p>知乎@梦沧海 ：无所谓，对flashplayer重度依赖的是内网环境，我单位多个业务系统没了这个就运作不正常。</p>
+<p>B站@wujiuqier ：这里点名长江云这个平台，各大湖北省的省电视台，地市电视台，县市电视台的视频在PC页面还得非要用Flash才能播放，上线一个HLS播放就这么难吗？</p>
+<p>B站@柏木ゆっき ：你不知道这个软件比你想象的更恶心 我为了上网课下的这个 只有中国版能有 然后我发现这个广告弹窗之后当时也给禁用了 结果 网课页面都进去了 几秒之后马上变成系统服务组件没有开启要我去下修复工具[微笑] 想了各种办法都没能给他降服 只要禁用就听不了网课 真就恶心的一批 </p>
+<p>B站@冥土追魂-呱太神医 ：删不了的，一堆政府网站，还有老网站都必须要flash支持，像是很知名的4399，7k7k，QQ空间都需要flash的支持。</p>
+<p>知乎@爱做梦的大傻子 ：mooc课不用flash没办法看课程的ppt！</p>
+<p>知乎 佚名：大量国企和事业单位的PC网页没有彻底放弃Flash；相当的商业网站仍不放弃Flash……</p>
+<p>知乎 佚名：各位电脑大神，每次都是电脑上优慕课网址里面的视频一直要自动下载flash才能观看，这要如何解决啊？[鄙人：就是这个页面，提示文字和这边长江云的提示文字一模一样]</p>
+<p>知乎@天涯羽伏麟 ：国内这些官媒、教育、校内教务的网站大部分还在用flash，不能不开，麻烦死，要那就多下一个浏览器，要嘛就得重新调开flash，无力吐槽。。也不知道是承包给谁做的，运维我都怀疑是校内老师兼职的。</p>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Github Hexo 一键更新</title>
     <url>/cms/2020/07/18//archivers/16/</url>
     <content><![CDATA[<p>这个博客换成Hexo后台之后变成了绑定3个仓库：展示仓库，后台仓库，主题仓库。结果每次更新需要输入3对账号密码，很不方便。整合各路搜集到的资料之后总结出来一套一键更新的方案，可以一次性同步后台代码、主题代码和展示代码。</p>
@@ -395,26 +415,6 @@
 ]]></content>
       <categories>
         <category>Web-Building</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>国内互联网Flash依赖状况调查</title>
-    <url>/cms/2020/07/13//archivers/15/</url>
-    <content><![CDATA[<h1 id="以下仅为引用现有的观点，不代表本站立场。"><a href="#以下仅为引用现有的观点，不代表本站立场。" class="headerlink" title="以下仅为引用现有的观点，不代表本站立场。"></a>以下仅为引用现有的观点，不代表本站立场。</h1><p>Flash即将在年底停止支持，但是国内依旧有很多平台在依赖Flash，究竟国内还有多少平台还在依赖Flash？</p>
-<p>知乎@松果煲粥 ：大量的办公，报名，教育等公共平台都是用的Flash来运行的，原本我电脑上是根本没装Flash的，但是前几个月发现弟弟上网课的网页居然需要Flash插件才能看。</p>
-<p>知乎 佚名：用flash的什么医学实验模拟课程 医学魔课.泰盟医学虚拟仿真实验教学平台的太烦人了</p>
-<p>CSDN@wujiuqier ：有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？</p>
-<p>知乎@梦沧海 ：无所谓，对flashplayer重度依赖的是内网环境，我单位多个业务系统没了这个就运作不正常。</p>
-<p>B站@wujiuqier ：这里点名长江云这个平台，各大湖北省的省电视台，地市电视台，县市电视台的视频在PC页面还得非要用Flash才能播放，上线一个HLS播放就这么难吗？</p>
-<p>B站@柏木ゆっき ：你不知道这个软件比你想象的更恶心 我为了上网课下的这个 只有中国版能有 然后我发现这个广告弹窗之后当时也给禁用了 结果 网课页面都进去了 几秒之后马上变成系统服务组件没有开启要我去下修复工具[微笑] 想了各种办法都没能给他降服 只要禁用就听不了网课 真就恶心的一批 </p>
-<p>B站@冥土追魂-呱太神医 ：删不了的，一堆政府网站，还有老网站都必须要flash支持，像是很知名的4399，7k7k，QQ空间都需要flash的支持。</p>
-<p>知乎@爱做梦的大傻子 ：mooc课不用flash没办法看课程的ppt！</p>
-<p>知乎 佚名：大量国企和事业单位的PC网页没有彻底放弃Flash；相当的商业网站仍不放弃Flash……</p>
-<p>知乎 佚名：各位电脑大神，每次都是电脑上优慕课网址里面的视频一直要自动下载flash才能观看，这要如何解决啊？[鄙人：就是这个页面，提示文字和这边长江云的提示文字一模一样]</p>
-<p>知乎@天涯羽伏麟 ：国内这些官媒、教育、校内教务的网站大部分还在用flash，不能不开，麻烦死，要那就多下一个浏览器，要嘛就得重新调开flash，无力吐槽。。也不知道是承包给谁做的，运维我都怀疑是校内老师兼职的。</p>
-]]></content>
-      <categories>
-        <category>Webapp</category>
       </categories>
   </entry>
   <entry>
