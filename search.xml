@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Test</title>
-    <url>/cms/2018/11/14//archivers/test2/</url>
-    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
-<h1>Hello, world</h1>]]></content>
+    <title>Welcome to Jekyll and EasyBook</title>
+    <url>/cms/2014/12/30//archivers/hello/</url>
+    <content><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<a id="more"></a>
+
+<p>GitHub Flavored Markdown is supported.</p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_hi</span><span class="params">(name)</span></span></span><br><span class="line">  puts <span class="string">"Hi, <span class="subst">#&#123;name&#125;</span>"</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">print_hi(<span class="string">'Tom'</span>)</span><br><span class="line"><span class="comment">#=&gt; prints 'Hi, Tom' to STDOUT.</span></span><br></pre></td></tr></table></figure>
+
+<p>And $$\mathcal{ Mathematics }$$ is supported!</p>
+<p>Use <code>$$</code> to wrap your formulas. For example, <code>$$ e^{i\pi} + 1 = 0 $$</code> displays $$  e^{i\pi} + 1 = 0  $$</p>
+<p>Multi-line forumlas are supported too.</p>
+<p>$$<br>\begin{aligned}<br>&amp; J(w, b) = \frac{1}{m} \sum_{i=1}^{m}L(\hat{y}^{(i)}, y^{(i)})</p>
+<ul>
+<li>\frac{\lambda}{2m} \sum_{l=1}^{L}{||w||}^2_F\\<br>&amp; {||w||}^2_F = \sum_{i = 1}^{n[l]}\sum_{j = 1}^{n[l-1]}(w_{ij})^2<br>\end{aligned}<br>$$</li>
+</ul>
+<h2 id="EasyBook-Advanced-Functions"><a href="#EasyBook-Advanced-Functions" class="headerlink" title="EasyBook Advanced Functions"></a>EasyBook Advanced Functions</h2><p>You are using <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a> the template from <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu.net</a>. Therefore some features are supported now:</p>
+<ul>
+<li><strong>Pagination</strong> is enabled.</li>
+<li><strong>Disqus</strong> or <strong>多说</strong> is ready.</li>
+<li><strong>TOC</strong> for posts is enabled.</li>
+<li><strong>Profile</strong> including your links and avatar on the sidebar.</li>
+<li><em>And more…</em></li>
+</ul>
+<blockquote>
+<p><strong>Tips:</strong> You can disable Disqus or 多说 on posts/pages by adding <code>nocomments: true</code> into <a href="http://jekyllrb.com/docs/frontmatter/" target="_blank" rel="noopener">YAML Front Matter</a>.</p>
+</blockquote>
+<p>EasyBook uses upaiyun CDN to make everyone lncluding Chinese visitors feel speedy. You can find it in <code>_includes/footer.html</code> and change it to your favorite CDN like Google CDN.</p>
+<h2 id="Support-me-by…"><a href="#Support-me-by…" class="headerlink" title="Support me by…"></a>Support me by…</h2><h3 id="Add-a-link"><a href="#Add-a-link" class="headerlink" title="Add a link"></a>Add a link</h3><p>EasyBook does not make the footer heavy; the link to theme could be on <code>about.md</code>:</p>
+<blockquote>
+<p>This website is using <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu</a>‘s theme: <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a></p>
+</blockquote>
+<h3 id="Donate-PayPal-or-支付宝"><a href="#Donate-PayPal-or-支付宝" class="headerlink" title="Donate (PayPal or 支付宝)"></a>Donate (PayPal or 支付宝)</h3><p>That’s the best :smile: </p>
+<p>Please visit <a href="http://laobubu.net/donate.html" target="_blank" rel="noopener">http://laobubu.net/donate.html</a></p>
+<h3 id="Star-and-Fork-on-GitHub-free"><a href="#Star-and-Fork-on-GitHub-free" class="headerlink" title="Star and Fork on GitHub (free)"></a>Star and Fork on GitHub (free)</h3><p>Not going to donate? That’s okay. You can also send out your precious star <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">on GitHub</a>.</p>
+<h2 id="And-Here-We-Go"><a href="#And-Here-We-Go" class="headerlink" title="And Here We Go"></a>And Here We Go</h2><p>Check out the <a href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll" target="_blank" rel="noopener">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help" target="_blank" rel="noopener">Jekyll’s dedicated Help repository</a>.</p>
+]]></content>
       <categories>
-        <category>jekyll</category>
+        <category>jekyll update</category>
       </categories>
   </entry>
   <entry>
@@ -70,45 +103,12 @@
       </categories>
   </entry>
   <entry>
-    <title>Welcome to Jekyll and EasyBook</title>
-    <url>/cms/2014/12/30//archivers/hello/</url>
-    <content><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-<a id="more"></a>
-
-<p>GitHub Flavored Markdown is supported.</p>
-<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_hi</span><span class="params">(name)</span></span></span><br><span class="line">  puts <span class="string">"Hi, <span class="subst">#&#123;name&#125;</span>"</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">print_hi(<span class="string">'Tom'</span>)</span><br><span class="line"><span class="comment">#=&gt; prints 'Hi, Tom' to STDOUT.</span></span><br></pre></td></tr></table></figure>
-
-<p>And $$\mathcal{ Mathematics }$$ is supported!</p>
-<p>Use <code>$$</code> to wrap your formulas. For example, <code>$$ e^{i\pi} + 1 = 0 $$</code> displays $$  e^{i\pi} + 1 = 0  $$</p>
-<p>Multi-line forumlas are supported too.</p>
-<p>$$<br>\begin{aligned}<br>&amp; J(w, b) = \frac{1}{m} \sum_{i=1}^{m}L(\hat{y}^{(i)}, y^{(i)})</p>
-<ul>
-<li>\frac{\lambda}{2m} \sum_{l=1}^{L}{||w||}^2_F\\<br>&amp; {||w||}^2_F = \sum_{i = 1}^{n[l]}\sum_{j = 1}^{n[l-1]}(w_{ij})^2<br>\end{aligned}<br>$$</li>
-</ul>
-<h2 id="EasyBook-Advanced-Functions"><a href="#EasyBook-Advanced-Functions" class="headerlink" title="EasyBook Advanced Functions"></a>EasyBook Advanced Functions</h2><p>You are using <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a> the template from <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu.net</a>. Therefore some features are supported now:</p>
-<ul>
-<li><strong>Pagination</strong> is enabled.</li>
-<li><strong>Disqus</strong> or <strong>多说</strong> is ready.</li>
-<li><strong>TOC</strong> for posts is enabled.</li>
-<li><strong>Profile</strong> including your links and avatar on the sidebar.</li>
-<li><em>And more…</em></li>
-</ul>
-<blockquote>
-<p><strong>Tips:</strong> You can disable Disqus or 多说 on posts/pages by adding <code>nocomments: true</code> into <a href="http://jekyllrb.com/docs/frontmatter/" target="_blank" rel="noopener">YAML Front Matter</a>.</p>
-</blockquote>
-<p>EasyBook uses upaiyun CDN to make everyone lncluding Chinese visitors feel speedy. You can find it in <code>_includes/footer.html</code> and change it to your favorite CDN like Google CDN.</p>
-<h2 id="Support-me-by…"><a href="#Support-me-by…" class="headerlink" title="Support me by…"></a>Support me by…</h2><h3 id="Add-a-link"><a href="#Add-a-link" class="headerlink" title="Add a link"></a>Add a link</h3><p>EasyBook does not make the footer heavy; the link to theme could be on <code>about.md</code>:</p>
-<blockquote>
-<p>This website is using <a href="http://laobubu.net" target="_blank" rel="noopener">laobubu</a>‘s theme: <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">EasyBook</a></p>
-</blockquote>
-<h3 id="Donate-PayPal-or-支付宝"><a href="#Donate-PayPal-or-支付宝" class="headerlink" title="Donate (PayPal or 支付宝)"></a>Donate (PayPal or 支付宝)</h3><p>That’s the best :smile: </p>
-<p>Please visit <a href="http://laobubu.net/donate.html" target="_blank" rel="noopener">http://laobubu.net/donate.html</a></p>
-<h3 id="Star-and-Fork-on-GitHub-free"><a href="#Star-and-Fork-on-GitHub-free" class="headerlink" title="Star and Fork on GitHub (free)"></a>Star and Fork on GitHub (free)</h3><p>Not going to donate? That’s okay. You can also send out your precious star <a href="https://github.com/laobubu/jekyll-theme-EasyBook" target="_blank" rel="noopener">on GitHub</a>.</p>
-<h2 id="And-Here-We-Go"><a href="#And-Here-We-Go" class="headerlink" title="And Here We Go"></a>And Here We Go</h2><p>Check out the <a href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll" target="_blank" rel="noopener">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help" target="_blank" rel="noopener">Jekyll’s dedicated Help repository</a>.</p>
-]]></content>
+    <title>Test</title>
+    <url>/cms/2018/11/14//archivers/test2/</url>
+    <content><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world"></a>Hello, world</h1><p>Hello world</p>
+<h1>Hello, world</h1>]]></content>
       <categories>
-        <category>jekyll update</category>
+        <category>jekyll</category>
       </categories>
   </entry>
   <entry>
@@ -186,27 +186,16 @@
       </categories>
   </entry>
   <entry>
-    <title>探讨在国内使用Flash Player的解决方案 - 一些找到的线索</title>
-    <url>/cms/2020/05/26//archivers/6/</url>
-    <content><![CDATA[<p>目前在国内仍然有大量的而且是非用不可的业务必须依赖Flash Player。Flash确实是要在2020年底要停止支持了，但是这并不是说Flash要淘汰了你就可以不用了，也不是说你觉得这个网页需要依赖Flash你就不进这个网站了，有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？【手动狗头】（有的学生因为不能运行Flash导致网课旷课进而导致被学校退学）</p>
-<ol>
-<li><p>Edge浏览器集成：新的Edge浏览器已经集成了PPAPI的Flash Player，一些需要使用Flash Player的网站会出现点击加载Flash 的灰框，点击确认加载即可。有时候会报地区不相容，如果遇到这个情况应手动替换成那种不报地区不相容的pepflashplayer.dll（搜索关键字：替换插件解决Microsoft Edge浏览器Flash Player地区不兼容问题）。</p>
-</li>
-<li><p>地区不相容的问题也可以通过hosts解决，将geo2.adobe.com，flash.cn，<a href="http://www.flash.cn，flash.2144.com，www.2144.cn，fpdownload2.macromedia.com，fpdownload.macromedia.com，macromedia.com这些域名都引到127.0.0.1，据说有效。" target="_blank" rel="noopener">www.flash.cn，flash.2144.com，www.2144.cn，fpdownload2.macromedia.com，fpdownload.macromedia.com，macromedia.com这些域名都引到127.0.0.1，据说有效。</a></p>
-</li>
-<li><p>现在版本的PPAPI插件同样含有窃取隐私的服务。但截至撰稿时还可以搜索到一些Flash Player PPAPI版本27的插件，这个经专业鉴定是没有捆绑弹窗广告和窃取隐私服务的（搜索关键字：flashplayerPPAPI_27.0.0.159），注意安装完成后要选择从不更新，否则他会自动更新到特供版。</p>
-</li>
-<li><p>截至撰稿时国内目前仍然可以下载到睿派克技术论坛制作的Flash Player破解版。这个版本针对限制地区、弹窗广告和窃取隐私服务进行了破解（搜索关键字：Adobe Flash Player AX/NP/PP v32.0.0.223特别版）。</p>
-</li>
-<li><p>用特殊手段直接下载到外国的Flash Player，保证下载页面的域名不是.cn的。操作比较复杂，但是不保证有效（可能装上去之后用也是报地区不相容，参考解决方案第二条）。</p>
-</li>
-<li><p>目前的开源Flash解决方案普遍还不成熟，主要的两套方案LightSpark实测装上去之后FireFox并不能识别（Windows安装版），Gnash直接没有Windows的解决方案而且Linux里面也是一大堆依赖要装，安装过程甚至可以说是劝退级别。（搜索关键字：GNASH 移植）</p>
-</li>
-<li><p>据说在Firefox浏览器中，点击Flash对象所在区域，由系统自动搜索可用的Flash插件，搜索到后，将弹出Flash插件安装窗口，在窗口中就会列出支持Firefox浏览器的Flash插件，包括 Adobe Flash Player、Swfdec player for Adobe/Macromedia flash、Gnash SWF Player等可供选择。（搜索关键字：在Ubuntu系统中玩转Flash视频播放）</p>
-</li>
-<li><p>或者最简单的办法，但是可能比较占用比较多的系统资源。那就是用虚拟机安装一个XP系统然后直接在虚拟机里面装一个特供版Flash。随他去怎么弹广告盗隐私吧。^_^ 反正只有专门需要用Flash的场合才会用到，平时我们也不会用这个虚拟机。</p>
-</li>
-</ol>
+    <title>本站工具整合导航</title>
+    <url>/cms/2020/04/16//archivers/4/</url>
+    <content><![CDATA[<p>本站开发上线的工具逐渐增多，为改善排版，现将已有的工具链接进行整合，在本文章进行统一集中。大家可以从本文章点击链接进入相应的工具。</p>
+<hr>
+<p><strong>GIF Extractor / GIF提取器 网页版</strong></p>
+<p><a href="https://no5972.github.io/GIFExtractor/index.html" target="_blank">https://no5972.github.io/GIFExtractor/index.html</a></p>
+<p><strong>DNFHellEmulator / DNF 深渊模拟器 网页版</strong></p>
+<p><a href="https://no5972.github.io/the-hell-emulator/the-hell-emulator.html" target="_blank">https://no5972.github.io/the-hell-emulator/the-hell-emulator.html</a></p>
+<p><strong>Online QQShow Grabber by QQ Number / 在线通过QQ号获取QQ秀 - GIF格式</strong></p>
+<p><a href="https://no5972.github.io/qqshow-api/qqshow-api.html" target="_blank">https://no5972.github.io/qqshow-api/qqshow-api.html</a></p>
 ]]></content>
       <categories>
         <category>Webapp</category>
@@ -227,22 +216,6 @@
 ]]></content>
       <categories>
         <category>Hardware-Development</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>本站工具整合导航</title>
-    <url>/cms/2020/04/16//archivers/4/</url>
-    <content><![CDATA[<p>本站开发上线的工具逐渐增多，为改善排版，现将已有的工具链接进行整合，在本文章进行统一集中。大家可以从本文章点击链接进入相应的工具。</p>
-<hr>
-<p><strong>GIF Extractor / GIF提取器 网页版</strong></p>
-<p><a href="https://no5972.github.io/GIFExtractor/index.html" target="_blank">https://no5972.github.io/GIFExtractor/index.html</a></p>
-<p><strong>DNFHellEmulator / DNF 深渊模拟器 网页版</strong></p>
-<p><a href="https://no5972.github.io/the-hell-emulator/the-hell-emulator.html" target="_blank">https://no5972.github.io/the-hell-emulator/the-hell-emulator.html</a></p>
-<p><strong>Online QQShow Grabber by QQ Number / 在线通过QQ号获取QQ秀 - GIF格式</strong></p>
-<p><a href="https://no5972.github.io/qqshow-api/qqshow-api.html" target="_blank">https://no5972.github.io/qqshow-api/qqshow-api.html</a></p>
-]]></content>
-      <categories>
-        <category>Webapp</category>
       </categories>
   </entry>
   <entry>
@@ -272,6 +245,33 @@
       </categories>
   </entry>
   <entry>
+    <title>探讨在国内使用Flash Player的解决方案 - 一些找到的线索</title>
+    <url>/cms/2020/05/26//archivers/6/</url>
+    <content><![CDATA[<p>目前在国内仍然有大量的而且是非用不可的业务必须依赖Flash Player。Flash确实是要在2020年底要停止支持了，但是这并不是说Flash要淘汰了你就可以不用了，也不是说你觉得这个网页需要依赖Flash你就不进这个网站了，有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？【手动狗头】（有的学生因为不能运行Flash导致网课旷课进而导致被学校退学）</p>
+<ol>
+<li><p>Edge浏览器集成：新的Edge浏览器已经集成了PPAPI的Flash Player，一些需要使用Flash Player的网站会出现点击加载Flash 的灰框，点击确认加载即可。有时候会报地区不相容，如果遇到这个情况应手动替换成那种不报地区不相容的pepflashplayer.dll（搜索关键字：替换插件解决Microsoft Edge浏览器Flash Player地区不兼容问题）。</p>
+</li>
+<li><p>地区不相容的问题也可以通过hosts解决，将geo2.adobe.com，flash.cn，<a href="http://www.flash.cn，flash.2144.com，www.2144.cn，fpdownload2.macromedia.com，fpdownload.macromedia.com，macromedia.com这些域名都引到127.0.0.1，据说有效。" target="_blank" rel="noopener">www.flash.cn，flash.2144.com，www.2144.cn，fpdownload2.macromedia.com，fpdownload.macromedia.com，macromedia.com这些域名都引到127.0.0.1，据说有效。</a></p>
+</li>
+<li><p>现在版本的PPAPI插件同样含有窃取隐私的服务。但截至撰稿时还可以搜索到一些Flash Player PPAPI版本27的插件，这个经专业鉴定是没有捆绑弹窗广告和窃取隐私服务的（搜索关键字：flashplayerPPAPI_27.0.0.159），注意安装完成后要选择从不更新，否则他会自动更新到特供版。</p>
+</li>
+<li><p>截至撰稿时国内目前仍然可以下载到睿派克技术论坛制作的Flash Player破解版。这个版本针对限制地区、弹窗广告和窃取隐私服务进行了破解（搜索关键字：Adobe Flash Player AX/NP/PP v32.0.0.223特别版）。</p>
+</li>
+<li><p>用特殊手段直接下载到外国的Flash Player，保证下载页面的域名不是.cn的。操作比较复杂，但是不保证有效（可能装上去之后用也是报地区不相容，参考解决方案第二条）。</p>
+</li>
+<li><p>目前的开源Flash解决方案普遍还不成熟，主要的两套方案LightSpark实测装上去之后FireFox并不能识别（Windows安装版），Gnash直接没有Windows的解决方案而且Linux里面也是一大堆依赖要装，安装过程甚至可以说是劝退级别。（搜索关键字：GNASH 移植）</p>
+</li>
+<li><p>据说在Firefox浏览器中，点击Flash对象所在区域，由系统自动搜索可用的Flash插件，搜索到后，将弹出Flash插件安装窗口，在窗口中就会列出支持Firefox浏览器的Flash插件，包括 Adobe Flash Player、Swfdec player for Adobe/Macromedia flash、Gnash SWF Player等可供选择。（搜索关键字：在Ubuntu系统中玩转Flash视频播放）</p>
+</li>
+<li><p>或者最简单的办法，但是可能比较占用比较多的系统资源。那就是用虚拟机安装一个XP系统然后直接在虚拟机里面装一个特供版Flash。随他去怎么弹广告盗隐私吧。^_^ 反正只有专门需要用Flash的场合才会用到，平时我们也不会用这个虚拟机。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Monyer黑客小游戏 踩坑总结</title>
     <url>/cms/2020/07/03//archivers/10/</url>
     <content><![CDATA[<p>在《电脑爱好者》杂志偶然看到了介绍黑客小游戏的网站的文章（二手三好街《找个网站当黑客》，2005年第1期），这才知道原来不止《电脑报》搞过黑客游戏，有很多这类在线的黑客小游戏可供攻破。</p>
@@ -290,6 +290,29 @@
 ]]></content>
       <categories>
         <category>Webapp</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站构建 网站设计</title>
+    <url>/cms/2020/07/11//archivers/13/</url>
+    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
+<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
+<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
+<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
+<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
+<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
+<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
+<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
+<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
+<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
+<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
+<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
+<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
+<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
+<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
+]]></content>
+      <categories>
+        <category>Web-Building</category>
       </categories>
   </entry>
   <entry>
@@ -325,26 +348,23 @@
       </categories>
   </entry>
   <entry>
-    <title>网站构建 网站设计</title>
-    <url>/cms/2020/07/11//archivers/13/</url>
-    <content><![CDATA[<p>来源：<a href="#"><img src="https://img.shields.io/badge/%E6%9C%AA%E7%9F%A5-brightgreen" alt="未知"></a></p>
-<h2 id="设计网站需要严谨的思考和周全的计划。"><a href="#设计网站需要严谨的思考和周全的计划。" class="headerlink" title="设计网站需要严谨的思考和周全的计划。"></a>设计网站需要严谨的思考和周全的计划。</h2><h2 id="最重要的事情是了解您的受众（用户）。"><a href="#最重要的事情是了解您的受众（用户）。" class="headerlink" title="最重要的事情是了解您的受众（用户）。"></a>最重要的事情是了解您的受众（用户）。</h2><h1 id="用户都是浏览者"><a href="#用户都是浏览者" class="headerlink" title="用户都是浏览者"></a>用户都是浏览者</h1><p>如果您认为一般的用户会完完整整地阅读您的网页，那么您就错了。</p>
-<p>无论您在网页中发布了多么有用的信息，一个访问者在决定是否继续阅读之前仅仅会花几秒钟的时间进行浏览。</p>
-<p>如果您希望用户阅读您的文字，请确保在页面段落的第一句就说明您的观点。另外，您还需要在整个页面中使用简短的段落以及有趣的标题。</p>
-<h1 id="少即是多"><a href="#少即是多" class="headerlink" title="少即是多"></a>少即是多</h1><p>使所有的句子尽可能地短。使所有的段落尽可能地短。使所有的章节尽可能地短。使您的页面尽可能地短。</p>
-<p>请在段落和章节之间使用很多的留白。充斥着冗长文字的页面会赶走您的用户。</p>
-<p>也不要在单一的页面上放置太多的内容。如果确实有必要传递大量的信息，请尽量把内容分为小块，然后放入不同的页面中。不要指望每个访问者都能把一张数千字的页面一路滚动到底。</p>
-<h1 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h1><p>尽量创建通用于网站中所有页面的导航结构。</p>
-<p>把文本段落中的超链接使用量降至最低。请不要使用文本段落内的超链接随意地把访问者带到别的页面。因此这样做会破坏导航结构一致性的感觉。</p>
-<p>如果您必须使用超级链接，请把它们添加到段落的底部，或站点的导航菜单。</p>
-<h1 id="下载速度"><a href="#下载速度" class="headerlink" title="下载速度"></a>下载速度</h1><p>最常见的错误是用于网站开发者的开发环境造成的，例如使用一台本地的机器开发站点，或者使用一条高速的因特网连接。开发人员有时不会意识到下载他们的页面要花很长的时间。</p>
-<p>因特网可用性方面的研究告诉我们，如果网页的下载时间超过7秒，大多数的访问者会选择离开。</p>
-<p>在您发布任何大量的内容前，请确保这些页面在低速的调制解调器连接上进行过测试。如果您的页面需要花大量的时间下载，您或许应当考虑删除某些图片或多媒体内容。</p>
-<h1 id="允许您的用户发言！"><a href="#允许您的用户发言！" class="headerlink" title="允许您的用户发言！"></a>允许您的用户发言！</h1><p>得到来自用户的反馈是件好事情。您的访问者就是你的“客户”。他们经常会给您一些有价值的点子，或者无偿地向您提供改进的建议。</p>
-<p>如果您提供了某种方便的联系途径，您将得到来自很多技能和知识都各不相同的人们大量有益的反馈。</p>
+    <title>国内互联网Flash依赖状况调查</title>
+    <url>/cms/2020/07/13//archivers/15/</url>
+    <content><![CDATA[<h1 id="以下仅为引用现有的观点，不代表本站立场。"><a href="#以下仅为引用现有的观点，不代表本站立场。" class="headerlink" title="以下仅为引用现有的观点，不代表本站立场。"></a>以下仅为引用现有的观点，不代表本站立场。</h1><p>Flash即将在年底停止支持，但是国内依旧有很多平台在依赖Flash，究竟国内还有多少平台还在依赖Flash？</p>
+<p>知乎@松果煲粥 ：大量的办公，报名，教育等公共平台都是用的Flash来运行的，原本我电脑上是根本没装Flash的，但是前几个月发现弟弟上网课的网页居然需要Flash插件才能看。</p>
+<p>知乎 佚名：用flash的什么医学实验模拟课程 医学魔课.泰盟医学虚拟仿真实验教学平台的太烦人了</p>
+<p>CSDN@wujiuqier ：有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？</p>
+<p>知乎@梦沧海 ：无所谓，对flashplayer重度依赖的是内网环境，我单位多个业务系统没了这个就运作不正常。</p>
+<p>B站@wujiuqier ：这里点名长江云这个平台，各大湖北省的省电视台，地市电视台，县市电视台的视频在PC页面还得非要用Flash才能播放，上线一个HLS播放就这么难吗？</p>
+<p>B站@柏木ゆっき ：你不知道这个软件比你想象的更恶心 我为了上网课下的这个 只有中国版能有 然后我发现这个广告弹窗之后当时也给禁用了 结果 网课页面都进去了 几秒之后马上变成系统服务组件没有开启要我去下修复工具[微笑] 想了各种办法都没能给他降服 只要禁用就听不了网课 真就恶心的一批 </p>
+<p>B站@冥土追魂-呱太神医 ：删不了的，一堆政府网站，还有老网站都必须要flash支持，像是很知名的4399，7k7k，QQ空间都需要flash的支持。</p>
+<p>知乎@爱做梦的大傻子 ：mooc课不用flash没办法看课程的ppt！</p>
+<p>知乎 佚名：大量国企和事业单位的PC网页没有彻底放弃Flash；相当的商业网站仍不放弃Flash……</p>
+<p>知乎 佚名：各位电脑大神，每次都是电脑上优慕课网址里面的视频一直要自动下载flash才能观看，这要如何解决啊？[鄙人：就是这个页面，提示文字和这边长江云的提示文字一模一样]</p>
+<p>知乎@天涯羽伏麟 ：国内这些官媒、教育、校内教务的网站大部分还在用flash，不能不开，麻烦死，要那就多下一个浏览器，要嘛就得重新调开flash，无力吐槽。。也不知道是承包给谁做的，运维我都怀疑是校内老师兼职的。</p>
 ]]></content>
       <categories>
-        <category>Web-Building</category>
+        <category>Webapp</category>
       </categories>
   </entry>
   <entry>
@@ -373,43 +393,6 @@
       </categories>
   </entry>
   <entry>
-    <title>国内互联网Flash依赖状况调查</title>
-    <url>/cms/2020/07/13//archivers/15/</url>
-    <content><![CDATA[<h1 id="以下仅为引用现有的观点，不代表本站立场。"><a href="#以下仅为引用现有的观点，不代表本站立场。" class="headerlink" title="以下仅为引用现有的观点，不代表本站立场。"></a>以下仅为引用现有的观点，不代表本站立场。</h1><p>Flash即将在年底停止支持，但是国内依旧有很多平台在依赖Flash，究竟国内还有多少平台还在依赖Flash？</p>
-<p>知乎@松果煲粥 ：大量的办公，报名，教育等公共平台都是用的Flash来运行的，原本我电脑上是根本没装Flash的，但是前几个月发现弟弟上网课的网页居然需要Flash插件才能看。</p>
-<p>知乎 佚名：用flash的什么医学实验模拟课程 医学魔课.泰盟医学虚拟仿真实验教学平台的太烦人了</p>
-<p>CSDN@wujiuqier ：有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？</p>
-<p>知乎@梦沧海 ：无所谓，对flashplayer重度依赖的是内网环境，我单位多个业务系统没了这个就运作不正常。</p>
-<p>B站@wujiuqier ：这里点名长江云这个平台，各大湖北省的省电视台，地市电视台，县市电视台的视频在PC页面还得非要用Flash才能播放，上线一个HLS播放就这么难吗？</p>
-<p>B站@柏木ゆっき ：你不知道这个软件比你想象的更恶心 我为了上网课下的这个 只有中国版能有 然后我发现这个广告弹窗之后当时也给禁用了 结果 网课页面都进去了 几秒之后马上变成系统服务组件没有开启要我去下修复工具[微笑] 想了各种办法都没能给他降服 只要禁用就听不了网课 真就恶心的一批 </p>
-<p>B站@冥土追魂-呱太神医 ：删不了的，一堆政府网站，还有老网站都必须要flash支持，像是很知名的4399，7k7k，QQ空间都需要flash的支持。</p>
-<p>知乎@爱做梦的大傻子 ：mooc课不用flash没办法看课程的ppt！</p>
-<p>知乎 佚名：大量国企和事业单位的PC网页没有彻底放弃Flash；相当的商业网站仍不放弃Flash……</p>
-<p>知乎 佚名：各位电脑大神，每次都是电脑上优慕课网址里面的视频一直要自动下载flash才能观看，这要如何解决啊？[鄙人：就是这个页面，提示文字和这边长江云的提示文字一模一样]</p>
-<p>知乎@天涯羽伏麟 ：国内这些官媒、教育、校内教务的网站大部分还在用flash，不能不开，麻烦死，要那就多下一个浏览器，要嘛就得重新调开flash，无力吐槽。。也不知道是承包给谁做的，运维我都怀疑是校内老师兼职的。</p>
-]]></content>
-      <categories>
-        <category>Webapp</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Rider 修改程序最终EXE文件图标</title>
-    <url>/cms/2020/07/18//archivers/17/</url>
-    <content><![CDATA[<p>由于Windows Installer服务已无法修复，只能用Rider来开发C#。但是又遇到怎么修改程序最终的EXE文件图标的问题。百度找了个遍也没找到，只好去必应国际版搜索，这才在StackOverflow上找到正确的答案。如果这是国内首发的解决方法的话希望能对广大使用Rider的开发人员起到帮助。</p>
-<p>此答案原见于：<a href="https://stackoverflow.com/questions/51635816/change-icon-for-exe-in-jetbrains-rider" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/StackOverflow-Mikhail%20Filippov-brightgreen" alt="StackOverflow Mikhail Filippov"></a></p>
-<blockquote>
-<p>Rider当前根本就没有修改程序图标的功能或者说是界面。必须手动修改配置文件才能设置图标。</p>
-</blockquote>
-<p>找到项目的<code>.csproj</code>文件，在<code>&lt;PropertyGroup&gt;</code>标签里面添加</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;ApplicationIcon&gt;YourIcon.ico&lt;&#x2F;ApplicationIcon&gt;</span><br></pre></td></tr></table></figure>
-
-<p>其中，<code>YourIcon.ico</code>是你放在项目目录或者是程序能在相对路径找得到的需要设置为程序图标的ICO文件，参考其他文件名的写法。</p>
-]]></content>
-      <categories>
-        <category>Other</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Github Hexo 一键更新</title>
     <url>/cms/2020/07/18//archivers/16/</url>
     <content><![CDATA[<p>这个博客换成Hexo后台之后变成了绑定3个仓库：展示仓库，后台仓库，主题仓库。结果每次更新需要输入3对账号密码，很不方便。整合各路搜集到的资料之后总结出来一套一键更新的方案，可以一次性同步后台代码、主题代码和展示代码。</p>
@@ -432,6 +415,23 @@
 ]]></content>
       <categories>
         <category>Web-Building</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Rider 修改程序最终EXE文件图标</title>
+    <url>/cms/2020/07/18//archivers/17/</url>
+    <content><![CDATA[<p>由于Windows Installer服务已无法修复，只能用Rider来开发C#。但是又遇到怎么修改程序最终的EXE文件图标的问题。百度找了个遍也没找到，只好去必应国际版搜索，这才在StackOverflow上找到正确的答案。如果这是国内首发的解决方法的话希望能对广大使用Rider的开发人员起到帮助。</p>
+<p>此答案原见于：<a href="https://stackoverflow.com/questions/51635816/change-icon-for-exe-in-jetbrains-rider" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/StackOverflow-Mikhail%20Filippov-brightgreen" alt="StackOverflow Mikhail Filippov"></a></p>
+<blockquote>
+<p>Rider当前根本就没有修改程序图标的功能或者说是界面。必须手动修改配置文件才能设置图标。</p>
+</blockquote>
+<p>找到项目的<code>.csproj</code>文件，在<code>&lt;PropertyGroup&gt;</code>标签里面添加</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;ApplicationIcon&gt;YourIcon.ico&lt;&#x2F;ApplicationIcon&gt;</span><br></pre></td></tr></table></figure>
+
+<p>其中，<code>YourIcon.ico</code>是你放在项目目录或者是程序能在相对路径找得到的需要设置为程序图标的ICO文件，参考其他文件名的写法。</p>
+]]></content>
+      <categories>
+        <category>Other</category>
       </categories>
   </entry>
   <entry>
